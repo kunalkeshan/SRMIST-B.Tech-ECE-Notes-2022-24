@@ -113,6 +113,12 @@ List of Subjects for First Semester:
 
 Anybody is free to contribute to this repo. If you think that some material is relavent and can imporove the quality of this repo, follow the contributing guidelines mentioned at [CONTRIBUTING.md](./CONTRIBUTING.md).
 
+### Project Contriubters:
+
+<a href="https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24" />
+</a>
+
 ## License
 
 This Project is Licensed under the [MIT License](./LiCENSE).
