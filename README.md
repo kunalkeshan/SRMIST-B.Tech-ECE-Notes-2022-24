@@ -119,4 +119,4 @@ Anybody is free to contribute to this repo. If you think that some material is r
 
 ## License
 
-This Project is Licensed under the [MIT License](./LiCENSE).
+This Project is Licensed under the [MIT License](./LICENSE).
