@@ -54,7 +54,7 @@ Download Links:
 
 ## Semester 1
 
--   Programming for Problem Solving
+-   [Programming for Problem Solving](./Semester%201/Programming%20for%20Problem%20Solving%20(C))
 -   Chemistry
 -   Civil and Mechanical Workshop
 -   Foreign Language (Japanese)
