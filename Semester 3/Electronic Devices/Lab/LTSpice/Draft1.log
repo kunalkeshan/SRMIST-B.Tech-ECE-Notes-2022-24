@@ -1,0 +1,43 @@
+Circuit: * C:\Users\Kunal Keshan\OneDrive\Desktop\College\ECE\Semester - III\Courses\Electronic Devices\Lab\LTSpice\Draft1.asc
+
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- MOSFET Transistors ---
+Name:          m1
+Model:        nmos
+Id:          9.80e-05
+Vgs:         3.13e+00
+Vds:         2.40e+01
+Vbs:         0.00e+00
+Vth:         0.00e+00
+Vdsat:       3.13e+00
+Gm:          6.26e-05
+Gds:         0.00e+00
+Gmb:         0.00e+00
+Cbd:         0.00e+00
+Cbs:         0.00e+00
+Cgsov:       0.00e+00
+Cgdov:       0.00e+00
+Cgbov:       0.00e+00
+Cgs:         0.00e+00
+Cgd:         0.00e+00
+Cgb:         0.00e+00
+
+
+
+Date: Wed Dec 08 15:27:00 2021
+Total elapsed time: 0.056 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 5
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 4
+fillins = 0
+solver = Normal
+Matrix Compiler1: 118 bytes object code size
+Matrix Compiler2: 282 bytes object code size

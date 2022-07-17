@@ -1,0 +1,22 @@
+Circuit: * C:\Users\Admin\OneDrive\Desktop\College\ECE\Semester - III\Courses\Electronic Devices\Lab\LTSpice\5 BJT Characteristics.asc
+
+.OP point found by inspection.
+.step vce=0
+.step vce=1
+
+Date: Fri Dec 03 05:10:46 2021
+Total elapsed time: 0.027 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 60
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 7
+fillins = 0
+solver = Normal
+Matrix Compiler1: 312 bytes object code size
+Matrix Compiler2: 515 bytes object code size

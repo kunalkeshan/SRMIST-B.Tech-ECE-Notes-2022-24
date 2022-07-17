@@ -1,0 +1,21 @@
+Circuit: * C:\Users\Kunal Keshan\OneDrive\Desktop\College\ECE\Semester - III\Courses\Electronic Devices\Lab\LTSpice\3 Half Wave Rectifier.asc
+
+.OP point found by inspection.
+
+Date: Tue Oct 26 09:23:56 2021
+Total elapsed time: 0.108 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 39020
+traniter = 39020
+tranpoints = 13694
+accept = 8908
+rejected = 4786
+matrix size = 4
+fillins = 0
+solver = Normal
+Matrix Compiler1:       6 opcodes  0.0/[0.0]/0.0
+Matrix Compiler2:      21 opcodes  0.1/[0.0]/0.1
+

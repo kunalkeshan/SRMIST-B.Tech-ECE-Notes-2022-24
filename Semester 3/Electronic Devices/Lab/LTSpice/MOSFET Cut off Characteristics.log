@@ -1,0 +1,45 @@
+Circuit: * C:\Users\Kunal Keshan\OneDrive\Desktop\College\ECE\Semester - III\Courses\Electronic Devices\Lab\LTSpice\MOSFET Cut off Characteristics.asc
+
+Error on line 2 : m1 d g 0 0 irf150
+	 Unable to find definition of model ""
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- MOSFET Transistors ---
+Name:          m1
+Model:          M
+Id:          2.00e-11
+Vgs:         0.00e+00
+Vds:         1.00e+01
+Vbs:         0.00e+00
+Vth:         0.00e+00
+Vdsat:       0.00e+00
+Gm:          0.00e+00
+Gds:         0.00e+00
+Gmb:         0.00e+00
+Cbd:         0.00e+00
+Cbs:         0.00e+00
+Cgsov:       0.00e+00
+Cgdov:       0.00e+00
+Cgbov:       0.00e+00
+Cgs:         0.00e+00
+Cgd:         0.00e+00
+Cgb:        -0.00e+00
+
+
+
+Date: Wed Dec 08 16:32:06 2021
+Total elapsed time: 9.462 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 4
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 4
+fillins = 0
+solver = Normal
+Matrix Compiler1: 100 bytes object code size
+Matrix Compiler2: 248 bytes object code size

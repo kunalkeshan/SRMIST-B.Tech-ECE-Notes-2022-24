@@ -1,0 +1,42 @@
+Circuit: * C:\Users\Kunal Keshan\OneDrive\Desktop\College\ECE\Semester - III\Courses\Electronic Devices\Lab\LTSpice\10 BJT Saturation Characteristics.asc
+
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- Bipolar Transistors ---
+Name:       q1
+Model:    2n2222
+Ib:       1.85e-03
+Ic:       9.96e-03
+Vbe:      7.50e-01
+Vbc:      7.14e-01
+Vce:      3.67e-02
+BetaDC:   5.39e+00
+Gm:       4.30e-01
+Rpi:      2.91e+02
+Rx:       1.00e+01
+Ro:       5.20e+00
+Cbe:      2.87e-10
+Cbc:      2.04e-08
+Cjs:      0.00e+00
+BetaAC:   1.25e+02
+Cbx:      0.00e+00
+Ft:       3.30e+06
+
+
+
+Date: Mon Dec 27 21:23:14 2021
+Total elapsed time: 0.030 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 11
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 7
+fillins = 0
+solver = Normal
+Matrix Compiler1: 428 bytes object code size
+Matrix Compiler2: 569 bytes object code size
