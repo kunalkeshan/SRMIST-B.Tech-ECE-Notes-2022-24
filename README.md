@@ -54,8 +54,6 @@ Download Links:
 
 ## Semester 1
 
-List of Subjects for First Semester:
-
 -   Programming for Problem Solving
 -   Chemistry
 -   Civil and Mechanical Workshop
