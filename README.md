@@ -43,9 +43,9 @@ Use the links below to download specific semester folders or visit [DownGit](htt
 
 Download Links:
 
-- Semester 1: https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%201
-- Semester 2: https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%202
-- Semester 3: https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203
+- Semester 1: [Click to Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%201).
+- Semester 2: [Click to Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%202).
+- Semester 3: [Click to Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203).
 - Semester 4: Coming Soon!
 - Semester 5: Coming Soon!
 - Semester 6: Coming Soon!
