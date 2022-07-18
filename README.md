@@ -8,7 +8,7 @@ Link: [https://drive.google.com/drive/folders/17bng9aIkZ3FaULebbgEGpdCsB225dr_K]
 
 Large Documents are present in the above drive as GitHub only offers 25mb max per document.
 
-Table of Contents:
+**Table of Contents**:
 
 > Refer [Curriculum](./curriculum-syllabus-ece-reg-2018.pdf) for detailed information.
 
