@@ -1,5 +1,5 @@
 1. Fork this Repository.
-2. Upload Relavent material that you think will be helpful to this Repo. 
+2. Upload Relavent material or changes that you think will be helpful to this Repo. 
 3. Commit your changes.
 4. Create a Pull Request to `main` branch.
 5. Wait for it to be merged!
