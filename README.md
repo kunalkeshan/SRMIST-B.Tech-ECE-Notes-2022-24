@@ -59,6 +59,9 @@ Download Links:
 
 ## Semester 1
 
+| Credits: 20 |
+| ------- |
+
 -   [Programming for Problem Solving](./Semester%201/Programming%20for%20Problem%20Solving%20(C))
 -   [Chemistry](./Semester%201/Chemistry)
 -   [Civil and Mechanical Workshop](./Semester%201/Civil%20and%20Mechanical%20Workshop)
