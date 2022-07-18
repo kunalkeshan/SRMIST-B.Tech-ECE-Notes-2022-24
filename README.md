@@ -91,16 +91,16 @@ Download Links:
 
 > Notes will be released by Early August 2022.
 
--   [Probability and Stochastic Problems]()
--   [Analog Electronic Circuits]()
--   [Linear Integrated Circuits]()
--   [Critical and Creative Thinking]()
--   [Management Principles]()
--   [Biology for Engineers]()
+-   [Probability and Stochastic Problems](#)
+-   [Analog Electronic Circuits](#)
+-   [Linear Integrated Circuits](#)
+-   [Critical and Creative Thinking](#)
+-   [Management Principles](#)
+-   [Biology for Engineers](#)
 -   Professional Electives
-    -   [Optoelectronics]()
+    -   [Optoelectronics](#)
 -   Open Electives
-    -   [Applications of Nanotechnology]()
+    -   [Applications of Nanotechnology](#)
 
 ## Semester 5
 
