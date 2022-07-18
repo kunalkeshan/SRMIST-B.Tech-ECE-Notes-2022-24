@@ -78,27 +78,29 @@ Download Links:
 ## Semester 3
 
 -   Digital Electronic Principles
--   Competencies in Social Skills
--   Control Systems
--   Electromagnetic and Transmission Lines
--   Electronic Devices
--   Environmental Science
--   Signals and Systems
--   Social Engineering
--   Transforms and Boundary Value Problems
+-   [Competencies in Social Skills](./Semester%203/Competencies%20in%20Social%20Skills/Notes)
+-   [Control Systems](./Semester%203/Control%20Systems)
+-   [Electromagnetic and Transmission Lines](./Semester%203/Electromagnetics%20and%20Transmission%20Lines)
+-   [Electronic Devices](./Semester%203/Electronic%20Devices)
+-   [Environmental Science](./Semester%203/Environmental%20Science)
+-   [Signals and Systems](./Semester%203/Signals%20and%20Systems)
+-   [Social Engineering](./Semester%203/Social%20Engineering)
+-   [Transforms and Boundary Value Problems](.Semester%203/Transforms%20and%20Boundary%20Value%20Problems)
 
 ## Semester 4
 
 > Notes will be released by Early August 2022.
 
--   Probability and Stochastic Problems
--   Analog Electronic Circuits
--   Linear Integrated Circuits
--   Critical and Creative Thinking
--   Management Principles
--   Biology for Engineers
--   Optoelectronic [Professional Elective]
--   Nanotechnology [Open Elective]
+-   [Probability and Stochastic Problems]()
+-   [Analog Electronic Circuits]()
+-   [Linear Integrated Circuits]()
+-   [Critical and Creative Thinking]()
+-   [Management Principles]()
+-   [Biology for Engineers]()
+-   Professional Electives
+    -   [Optoelectronics]()
+-   Open Electives
+    -   [Applications of Nanotechnology]()
 
 ## Semester 5
 
