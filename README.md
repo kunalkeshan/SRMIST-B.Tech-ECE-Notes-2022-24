@@ -66,13 +66,13 @@ Download Links:
 
 ## Semester 2
 
--   Advanced Calculus and Complex Analysis
--   Basic Electrical and Electronics Engineering
--   Engineering Graphics
--   Constitution of India
--   English
--   General Aptitude
--   Physics
+-   [Advanced Calculus and Complex Analysis](./Semester%202/Advanced%20Calculus%20and%20Complex%20Analysis)
+-   [Basic Electrical and Electronics Engineering](./Semester%202/Basic%20Electrical%20and%20Electronics%20Engineering)
+-   [Engineering Graphics](./Semester%202/Engineering%20Graphics)
+-   [Constitution of India](./Semester%202/Constitution%20of%20India)
+-   [English](./Semester%202/English)
+-   [General Aptitude](./Semester%202/General%20Aptitude)
+-   [Physics](./Semester%202/Physics%20-%20Electromagnetic%20Theory%2C%20Quantum%20Mechanics%2C%20Waves%20and%20Optics)
 -   Yoga
 
 ## Semester 3
