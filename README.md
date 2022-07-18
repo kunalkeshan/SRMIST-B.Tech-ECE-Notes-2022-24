@@ -29,7 +29,8 @@ Large Documents are present in the above drive as GitHub only offers 25mb max pe
 - [Contribute](#contribute)
 - [License](#license)
 
-> ⚠ Semester 1 - 3 notes are based on **online classes**. Study material might be relevant but not the test notes. Take it with a grain of salt.
+> **Warning**
+> Semester 1 - 3 notes are based on **online classes**. Study material might be relevant but not the test notes. Take it with a grain of salt.
 
 ## Motivation
 
