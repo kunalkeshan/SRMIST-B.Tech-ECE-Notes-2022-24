@@ -26,6 +26,10 @@ Table of Content:
 
 ### Advanced Calculus and Complex Analysis
 
+- Solve with Teacher in the Class from the starting.
+- Try and do question by yourself also in between, that way you'll have an idea of what to do before the exams even start.
+- Use the Tutorial sheets that your professors share, that's more than enough to prepare for exams.
+
 ### Basic Electrical and Electronics Engineering
 
 ### Engineering Graphics and Drawing
