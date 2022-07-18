@@ -77,7 +77,7 @@ Download Links:
 
 ## Semester 3
 
--   Digital Electronic Principles
+-   [Digital Electronic Principles](./Semester%203/Digital%20Electronic%20Principles)
 -   [Competencies in Social Skills](./Semester%203/Competencies%20in%20Social%20Skills/Notes)
 -   [Control Systems](./Semester%203/Control%20Systems)
 -   [Electromagnetic and Transmission Lines](./Semester%203/Electromagnetics%20and%20Transmission%20Lines)
