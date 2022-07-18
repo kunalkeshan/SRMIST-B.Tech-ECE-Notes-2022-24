@@ -33,7 +33,7 @@ When I first joined college, I started off with Online classes and I had no cont
 
 You'll hardly have any contact with your seniors until you're part of some club, working together on some project or a research paper. I've made this repo to support any person who requires the relavent study material present here.
 
-> This repo is my step towards being the senior I needed the most as a Junior.
+> <q> This repo is my step towards being the senior I needed the most as a Junior. </q>
 
 ## Directory Downloads
 
