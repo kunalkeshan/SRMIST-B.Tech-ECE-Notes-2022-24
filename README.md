@@ -1,5 +1,8 @@
 # SRMIST B.Tech ECE Notes 2022-24
 
+| **📰 Announcement**: Semester Four Notes Release @Early August 2022! |
+| ---- |
+
 Collection of all B.Tech ECE Notes for the academic year 2022-24. Read below for further insight on subjects for Each Semester.
 
 Here's the Drive Link to the same notes!
