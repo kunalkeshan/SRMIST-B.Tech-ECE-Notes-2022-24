@@ -55,12 +55,13 @@ Download Links:
 ## Semester 1
 
 -   [Programming for Problem Solving](./Semester%201/Programming%20for%20Problem%20Solving%20(C))
--   Chemistry
--   Civil and Mechanical Workshop
--   Foreign Language (Japanese)
--   Calculus and Linear Algebra
--   Professional Skills and Studies
--   Value Education
+-   [Chemistry](./Semester%201/Chemistry)
+-   [Civil and Mechanical Workshop](./Semester%201/Civil%20and%20Mechanical%20Workshop)
+-   Foreign Language
+  - [Japanese](./Semester%201/Japanese)
+-   [Calculus and Linear Algebra](./Semester%201/Calculus%20and%20Linear%20Algebra)
+-   [Professional Skills and Studies](./Semester%201/Professional%20Skills%20and%20Studies/Assignments)
+-   [Value Education](./Semester%201/Value%20Education)
 -   National Service Schema (NSS)
 
 ## Semester 2
