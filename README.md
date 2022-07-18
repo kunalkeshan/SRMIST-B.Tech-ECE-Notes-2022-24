@@ -37,7 +37,7 @@ You'll hardly have any contact with your seniors until you're part of some club,
 
 ## Directory Downloads
 
-This repo is quite heavy in itself and cloning it or downloading it as a whole would take a lot of time. You can use [DownGit](https://downgit.github.io/) to help download specific folders from this repository. 
+This repo is quite heavy in itself and cloning it or downloading it as a whole would take a lot of time and use of precious data. You can use [DownGit](https://downgit.github.io/) to help download specific folders from this repository. 
 
 Use the links below to download specific semester folders or visit [DownGit](https://downgit.github.io/) with the directory link of the repo to download.
 
