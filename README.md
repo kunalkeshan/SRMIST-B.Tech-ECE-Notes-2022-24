@@ -153,3 +153,7 @@ Anybody is free to contribute to this repo. If you think that some material is r
 ## License
 
 This Project is Licensed under the [MIT License](./LICENSE).
+
+---
+
+<p align="center">If you found this helpful, ⭐ this repo! It helps this project become more visible to others!</p>
