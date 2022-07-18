@@ -108,7 +108,7 @@ Download Links:
 
 > Notes will be released by Early August 2022.
 
--   [Probability and Stochastic Problems](#)
+-   [Probability and Stochastic Process](#)
 -   [Analog Electronic Circuits](#)
 -   [Linear Integrated Circuits](#)
 -   [Critical and Creative Thinking](#)
@@ -116,6 +116,7 @@ Download Links:
 -   [Biology for Engineers](#)
 -   Professional Electives
     -   [Optoelectronics](#)
+    -   [Advanced Digital System Design](#)
 -   Open Electives
     -   [Applications of Nanotechnology](#)
 
