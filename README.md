@@ -74,6 +74,9 @@ Download Links:
 
 ## Semester 2
 
+| Credits: 21 |
+| ------- |
+
 -   [Advanced Calculus and Complex Analysis](./Semester%202/Advanced%20Calculus%20and%20Complex%20Analysis)
 -   [Basic Electrical and Electronics Engineering](./Semester%202/Basic%20Electrical%20and%20Electronics%20Engineering)
 -   [Engineering Graphics](./Semester%202/Engineering%20Graphics)
@@ -84,6 +87,9 @@ Download Links:
 -   Yoga
 
 ## Semester 3
+
+| Credits: 24 |
+| ------- |
 
 -   [Digital Electronic Principles](./Semester%203/Digital%20Electronic%20Principles)
 -   [Competencies in Social Skills](./Semester%203/Competencies%20in%20Social%20Skills/Notes)
@@ -96,6 +102,9 @@ Download Links:
 -   [Transforms and Boundary Value Problems](.Semester%203/Transforms%20and%20Boundary%20Value%20Problems)
 
 ## Semester 4
+
+| Credits: 22 |
+| ------- |
 
 > Notes will be released by Early August 2022.
 
@@ -112,11 +121,23 @@ Download Links:
 
 ## Semester 5
 
+| Credits: 23 |
+| ------- |
+
 ## Semester 6
+
+| Credits: 24 |
+| ------- |
 
 ## Semester 7
 
+| Credits: 16 |
+| ------- |
+
 ## Semester 8
+
+| Credits: 10 |
+| ------- |
 
 ## Contribute
 
