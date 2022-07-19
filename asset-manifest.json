@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SRMIST-B.Tech-ECE-Notes-2022-24/static/css/main.073c9b0a.css",
+    "main.js": "/SRMIST-B.Tech-ECE-Notes-2022-24/static/js/main.49332bf3.js",
+    "static/js/787.1ce6940d.chunk.js": "/SRMIST-B.Tech-ECE-Notes-2022-24/static/js/787.1ce6940d.chunk.js",
+    "static/media/logo.svg": "/SRMIST-B.Tech-ECE-Notes-2022-24/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/SRMIST-B.Tech-ECE-Notes-2022-24/index.html",
+    "main.073c9b0a.css.map": "/SRMIST-B.Tech-ECE-Notes-2022-24/static/css/main.073c9b0a.css.map",
+    "main.49332bf3.js.map": "/SRMIST-B.Tech-ECE-Notes-2022-24/static/js/main.49332bf3.js.map",
+    "787.1ce6940d.chunk.js.map": "/SRMIST-B.Tech-ECE-Notes-2022-24/static/js/787.1ce6940d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.49332bf3.js"
+  ]
+}
