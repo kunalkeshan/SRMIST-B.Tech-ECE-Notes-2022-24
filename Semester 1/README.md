@@ -55,6 +55,11 @@ Table of Content:
 - Focus on the basics first, learn how programming works before learning the syntax.
 - Practice problems frequently in ELab and external websites as well to get a better hang of C.
 
+**Additional Resources**:
+
+- Practice Questions at HackerRank: [https://www.hackerrank.com/](https://www.hackerrank.com/)
+- Video: [C Programming Tutorial for Beginners by FreeCodeCamp](https://youtu.be/KJgsSFOSQv0)
+
 ### Value Eduction
 
 - No notes required. You can pretty much write this without even learning anything.
