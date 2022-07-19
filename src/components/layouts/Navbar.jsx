@@ -21,7 +21,7 @@ const Navbar = () => {
     const pages = useMemo(() => [
         {
             name: 'Home',
-            navigate: '/',
+            nav: '/',
         },
         {
             name: 'Repo',
@@ -33,7 +33,7 @@ const Navbar = () => {
         },
         {
             name: 'Contribute',
-            navigate: '/contribute'
+            nav: '/contribute'
         }
     ], []);
 
@@ -44,11 +44,11 @@ const Navbar = () => {
         setAnchorEl(null);
     };
 
-    const handleNavigate = ({ link = null, navigate = null }) => {
+    const handleNavigate = ({ link = null, nav = null }) => {
         if (link) {
             window.open(link, '_blank');
         } else {
-            navigate(navigate);
+            navigate(nav);
         }
     }
 
