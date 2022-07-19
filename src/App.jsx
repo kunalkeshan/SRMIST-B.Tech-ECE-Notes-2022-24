@@ -2,13 +2,25 @@
  * App File
  */
 
-import './App.css'
+// Dependencies
+
+// MUI
+import { Box, Container } from '@mui/material';
+
+// Components
+import AppRoutes from './routes/AppRoutes';
+import Navbar from './components/layouts/Navbar';
+import Footer from './components/layouts/Footer';
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <Box>
+      <Navbar />
+      <Container>
+        <AppRoutes />
+      </Container>
+      <Footer />
+    </Box>
   );
 }
 
