@@ -44,11 +44,11 @@ const Navbar = () => {
         setAnchorEl(null);
     };
 
-    const handleNavigate = ({ link, navigate }) => {
+    const handleNavigate = ({ link = null, navigate = null }) => {
         if (link) {
             window.open(link, '_blank');
         } else {
-            navigate(navigate)
+            navigate(navigate);
         }
     }
 
