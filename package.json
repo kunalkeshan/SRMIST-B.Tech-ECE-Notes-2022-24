@@ -1,7 +1,7 @@
 {
 	"name": "ece-college-notes",
 	"version": "0.1.0",
-	"homepage": "https://kunalkeshan.github.io/SRMIST-B.Tech-ECE-Notes-2022-24/",
+	"homepage": "https://college-notes.kunalkeshan.dev/",
 	"private": true,
 	"dependencies": {
 		"-": "^0.0.1",
