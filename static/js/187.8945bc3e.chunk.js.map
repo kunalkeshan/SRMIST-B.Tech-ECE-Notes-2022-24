@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/187.8945bc3e.chunk.js","mappings":"uJAQA,UANiB,WACb,OACI,qCAEP,C","sources":["pages/Semester.jsx"],"sourcesContent":["import React from 'react'\r\n\r\nconst Semester = () => {\r\n    return (\r\n        <div>Semester</div>\r\n    )\r\n}\r\n\r\nexport default Semester"],"names":[],"sourceRoot":""}

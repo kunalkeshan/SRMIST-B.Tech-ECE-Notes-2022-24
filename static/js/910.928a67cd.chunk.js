@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkece_college_notes=self.webpackChunkece_college_notes||[]).push([[910],{7910:function(e,n,c){c.r(n);c(2791);var t=c(184);n.default=function(){return(0,t.jsx)("div",{children:"Contribute"})}}}]);
+//# sourceMappingURL=910.928a67cd.chunk.js.map

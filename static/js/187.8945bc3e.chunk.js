@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkece_college_notes=self.webpackChunkece_college_notes||[]).push([[187],{1187:function(e,c,n){n.r(c);n(2791);var s=n(184);c.default=function(){return(0,s.jsx)("div",{children:"Semester"})}}}]);
+//# sourceMappingURL=187.8945bc3e.chunk.js.map
