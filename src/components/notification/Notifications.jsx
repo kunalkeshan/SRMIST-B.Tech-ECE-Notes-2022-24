@@ -23,6 +23,12 @@ const Notifications = () => {
 
 const NotificationsButton = styled(Box)({
     cursor: 'pointer',
+    padding: '.25em',
+    borderRadius: '50%',
+    transition: 'all 200ms',
+    '&:hover': {
+        backgroundColor: '#80808040',
+    }
 })
 
 export default Notifications;

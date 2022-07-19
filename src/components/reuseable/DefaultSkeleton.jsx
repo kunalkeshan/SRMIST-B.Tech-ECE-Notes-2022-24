@@ -2,7 +2,7 @@ import React from 'react'
 
 const DefaultSkeleton = () => {
     return (
-        <div>DefaultSkeleton</div>
+        <div>Loading...</div>
     )
 }
 
