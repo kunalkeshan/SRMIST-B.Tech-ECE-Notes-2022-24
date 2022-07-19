@@ -27,18 +27,50 @@ Table of Content:
 
 ### Control Systems
 
+- First 3 units and easy to catch on and solve problems with.
+- Focus and take notes for this subject.
+- Practice frequenly. The last two units will require your attention.
+
 ### Digital Electronic Principles
+
+- Take notes.
+- Simple if you can work with quick conversions and understand the basic logic of how gates work.
+- Solve few problems by yourself to get a proper hang of this subject.
 
 ### Electromagnetics and Transmission Lines
 
+- MUST take notes.
+- This subject is full of derivations and not the ones you had at school.
+- Recommneded to refer to this subject on a weekly basis as there is a lot to cover.
+
 ### Electronic Devices
+
+- MUST take notes.
+- Lot's of derivations here and theory as well. 
+- The first 3 units will be a bit tough, but the last wo is quite application based so you can learn it easily.
 
 ### Signals and Systems
 
+- Foucs on the first unit here and the rest 3 will be easy to follow with.
+- Last two units is pretty similar to what you'll cover in Transforms and Boundary Value Problems. 
+- Make notes and practice by yourself.
+
 ### Social Engineering
+
+- You can study for this a day before exams.
 
 ### Transforms and Boundary Value Problems
 
+- Solve with Teacher in the Class from the starting.
+- Try and do question by yourself also in between, that way you'll have an idea of what to do before the exams even start.
+- Use the Tutorial sheets that your professors share, that's more than enough to prepare for exams.
+
 ### Environmental Science
 
+- You can study for this a day before exams.
+
 ### Competencies in Social Skills
+
+- Same as what you did in last years General Aptitude subject. 
+- Indepth practice of aptitide questions. 
+- If you're going for placements this is important.
