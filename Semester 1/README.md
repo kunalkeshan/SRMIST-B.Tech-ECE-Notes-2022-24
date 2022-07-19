@@ -12,13 +12,13 @@ Table of Content:
 
 | Subject Code | Name | Difficulty | Credits | Download Link |
 | ------------ | ---- | ---------- | ------- | ------------- |
-| 18MAB101T | Calculus and Linear Algebra | 🟩 Easy | 4 | |
-| 18CYB101J | Chemistry | 🟧 Medium | 5 | |
-| 18MES103L | Civil and Mechanical Workshop | 🟧 Medium | 3 |  |
-| 18LEH105J | Japanese | 🟩 Easy | 3 |  |
-| 18PDM101L | Professional Skills and Studies | 🟩 Easy | 0 |  |
-| 18CSS101J | Programming for Problem Solving (C) | 🟧 Medium | 5 |  |
-| 18LEM102J | Value Education | 🟩 Easy | 0 | |
+| 18MAB101T | Calculus and Linear Algebra | 🟩 Easy | 4 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%201/Calculus%20and%20Linear%20Algebra) |
+| 18CYB101J | Chemistry | 🟧 Medium | 5 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%201/Chemistry) |
+| 18MES103L | Civil and Mechanical Workshop | 🟧 Medium | 3 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%201/Civil%20and%20Mechanical%20Workshop) |
+| 18LEH105J | Japanese | 🟩 Easy | 3 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%201/Japanese) |
+| 18PDM101L | Professional Skills and Studies | 🟩 Easy | 0 | [Download](#) |
+| 18CSS101J | Programming for Problem Solving (C) | 🟧 Medium | 5 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%201/Programming%20for%20Problem%20Solving%20(C)) |
+| 18LEM102J | Value Education | 🟩 Easy | 0 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%201/Value%20Education) |
 | | | Total Credits: | 20 | |
 
 ## How to Study?
