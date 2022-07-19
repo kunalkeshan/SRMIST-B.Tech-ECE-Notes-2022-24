@@ -5,7 +5,7 @@
 // Dependencies
 
 // MUI
-import { Box, Container } from '@mui/material';
+import { Box, Container, styled } from '@mui/material';
 
 // Components
 import AppRoutes from './routes/AppRoutes';
@@ -14,14 +14,23 @@ import Footer from './components/layouts/Footer';
 
 function App() {
   return (
-    <Box>
+    <Main component='main'>
       <Navbar />
       <Container>
         <AppRoutes />
       </Container>
       <Footer />
-    </Box>
+    </Main>
   );
 }
+
+const Main = styled(Box)({
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  flexDirection: 'column',
+  width: '100%',
+  height: '100vh',
+});
 
 export default App;
