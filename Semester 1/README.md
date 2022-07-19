@@ -10,16 +10,16 @@ Table of Content:
 
 > ⚠ **Difficulty** is subjective. Can differ from person to person.
 
-| Subject Code | Name | Difficulty | Credits |
-| ------------ | ---- | ---------- | ------- |
-| 18MAB101T | Calculus and Linear Algebra | 🟩 Easy | 4 |
-| 18CYB101J | Chemistry | 🟧 Medium | 5 |
-| 18MES103L | Civil and Mechanical Workshop | 🟧 Medium | 3 |
-| 18LEH105J | Japanese | 🟩 Easy | 3 |
-| 18PDM101L | Professional Skills and Studies | 🟩 Easy | 0 |
-| 18CSS101J | Programming for Problem Solving (C) | 🟧 Medium | 5 |
-| 18LEM102J | Value Education | 🟩 Easy | 0 |
-| | | Total Credits: | 20 |
+| Subject Code | Name | Difficulty | Credits | Download Link |
+| ------------ | ---- | ---------- | ------- | ------------- |
+| 18MAB101T | Calculus and Linear Algebra | 🟩 Easy | 4 | |
+| 18CYB101J | Chemistry | 🟧 Medium | 5 | |
+| 18MES103L | Civil and Mechanical Workshop | 🟧 Medium | 3 |  |
+| 18LEH105J | Japanese | 🟩 Easy | 3 |  |
+| 18PDM101L | Professional Skills and Studies | 🟩 Easy | 0 |  |
+| 18CSS101J | Programming for Problem Solving (C) | 🟧 Medium | 5 |  |
+| 18LEM102J | Value Education | 🟩 Easy | 0 | |
+| | | Total Credits: | 20 | |
 
 ## How to Study?
 
