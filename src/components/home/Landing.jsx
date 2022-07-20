@@ -26,7 +26,7 @@ const Landing = () => {
 
     return (
         <Page
-            fontSize={{ xs: '0.6rem', sm: '1rem' }}
+
         >
             <Background>
                 <Lottie
@@ -68,6 +68,13 @@ const Page = styled(Box)({
     width: 'min(100%, 800px)',
     height: '100vh',
     display: 'flex',
+    transition: 'all 200ms',
+    '@media (max-width: 600px)': {
+        transform: 'scale(0.9)'
+    },
+    '@media (max-width: 400px)': {
+        transform: 'scale(0.8)'
+    }
 });
 
 const Background = styled(Box)({
