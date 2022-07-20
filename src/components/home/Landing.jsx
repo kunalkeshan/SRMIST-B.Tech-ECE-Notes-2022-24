@@ -14,7 +14,6 @@ import { Box, styled, Typography, Divider, Button } from '@mui/material';
 import WritingAnimation from '../../assets/lottie/writing.json';
 
 const Landing = () => {
-
     const defaultOptions = {
         loop: true,
         autoplay: true,
@@ -22,6 +21,11 @@ const Landing = () => {
         rendererSettings: {
             preserveAspectRatio: 'xMidYMid slice'
         }
+    };
+
+    const handleViewSemScroll = () => {
+        const currentWindowHeight = window.innerHeight;
+        window.scroll({ behavior: 'smooth', top: currentWindowHeight })
     };
 
     return (
@@ -57,7 +61,7 @@ const Landing = () => {
                     Collection of all notes of SRMIST B.Tech Electronics and Communications Dept. for the academic year: 2020-24.
                     Visit the Repository or Drive to access all notes, additional resources for studying and how to study each subject.
                 </Typography>
-                <ViewSemButton href='#semesters'>View Semester Notes</ViewSemButton>
+                <ViewSemButton onClick={handleViewSemScroll}>View Semester Notes</ViewSemButton>
             </Content>
         </Page>
     )
