@@ -44,7 +44,7 @@ class Data {
             try {
                 allNotifications.forEach((notification) => {
                     notification.read = false;
-                    if (readNotifications.find((readNotification) => readNotification.id === notification.id)) {
+                    if (readNotifications.find((readNotification) => readNotification === notification.id)) {
                         notification.read = true;
                     };
                 })
@@ -63,8 +63,8 @@ class Data {
             try {
                 const readNotification = allNotifications.find(notification => notification.id === notificationId);
                 if (!readNotification) throw new Error('Notification with give Id does not exist!')
-                readNotification.read = true;
-                readNotifications.push(readNotification);
+                if(readNotifications.find((noti) => noti === notificationId)) return;
+                readNotifications.push(readNotification.id);
                 localStorage.setItem('readNotifications', JSON.stringify(readNotifications));
                 return 'Notification marked as read!';
             } catch (error) {

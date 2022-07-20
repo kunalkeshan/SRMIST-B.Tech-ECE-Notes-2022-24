@@ -27,6 +27,10 @@ const Navbar = () => {
             nav: '/',
         },
         {
+            name: 'Contribute',
+            nav: '/contribute'
+        },
+        {
             name: 'Repo',
             link: 'https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24',
         },
@@ -34,10 +38,6 @@ const Navbar = () => {
             name: 'Drive',
             link: 'https://drive.google.com/drive/folders/17bng9aIkZ3FaULebbgEGpdCsB225dr_K',
         },
-        {
-            name: 'Contribute',
-            nav: '/contribute'
-        }
     ], []);
     const activeStyles = useMemo(() => {
         return {
@@ -82,8 +82,9 @@ const Navbar = () => {
                     >ECE Notes</Typography>
                 </AppIcon>
                 <DNavList>
-                    {pages.map((page) => (
+                    {pages.map((page, index) => (
                         <DNavButton
+                            key={index}
                             variant='text'
                             onClick={() => handleNavigate(page)}
                             sx={page?.nav && page?.nav === currentPage ? activeStyles : {}}
@@ -116,8 +117,9 @@ const Navbar = () => {
                         'aria-labelledby': 'basic-button',
                     }}
                 >
-                    {pages.map((page) => (
+                    {pages.map((page, index) => (
                         <MenuItem
+                            key={index}
                             onClick={() => { handleMobNavClose(); handleNavigate(page) }}
                         >{page.name}</MenuItem>
                     ))}
