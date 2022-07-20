@@ -13,12 +13,25 @@ const Footer = () => {
         <Main>
             <Typography variant='body2'>
                 All Rights Reserved.
-                &copy; {new Date().getFullYear()}
+                {" "}
+                <Link
+                    component='a'
+                    href='https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/blob/main/LICENSE'
+                    target='_blank'
+                    sx={{
+                        cursor: 'pointer',
+                    }}
+                >
+                    ECE College Notes
+                </Link>
+                {" "} &copy; {new Date().getFullYear()}
                 {" "}.
                 Made with &#129505; by {" "}
                 {
                     <Link
                         component='a'
+                        href='https://twitter.com/_kunalkeshan_'
+                        target='_blank'
                         sx={{
                             cursor: 'pointer',
                         }}
@@ -31,7 +44,7 @@ const Footer = () => {
 
 const Main = styled(Box)({
     marginTop: 'auto',
-    padding: '.25em',
+    padding: '.5em',
 })
 
 export default Footer;
