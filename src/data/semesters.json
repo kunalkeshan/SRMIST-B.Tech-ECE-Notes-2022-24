@@ -1,11 +1,74 @@
 [
-    {
-        "id": 1,
-        "name": "Semester 1",
-        "credits": 20,
-        "numberOfCourses": 8,
-        "repoLink": "",
-        "downloadLink": "",
-        "driveLink": ""
-    }
+	{
+		"id": 1,
+		"name": "Semester 1",
+		"credits": 20,
+		"numberOfCourses": 8,
+		"repoLink": "",
+		"downloadLink": "",
+		"driveLink": ""
+	},
+	{
+		"id": 2,
+		"name": "Semester 2",
+		"credits": 20,
+		"numberOfCourses": 8,
+		"repoLink": "",
+		"downloadLink": "",
+		"driveLink": ""
+	},
+	{
+		"id": 3,
+		"name": "Semester 3",
+		"credits": 20,
+		"numberOfCourses": 8,
+		"repoLink": "",
+		"downloadLink": "",
+		"driveLink": ""
+	},
+	{
+		"id": 4,
+		"name": "Semester 4",
+		"credits": 20,
+		"numberOfCourses": 8,
+		"repoLink": "",
+		"downloadLink": "",
+		"driveLink": ""
+	},
+	{
+		"id": 5,
+		"name": "Semester 5",
+		"credits": 20,
+		"numberOfCourses": 8,
+		"repoLink": "",
+		"downloadLink": "",
+		"driveLink": ""
+	},
+	{
+		"id": 6,
+		"name": "Semester 6",
+		"credits": 20,
+		"numberOfCourses": 8,
+		"repoLink": "",
+		"downloadLink": "",
+		"driveLink": ""
+	},
+	{
+		"id": 7,
+		"name": "Semester 7",
+		"credits": 20,
+		"numberOfCourses": 8,
+		"repoLink": "",
+		"downloadLink": "",
+		"driveLink": ""
+	},
+	{
+		"id": 8,
+		"name": "Semester 8",
+		"credits": 20,
+		"numberOfCourses": 8,
+		"repoLink": "",
+		"downloadLink": "",
+		"driveLink": ""
+	}
 ]
