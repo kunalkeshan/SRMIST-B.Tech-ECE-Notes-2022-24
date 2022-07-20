@@ -10,16 +10,16 @@ Table of Content:
 
 > ⚠ **Difficulty** is subjective. Can differ from person to person.
 
-| Subject Code | Name | Difficulty | Credits |
-| ------------ | ---- | ---------- | ------- |
-| 18MAB102T | Advanced Calculus and Complex Analysis | 🟧 Medium | 4 |
-| 18EES101J | Basic Electrical and Electronics Engineering | 🟧 Medium | 5 |
-| 18LEM101T | Constitution of India | 🟩 Easy | 0 |
-| 18MES101L | Engineering Graphics and Drawing | 🟩 Easy | 3 |
-| 18LEH101L | English | 🟩 Easy | 3 |
-| 18PDH101L | General Aptitude | 🟧 Medium | 1 |
-| 18PYB101J | Physics - Electromagnetic Theory, Quantum Mechanics, Waves | 🟧 Medium | 5 |
-| 18GNM101L | Yoga | 🟩 Easy | 0 |
+| Subject Code | Name | Difficulty | Credits | Download Links |
+| ------------ | ---- | ---------- | ------- | -------------- |
+| 18MAB102T | Advanced Calculus and Complex Analysis | 🟧 Medium | 4 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%202/Advanced%20Calculus%20and%20Complex%20Analysis) |
+| 18EES101J | Basic Electrical and Electronics Engineering | 🟧 Medium | 5 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%202/Basic%20Electrical%20and%20Electronics%20Engineering) |
+| 18LEM101T | Constitution of India | 🟩 Easy | 0 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%202/Constitution%20of%20India) |
+| 18MES101L | Engineering Graphics and Drawing | 🟩 Easy | 3 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%202/Engineering%20Graphics) |
+| 18LEH101L | English | 🟩 Easy | 3 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%202/English) |
+| 18PDH101L | General Aptitude | 🟧 Medium | 1 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%202/General%20Aptitude) |
+| 18PYB101J | Physics - Electromagnetic Theory, Quantum Mechanics, Waves | 🟧 Medium | 5 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%202/Physics%20-%20Electromagnetic%20Theory%2C%20Quantum%20Mechanics%2C%20Waves%20and%20Optics) |
+| 18GNM101L | Yoga | 🟩 Easy | 0 | [Download](#) |
 | | | Total: | 21 |
 
 ## How to Learn?
