@@ -31,6 +31,10 @@ const Main = styled(Box)({
   flexDirection: 'column',
   width: '100%',
   height: '100vh',
+  fontFamily: '\'Source Sans Pro\', sans-serif',
+  '*': {
+    fontFamily: 'inherit',
+  }
 });
 
 export default App;
