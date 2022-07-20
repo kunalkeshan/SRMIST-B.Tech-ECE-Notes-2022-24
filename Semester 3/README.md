@@ -10,17 +10,17 @@ Table of Content:
 
 > ⚠ **Difficulty** is subjective. Can differ from person to person.
 
-| Subject Code | Name | Difficulty | Credits |
-| ------------ | ---- | ---------- | ------- |
-| 18PDM201L | Competencies in Social Skills | 🟩 Easy | 0 |
-| 18ECS201T | Control Systems | 🟧 Medium | 3 |
-| 18ECC103J | Digital Electronic Principles | 🟧 Medium | 4 |
-| 18ECC105T | Electromagnetics and Transmission Lines | 🟥 Hard | 3 |
-| 18ECC102J | Electronic Devices | 🟥 Hard | 4 |
-| 18ECC104T | Signals and Systems | 🟧 Medium | 4 |
-| 18PDH103J | Social Engineering | 🟩 Easy | 2 |
-| 18MAB201T | Transforms and Boundary Value Problems | 🟧 Medium | 4 |
-| 18CYM101T | Environmental Science | 🟩 Easy | 0 |
+| Subject Code | Name | Difficulty | Credits | Download Link |
+| ------------ | ---- | ---------- | ------- | ------------- |
+| 18PDM201L | Competencies in Social Skills | 🟩 Easy | 0 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203/Competencies%20in%20Social%20Skills/Notes) |
+| 18ECS201T | Control Systems | 🟧 Medium | 3 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203/Control%20Systems) | 
+| 18ECC103J | Digital Electronic Principles | 🟧 Medium | 4 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203/Digital%20Electronic%20Principles) |
+| 18ECC105T | Electromagnetics and Transmission Lines | 🟥 Hard | 3 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203/Electromagnetics%20and%20Transmission%20Lines) |
+| 18ECC102J | Electronic Devices | 🟥 Hard | 4 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203/Electronic%20Devices) |
+| 18ECC104T | Signals and Systems | 🟧 Medium | 4 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203/Signals%20and%20Systems) |
+| 18PDH103J | Social Engineering | 🟩 Easy | 2 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203/Social%20Engineering) |
+| 18MAB201T | Transforms and Boundary Value Problems | 🟧 Medium | 4 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203/Transforms%20and%20Boundary%20Value%20Problems) |
+| 18CYM101T | Environmental Science | 🟩 Easy | 0 | [Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203/Environmental%20Science) |
 | | | Total: | 24 |
 
 ## How to Learn?
