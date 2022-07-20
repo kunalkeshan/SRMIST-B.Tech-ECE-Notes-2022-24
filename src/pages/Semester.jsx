@@ -10,6 +10,10 @@ import Data from '../utils/data';
 // MUI
 import { Box, Divider, styled, Typography } from '@mui/material';
 
+// Components
+import SemInfo from '../components/semester/SemInfo';
+import Courses from '../components/semester/Courses';
+
 const Semester = () => {
     const location = useLocation();
 
@@ -47,6 +51,10 @@ const Semester = () => {
         <Main>
             <Typography variant='h1' fontSize='4rem'>{semName}</Typography>
             <Divider />
+
+            {currentSem ? <SemInfo {...currentSem} /> : <NoSemFound></NoSemFound>}
+
+            {semCourses.length > 0 ? <Courses courses={semCourses} /> : <NoNotesForSem></NoNotesForSem>}
         </Main>
     )
 };
@@ -61,6 +69,10 @@ const Main = styled(Box)({
     '> *': {
         width: '100%',
     }
-})
+});
+
+const NoSemFound = styled(Box)({});
+
+const NoNotesForSem = styled(Box)({});
 
 export default Semester;
