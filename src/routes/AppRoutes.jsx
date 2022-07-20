@@ -22,7 +22,7 @@ const AppRoutes = () => {
             <Routes>
                 <Route path='/' exact element={<Home />} />
                 <Route path='/contribute' exact element={<Contribute />} />
-                <Route path='/:currentSemester' exact element={<Semester />} />
+                <Route path='/notes/:currentSemester' exact element={<Semester />} />
                 <Route path='/not-found' exact element={<NotFound />} />
                 <Route path='*' exact element={<Navigate to='/not-found' />} />
             </Routes>

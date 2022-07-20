@@ -25,7 +25,9 @@ const Landing = () => {
     };
 
     return (
-        <Page>
+        <Page
+            fontSize={{ xs: '0.6rem', sm: '1rem' }}
+        >
             <Background>
                 <Lottie
                     options={defaultOptions}
