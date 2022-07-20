@@ -3,8 +3,9 @@
  */
 
 // Dependencies
-import React, { useState, useMemo } from 'react';
-import { useNavigate } from 'react-router-dom'
+import React, { useState, useMemo, useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
+import config from '../../config';
 
 // MUI
 import { Box, Menu, MenuItem, IconButton, styled, Typography, Button } from '@mui/material';
@@ -16,7 +17,9 @@ import Notifications from '../notification/Notifications';
 
 const Navbar = () => {
     const navigate = useNavigate();
+    const location = useLocation();
     const [anchorEl, setAnchorEl] = useState(null);
+    const [currentPage, setCurrentPage] = useState('');
     const open = useMemo(() => Boolean(anchorEl), [anchorEl]);
     const pages = useMemo(() => [
         {
@@ -36,6 +39,21 @@ const Navbar = () => {
             nav: '/contribute'
         }
     ], []);
+    const activeStyles = useMemo(() => {
+        return {
+            backgroundColor: config.APP_COLORS.accent,
+            color: config.APP_COLORS.dark,
+            fontWeight: 'bold',
+            '&:hover': {
+                backgroundColor: config.APP_COLORS.accent,
+            }
+        }
+    }, [])
+
+    useEffect(() => {
+        const currentLocation = location.pathname;
+        setCurrentPage(currentLocation);
+    }, [location]);
 
     const handleMobNavClick = (event) => {
         setAnchorEl(event.currentTarget);
@@ -59,12 +77,16 @@ const Navbar = () => {
             >
                 <AppIcon>
                     <MenuBookIcon />
-                    <Typography>ECE Notes</Typography>
+                    <Typography
+                        variant='h6'
+                    >ECE Notes</Typography>
                 </AppIcon>
                 <DNavList>
                     {pages.map((page) => (
                         <DNavButton
+                            variant='text'
                             onClick={() => handleNavigate(page)}
+                            sx={page?.nav && page?.nav === currentPage ? activeStyles : {}}
                         >{page.name}</DNavButton>
                     ))}
                 </DNavList>
@@ -137,11 +159,16 @@ const DNav = styled(Box)({
 });
 
 const DNavList = styled(Box)({
+    marginLeft: '1em',
     display: 'flex',
     alignItems: 'center',
+    gap: '.5em',
 });
 
-const DNavButton = styled(Button)({});
+const DNavButton = styled(Button)({
+    fontSize: '0.9rem',
+    color: config.APP_COLORS.darkAccent,
+});
 
 const AppIcon = styled(Box)({
     display: 'flex',

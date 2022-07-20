@@ -33,9 +33,9 @@ const Main = styled(Box)({
   width: '100%',
   height: '100vh',
   backgroundColor: config.APP_COLORS.main,
-  fontFamily: '\'Source Sans Pro\', sans-serif',
+  fontFamily: '\'Source Sans Pro\', sans-serif !important',
   '*': {
-    fontFamily: 'inherit',
+    fontFamily: 'inherit !important',
   }
 });
 
