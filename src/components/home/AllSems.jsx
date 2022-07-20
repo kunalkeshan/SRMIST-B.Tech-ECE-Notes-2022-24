@@ -51,13 +51,13 @@ const AllSems = () => {
                 </Card>
             </Grid>
         )
-    }
+    };
 
     return (
         <Page id='semesters'>
             <Typography
                 variant='h3'
-                fontSize='1.5rem'
+                fontSize='2rem'
                 textAlign='center'
                 mt={2}
             >All Semester Links</Typography>
@@ -85,6 +85,6 @@ const Page = styled(Box)({
 
 const ViewNotesButton = styled(Button)({
     color: config.APP_COLORS.accent,
-})
+});
 
-export default AllSems
+export default AllSems;
