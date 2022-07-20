@@ -11,7 +11,7 @@
 	{
 		"id": 2,
 		"name": "Semester 2",
-		"credits": 20,
+		"credits": 21,
 		"numberOfCourses": 8,
 		"repoLink": "",
 		"downloadLink": "",
@@ -20,8 +20,8 @@
 	{
 		"id": 3,
 		"name": "Semester 3",
-		"credits": 20,
-		"numberOfCourses": 8,
+		"credits": 24,
+		"numberOfCourses": 9,
 		"repoLink": "",
 		"downloadLink": "",
 		"driveLink": ""
@@ -29,7 +29,7 @@
 	{
 		"id": 4,
 		"name": "Semester 4",
-		"credits": 20,
+		"credits": 22,
 		"numberOfCourses": 8,
 		"repoLink": "",
 		"downloadLink": "",
@@ -38,8 +38,8 @@
 	{
 		"id": 5,
 		"name": "Semester 5",
-		"credits": 20,
-		"numberOfCourses": 8,
+		"credits": 23,
+		"numberOfCourses": 9,
 		"repoLink": "",
 		"downloadLink": "",
 		"driveLink": ""
@@ -47,8 +47,8 @@
 	{
 		"id": 6,
 		"name": "Semester 6",
-		"credits": 20,
-		"numberOfCourses": 8,
+		"credits": 24,
+		"numberOfCourses": 10,
 		"repoLink": "",
 		"downloadLink": "",
 		"driveLink": ""
@@ -56,8 +56,8 @@
 	{
 		"id": 7,
 		"name": "Semester 7",
-		"credits": 20,
-		"numberOfCourses": 8,
+		"credits": 16,
+		"numberOfCourses": 5,
 		"repoLink": "",
 		"downloadLink": "",
 		"driveLink": ""
@@ -65,8 +65,8 @@
 	{
 		"id": 8,
 		"name": "Semester 8",
-		"credits": 20,
-		"numberOfCourses": 8,
+		"credits": 10,
+		"numberOfCourses": 1,
 		"repoLink": "",
 		"downloadLink": "",
 		"driveLink": ""
