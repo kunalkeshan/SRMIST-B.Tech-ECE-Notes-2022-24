@@ -4,71 +4,71 @@
 		"name": "Semester 1",
 		"credits": 20,
 		"numberOfCourses": 8,
-		"repoLink": "",
-		"downloadLink": "",
-		"driveLink": ""
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%201",
+		"downloadLink": "https://downgit.github.io/#/home?url=https:%2F%2Fgithub.com%2Fkunalkeshan%2FSRMIST-B.Tech-ECE-Notes-2022-24%2Ftree%2Fmain%2FSemester%201",
+		"driveLink": "https://drive.google.com/drive/u/7/folders/17bng9aIkZ3FaULebbgEGpdCsB225dr_K"
 	},
 	{
 		"id": 2,
 		"name": "Semester 2",
 		"credits": 21,
 		"numberOfCourses": 8,
-		"repoLink": "",
-		"downloadLink": "",
-		"driveLink": ""
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%202",
+		"downloadLink": "https://downgit.github.io/#/home?url=https:%2F%2Fgithub.com%2Fkunalkeshan%2FSRMIST-B.Tech-ECE-Notes-2022-24%2Ftree%2Fmain%2FSemester%202",
+		"driveLink": "https://drive.google.com/drive/u/7/folders/17bng9aIkZ3FaULebbgEGpdCsB225dr_K"
 	},
 	{
 		"id": 3,
 		"name": "Semester 3",
 		"credits": 24,
 		"numberOfCourses": 9,
-		"repoLink": "",
-		"downloadLink": "",
-		"driveLink": ""
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203",
+		"downloadLink": "https://downgit.github.io/#/home?url=https:%2F%2Fgithub.com%2Fkunalkeshan%2FSRMIST-B.Tech-ECE-Notes-2022-24%2Ftree%2Fmain%2FSemester%203",
+		"driveLink": "https://drive.google.com/drive/u/7/folders/17bng9aIkZ3FaULebbgEGpdCsB225dr_K"
 	},
 	{
 		"id": 4,
 		"name": "Semester 4",
 		"credits": 22,
 		"numberOfCourses": 8,
-		"repoLink": "",
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%204",
 		"downloadLink": "",
-		"driveLink": ""
+		"driveLink": "https://drive.google.com/drive/u/7/folders/17bng9aIkZ3FaULebbgEGpdCsB225dr_K"
 	},
 	{
 		"id": 5,
 		"name": "Semester 5",
 		"credits": 23,
 		"numberOfCourses": 9,
-		"repoLink": "",
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205",
 		"downloadLink": "",
-		"driveLink": ""
+		"driveLink": "https://drive.google.com/drive/u/7/folders/17bng9aIkZ3FaULebbgEGpdCsB225dr_K"
 	},
 	{
 		"id": 6,
 		"name": "Semester 6",
 		"credits": 24,
 		"numberOfCourses": 10,
-		"repoLink": "",
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
 		"downloadLink": "",
-		"driveLink": ""
+		"driveLink": "https://drive.google.com/drive/u/7/folders/17bng9aIkZ3FaULebbgEGpdCsB225dr_K"
 	},
 	{
 		"id": 7,
 		"name": "Semester 7",
 		"credits": 16,
 		"numberOfCourses": 5,
-		"repoLink": "",
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%207",
 		"downloadLink": "",
-		"driveLink": ""
+		"driveLink": "https://drive.google.com/drive/u/7/folders/17bng9aIkZ3FaULebbgEGpdCsB225dr_K"
 	},
 	{
 		"id": 8,
 		"name": "Semester 8",
 		"credits": 10,
 		"numberOfCourses": 1,
-		"repoLink": "",
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%208",
 		"downloadLink": "",
-		"driveLink": ""
+		"driveLink": "https://drive.google.com/drive/u/7/folders/17bng9aIkZ3FaULebbgEGpdCsB225dr_K"
 	}
 ]
