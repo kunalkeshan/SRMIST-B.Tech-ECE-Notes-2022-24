@@ -121,6 +121,7 @@ Download Links:
 -   Professional Electives
     -   [Optoelectronics](#)
     -   [Advanced Digital System Design](#)
+    -   [Semiconductor Device Modeling](#)
 -   Open Electives
     -   [Applications of Nanotechnology](#)
 
