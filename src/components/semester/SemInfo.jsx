@@ -31,7 +31,7 @@ const SemInfo = ({ name, credits, numberOfCourses, repoLink, downloadLink, drive
             url: driveLink,
             Icon: AddToDriveIcon,
         }
-    ]
+    ];
 
     const handleNavigate = (link) => () => {
         window.open(link, '_blank');
@@ -55,7 +55,6 @@ const SemInfo = ({ name, credits, numberOfCourses, repoLink, downloadLink, drive
                     </Tooltip>
                 )
                 }
-
             </Item>
         )
     }
@@ -66,6 +65,7 @@ const SemInfo = ({ name, credits, numberOfCourses, repoLink, downloadLink, drive
                 direction="row"
                 divider={<Divider orientation="vertical" flexItem />}
                 spacing={2}
+                mb={2}
             >
                 <Item>{name}</Item>
                 <Item>Total Credits: {credits}</Item>
@@ -77,6 +77,7 @@ const SemInfo = ({ name, credits, numberOfCourses, repoLink, downloadLink, drive
                     />
                 ))}
             </Stack>
+            <Divider />
         </Container>
     )
 };
