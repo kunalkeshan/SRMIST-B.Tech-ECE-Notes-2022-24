@@ -98,7 +98,8 @@ const Main = styled(Box)({
     justifyContent: 'center',
     gap: '1em',
     width: '100%',
-    height: '100vh',
+    marginBottom: '80px',
+    height: 'max(100vh, fit-content)',
     '> *': {
         width: '100%',
     }
