@@ -41,11 +41,12 @@ const Semester = () => {
 
     useEffect(() => {
         const handleSetSemCourses = async () => {
-            const data = await Data.Semesters.getCoursesOfSemester(semKey);
+            let data = await Data.Semesters.getCoursesOfSemester(semKey);
+            data = Array.isArray(data) ? data : [];
             setSemCourses(data);
         };
-        if (semCourses.length === 0) handleSetSemCourses();
-    }, [semCourses, semKey]);
+        if (!currentSem && semCourses.length === 0) handleSetSemCourses();
+    }, [semCourses, semKey, currentSem]);
 
     return (
         <Main>
