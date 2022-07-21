@@ -54,7 +54,7 @@ const Courses = ({ courses }) => {
                         </Tooltip>
                     ) : (
                         <Tooltip describeChild title='Link not available'>
-                            <IconButton>
+                            <IconButton disabled>
                                 <Icon />
                             </IconButton>
                         </Tooltip>
