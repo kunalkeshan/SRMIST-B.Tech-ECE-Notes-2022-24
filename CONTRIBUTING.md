@@ -9,7 +9,7 @@ git clone https://github.com/{YOUR USERNAME}/SRMIST-B.Tech-ECE-Notes-2022-24
 
 ```bash
 git checkout client
-git install --legacy-peer-deps
+npm install --legacy-peer-deps
 npm start
 ```
 
