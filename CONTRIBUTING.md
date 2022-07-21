@@ -1,14 +1,13 @@
 1. Fork this [Repository](https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/fork).
-2. Clone it locally.
+2. Clone the `client` branch locally. (The `main` branch is too heavy for cloning).
 
 ```bash
-git clone https://github.com/{YOUR USERNAME}/SRMIST-B.Tech-ECE-Notes-2022-24
+git clone --single-branch --branch client https://github.com/{YOUR USERNAME}/SRMIST-B.Tech-ECE-Notes-2022-24
 ```
 
-3. Checkout to `client` branch, install all dependencies and start the app.
+3. Install all dependencies and start the app.
 
 ```bash
-git checkout client
 npm install --legacy-peer-deps
 npm start
 ```
