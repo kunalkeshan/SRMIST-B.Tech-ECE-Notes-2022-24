@@ -23,6 +23,6 @@ export const fetchProjectContributorsList = async () => {
         }
         return contributors;
     } catch (error) {
-        return Promise.reject(error);
+        return [];
     }
 };
