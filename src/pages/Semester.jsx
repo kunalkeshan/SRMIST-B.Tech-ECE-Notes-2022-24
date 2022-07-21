@@ -52,9 +52,13 @@ const Semester = () => {
             <Typography variant='h1' fontSize='4rem'>{semName}</Typography>
             <Divider />
 
-            {currentSem ? <SemInfo {...currentSem} /> : <NoSemFound></NoSemFound>}
+            {currentSem ? <SemInfo {...currentSem} /> : <NoSemFound>
+                Semester data does not exist.
+            </NoSemFound>}
 
-            {semCourses.length > 0 ? <Courses courses={semCourses} /> : <NoNotesForSem></NoNotesForSem>}
+            {semCourses.length > 0 ? <Courses courses={semCourses} /> : <NoNotesForSem>
+                Notes for this semester has not been updated yet!
+            </NoNotesForSem>}
         </Main>
     )
 };
@@ -63,6 +67,7 @@ const Main = styled(Box)({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
+    marginBottom: '80px',
     justifyContent: 'center',
     width: '100%',
     height: 'max(100vh, fit-content)',
@@ -71,8 +76,14 @@ const Main = styled(Box)({
     }
 });
 
-const NoSemFound = styled(Box)({});
+const NoSemFound = styled(Box)({
+    margin: '2em 0',
+    fontSize: '1.75rem',
+});
 
-const NoNotesForSem = styled(Box)({});
+const NoNotesForSem = styled(Box)({
+    margin: '2em 0',
+    fontSize: '1.75rem',
+});
 
 export default Semester;
