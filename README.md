@@ -147,7 +147,7 @@ Download Links:
 
 ## Contribute
 
-Anybody is free to contribute to this repo. If you think that some material is relavent and can imporove the quality of this repo, follow the contributing guidelines mentioned at [CONTRIBUTING.md](./CONTRIBUTING.md).
+Anybody is free to contribute to this repo. If you think that some material is relevant and can improve the quality of this repo, follow the contributing guidelines mentioned at [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ### Project Contriubters:
 
