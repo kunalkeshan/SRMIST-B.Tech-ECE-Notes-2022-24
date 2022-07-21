@@ -3,19 +3,55 @@
  */
 
 // Dependencies
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import config from '../../config';
 
 // MUI
-import { Box, styled, Typography, Divider, Button } from '@mui/material';
+import { Box, styled, Typography, Divider, Button, Paper, Avatar, Tooltip } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
+
+// Custom
+import { fetchProjectContributorsList } from '../../utils/axios';
 
 const Contribute = () => {
     const navigate = useNavigate();
+    const [contributors, setContributors] = useState([]);
 
     const handleNavigateToContribute = () => {
         navigate('/contribute');
+    }
+
+    useEffect(() => {
+        const handleFetchContributors = async () => {
+            const data = await fetchProjectContributorsList();
+            setContributors(data);
+        };
+        if (contributors.length === 0) handleFetchContributors();
+    }, [contributors]);
+
+    const ContributorProfile = ({ avatar, contributions, profile, username }) => {
+
+        const handleNavigate = () => {
+            window.open(profile, '_blank');
+        };
+
+        return (
+            <ContributorCard
+                onClick={handleNavigate}
+            >
+                <Tooltip title={`Visit ${username}'s Profile, contributions made: ${contributions}`}>
+                    <Box display='flex' alignItems='center' justifyContent='center' flexDirection={'column'}>
+                        <Avatar
+                            src={avatar}
+                            alt={username}
+                            variant='rounded'
+                        />
+                        <Typography variant='caption'>{username}</Typography>
+                    </Box>
+                </Tooltip>
+            </ContributorCard>
+        )
     }
 
     return (
@@ -30,6 +66,14 @@ const Contribute = () => {
                     startIcon={<GitHubIcon />}
                     onClick={handleNavigateToContribute}
                 >Contribute Now!</ContributeButton>
+
+                <Typography variant='body1' fontSize='1.25rem' mt={2}>Meet our Contributors!</Typography>
+                <Typography variant='caption'>Without whom this project would not be possible!</Typography>
+                <Contributors>
+                    {contributors.length > 0 ? contributors.map((person, index) => (
+                        <ContributorProfile {...person} key={index} />
+                    )) : null}
+                </Contributors>
             </Content>
         </Page>
     )
@@ -58,5 +102,27 @@ const ContributeButton = styled(Button)({
         color: config.APP_COLORS.dark,
     }
 });
+
+const Contributors = styled(Box)({
+    padding: '1em',
+    display: 'flex',
+    flexWrap: 'wrap',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: '1em',
+});
+
+const ContributorCard = styled(Paper)({
+    borderRadius: '50%',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'column',
+    cursor: 'pointer',
+    padding: '1em',
+    '&:hover': {
+        backgroundColor: config.APP_COLORS.accent,
+    }
+})
 
 export default Contribute;
