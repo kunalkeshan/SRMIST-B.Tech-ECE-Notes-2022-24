@@ -1,1 +1,83 @@
-[]
+[
+	{
+		"subjectCode": "18PDM201L",
+		"name": "Competencies in Social Skills",
+		"difficulty": 4,
+		"credits": 0,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203/Competencies%20in%20Social%20Skills/Notes",
+		"driveLink": "https://drive.google.com/drive/folders/1aX--Gcsj5AG06Itl2iQ78Kn2e_cqp7fU?usp=sharing"
+	},
+	{
+		"subjectCode": "18ECS201T",
+		"name": "Control Systems",
+		"difficulty": 7,
+		"credits": 3,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203/Control%20Systems",
+		"driveLink": "https://drive.google.com/drive/folders/1aX--Gcsj5AG06Itl2iQ78Kn2e_cqp7fU?usp=sharing"
+	},
+	{
+		"subjectCode": "18ECC103J",
+		"name": "Digital Electronic Principles",
+		"difficulty": 6,
+		"credits": 4,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203/Digital%20Electronic%20Principles",
+		"driveLink": "https://drive.google.com/drive/folders/1aX--Gcsj5AG06Itl2iQ78Kn2e_cqp7fU?usp=sharing"
+	},
+	{
+		"subjectCode": "18ECC105T",
+		"name": "Electromagnetics and Transmission Lines",
+		"difficulty": 10,
+		"credits": 3,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203/Electromagnetics%20and%20Transmission%20Lines",
+		"driveLink": "https://drive.google.com/drive/folders/1aX--Gcsj5AG06Itl2iQ78Kn2e_cqp7fU?usp=sharing"
+	},
+	{
+		"subjectCode": "18ECC102J",
+		"name": "Electronic Devices",
+		"difficulty": 9,
+		"credits": 4,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203/Electronic%20Devices",
+		"driveLink": "https://drive.google.com/drive/folders/1aX--Gcsj5AG06Itl2iQ78Kn2e_cqp7fU?usp=sharing"
+	},
+	{
+		"subjectCode": "18ECC104T",
+		"name": "Signals and Systems",
+		"difficulty": 7,
+		"credits": 4,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203/Signals%20and%20Systems",
+		"driveLink": "https://drive.google.com/drive/folders/1aX--Gcsj5AG06Itl2iQ78Kn2e_cqp7fU?usp=sharing"
+	},
+	{
+		"subjectCode": "18PDH103J",
+		"name": "Social Engineering",
+		"difficulty": 3,
+		"credits": 2,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203/Social%20Engineering",
+		"driveLink": "https://drive.google.com/drive/folders/1aX--Gcsj5AG06Itl2iQ78Kn2e_cqp7fU?usp=sharing"
+	},
+	{
+		"subjectCode": "18MAB201T",
+		"name": "Transforms and Boundary Value Problems",
+		"difficulty": 6,
+		"credits": 4,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203/Transforms%20and%20Boundary%20Value%20Problems",
+		"driveLink": "https://drive.google.com/drive/folders/1aX--Gcsj5AG06Itl2iQ78Kn2e_cqp7fU?usp=sharing"
+	},
+	{
+		"subjectCode": "18CYM101T",
+		"name": "Environmental Science",
+		"difficulty": 3,
+		"credits": 0,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203/Environmental%20Science",
+		"driveLink": "https://drive.google.com/drive/folders/1aX--Gcsj5AG06Itl2iQ78Kn2e_cqp7fU?usp=sharing"
+	}
+]
