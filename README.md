@@ -149,7 +149,7 @@ Download Links:
 
 Anybody is free to contribute to this repo. If you think that some material is relevant and can improve the quality of this repo, follow the contributing guidelines mentioned at [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-### Project Contriubters:
+### Project Contributors:
 
 <a href="https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24" />
