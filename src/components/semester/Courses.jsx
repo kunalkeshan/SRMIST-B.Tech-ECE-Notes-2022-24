@@ -65,7 +65,16 @@ const Courses = ({ courses }) => {
         }
 
         return (
-            <Accordion>
+            <Accordion
+                disableGutters
+                sx={{
+                    '&.Mui-expanded': {
+                        mx: 0,
+                        padding: 0,
+                        my: 2,
+                    }
+                }}
+            >
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls={`panel${index}a-content`}
