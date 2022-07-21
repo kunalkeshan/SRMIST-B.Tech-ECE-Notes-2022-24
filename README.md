@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# ECE College Notes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Website to navigate around around for all courses with Repository, Drive and Download links readily available.
 
-## Available Scripts
+**Table of Contents**:
 
-In the project directory, you can run:
+-   [Home Page](#home-page)
+    -   [Landing](#landing)
+    -   [All Semesters Nav](#all-semesters-nav)
+    -   [Contribute CTA](#contribute-cta)
+-   [Contribution Page](#contribute-page)
+-   [Notes Page](#notes-page)
+-   [Not Found Page](#not-found-page)
+-   [Notification Dialog](#notification-dialog-box)
+-   [Mobile UI](#mobile-ui)
+-   [Contribute](#contribute)
+-   [License](#license)
 
-### `npm start`
+## Home Page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Landing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Landing Page](./assets/landing.jpg)
 
-### `npm test`
+### All Semesters Nav
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![All Semesters Nav](./assets/semester-navigation.jpg)
 
-### `npm run build`
+### Contribute CTA
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Contribute CTA](./assets/home-contribute.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contribute Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Contribute Page](./assets/contribution-page.jpg)
 
-### `npm run eject`
+## Notes Page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Notes Page](./assets/notes-page.jpg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Not Found Page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Under Progress
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Notification Dialog Box
 
-## Learn More
+![Notification Dialog Box](./assets/notification-dialog.jpg)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Mobile UI
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| ![Mobile UI 1](./assets/m1.jpg) | ![Mobile UI 2](./assets/m2.jpg) | ![Mobile UI 3](./assets/m3.jpg) |
+| --- | --- | --- |
 
-### Code Splitting
+| ![Mobile UI 4](./assets/m4.jpg) | ![Mobile UI 5](./assets/m5.jpg) | ![Mobile UI 6](./assets/m6.jpg) |
+| --- | --- | --- |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contribute
 
-### Analyzing the Bundle Size
+Anybody is free to contribute to this repo. If you think that some material is relevant and can improve the quality of this repo, follow the contributing guidelines mentioned at [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Project Contributors
 
-### Making a Progressive Web App
+<a href="https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24" />
+</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This website is licensed under the [MIT License](./LICENSE).
