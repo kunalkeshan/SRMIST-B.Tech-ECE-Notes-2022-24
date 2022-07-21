@@ -68,7 +68,6 @@ const Landing = () => {
 };
 
 const Page = styled(Box)({
-    position: 'relative',
     width: 'min(100%, 800px)',
     height: '100vh',
     display: 'flex',
@@ -83,7 +82,7 @@ const Page = styled(Box)({
 
 const Background = styled(Box)({
     transform: 'translate(-50%, -50%)',
-    position: 'absolute',
+    position: 'fixed',
     top: '50%',
     left: '50%',
     width: 'clamp(200px, 100%, 800px)',
