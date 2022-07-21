@@ -4,24 +4,12 @@
 
 // Dependencies
 import React from 'react';
-import Lottie from 'react-lottie';
 import config from '../../config';
 
 // MUI
 import { Box, styled, Typography, Divider, Button } from '@mui/material';
 
-// Custom
-import WritingAnimation from '../../assets/lottie/writing.json';
-
 const Landing = () => {
-    const defaultOptions = {
-        loop: true,
-        autoplay: true,
-        animationData: WritingAnimation,
-        rendererSettings: {
-            preserveAspectRatio: 'xMidYMid slice'
-        }
-    };
 
     const handleViewSemScroll = () => {
         const currentWindowHeight = window.innerHeight;
@@ -29,18 +17,7 @@ const Landing = () => {
     };
 
     return (
-        <Page
-
-        >
-            <Background>
-                <Lottie
-                    options={defaultOptions}
-                    style={{
-                        width: '100%',
-                        height: '100%',
-                    }}
-                />
-            </Background>
+        <Page>
             <Content>
                 <Typography
                     variant='h1'
@@ -78,16 +55,6 @@ const Page = styled(Box)({
     '@media (max-width: 400px)': {
         transform: 'scale(0.8)'
     }
-});
-
-const Background = styled(Box)({
-    transform: 'translate(-50%, -50%)',
-    position: 'fixed',
-    top: '50%',
-    left: '50%',
-    width: 'clamp(200px, 100%, 800px)',
-    opacity: '0.25',
-    height: 'auto'
 });
 
 const Content = styled(Box)({
