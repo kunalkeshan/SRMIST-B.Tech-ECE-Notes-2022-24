@@ -65,7 +65,7 @@ const Main = styled(Box)({
     alignItems: 'center',
     justifyContent: 'center',
     width: '100%',
-    height: '100vh',
+    height: 'max(100vh, fit-content)',
     '> *': {
         width: '100%',
     }

@@ -63,8 +63,9 @@ const SemInfo = ({ name, credits, numberOfCourses, repoLink, downloadLink, drive
         <Container>
             <Stack
                 direction="row"
+                flexWrap='wrap'
                 divider={<Divider orientation="vertical" flexItem />}
-                spacing={2}
+                gap={2}
                 mb={2}
             >
                 <Item>{name}</Item>

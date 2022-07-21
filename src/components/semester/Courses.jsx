@@ -79,8 +79,9 @@ const Courses = ({ courses }) => {
                 <AccordionDetails>
                     <Stack
                         direction="row"
+                        flexWrap='wrap'
                         divider={<Divider orientation="vertical" flexItem />}
-                        spacing={2}
+                        gap={2}
                     >
                         <Item>Course: {name}</Item>
                         <Item>Code: {subjectCode}</Item>
