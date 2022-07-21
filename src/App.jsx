@@ -69,7 +69,7 @@ const Background = styled(Box)({
   top: '50%',
   left: '50%',
   width: 'clamp(200px, 100%, 800px)',
-  opacity: '0.25',
+  opacity: '0.15',
   height: 'auto',
   zIndex: '0'
 });

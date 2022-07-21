@@ -22,7 +22,7 @@ const Landing = () => {
                 <Typography
                     variant='h1'
                     fontSize='4rem'
-                    fontWeight='500'
+                    fontWeight='600'
                 >B.Tech ECE Notes</Typography>
                 <Typography
                     variant='h2'
