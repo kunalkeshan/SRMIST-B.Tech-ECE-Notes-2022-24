@@ -60,7 +60,7 @@ const Contribute = () => {
                 <Typography variant='h3' fontSize='2rem'>Contribute</Typography>
                 <Divider variant='fullWidth' />
                 <Typography variant='body1' fontSize='1.25rem' mt={2}>This Project is <b>Open Source</b>! That means that you're free to contribute and make changes that you feel would improve the quality of this project.</Typography>
-                <Typography>To learn how to contribute, click to button below to explore more.</Typography>
+                <Typography>To learn how to contribute, click the button below to explore more.</Typography>
                 <ContributeButton
                     variant='contained'
                     startIcon={<GitHubIcon />}
