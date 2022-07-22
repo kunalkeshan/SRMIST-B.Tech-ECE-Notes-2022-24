@@ -41,7 +41,14 @@ const Contribute = () => {
                 onClick={handleNavigate}
             >
                 <Tooltip title={`Visit ${username}'s Profile, contributions made: ${contributions}`}>
-                    <Box display='flex' alignItems='center' justifyContent='center' flexDirection={'column'}>
+                    <Box
+                        display='flex'
+                        alignItems='center'
+                        justifyContent='center'
+                        flexDirection={'column'}
+                        width='100%'
+                        height='100%'
+                    >
                         <Avatar
                             src={avatar}
                             alt={username}
@@ -120,6 +127,8 @@ const ContributorCard = styled(Paper)({
     flexDirection: 'column',
     cursor: 'pointer',
     padding: '1em',
+    minWidth: '100px',
+    minHeight: '100px',
     '&:hover': {
         backgroundColor: config.APP_COLORS.accent,
     }
