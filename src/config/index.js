@@ -17,6 +17,13 @@ const config = {
     GITHUB_URL: 'https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24',
     CONTRIBUTORS_URL: `https://api.github.com/repos/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/contributors?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}`,
     APP_COLORS,
+    CONTACT: {
+        email: 'kunalkeshan12@gmail.com',
+        instagram: 'https://www.instagram.com/kunalkeshan/',
+        linkedIn: 'https://www.linkedin.com/in/kunalkeshan/',
+        twitter: 'https://twitter.com/_kunalkeshan_',
+        github: 'https://github.com/kunalkeshan'
+    },
 };
 
 export default config;
