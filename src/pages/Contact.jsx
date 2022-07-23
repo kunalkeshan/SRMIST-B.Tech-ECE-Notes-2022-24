@@ -95,7 +95,7 @@ const Contact = () => {
                 <ContactForm
                     width={{ xs: '100%', md: '35%' }}
                 >
-                    <Typography variant='body1'>If you have some changes that will improve the quality of this website, or this website. Feel free to contact me by filling the form below. I'll reach out to you ASAP!</Typography>
+                    <Typography variant='body1'>If you have some changes that will improve the quality of this project, or this website. Feel free to contact me by filling the form below. I'll reach out to you ASAP!</Typography>
                     <Form
                         component='form'
                         onSubmit={handleContactSubmit}
