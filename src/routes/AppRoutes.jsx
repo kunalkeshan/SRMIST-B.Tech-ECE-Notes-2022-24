@@ -13,6 +13,8 @@ import DefaultSkeleton from '../components/reuseable/DefaultSkeleton'
 const Home = lazy(() => import('../pages/Home'));
 const Contribute = lazy(() => import('../pages/Contribute'));
 const Semester = lazy(() => import('../pages/Semester'));
+const Contact = lazy(() => import('../pages/Contact'));
+const Support = lazy(() => import('../pages/Support'));
 const NotFound = lazy(() => import('../pages/NotFound'));
 
 const AppRoutes = () => {
@@ -21,10 +23,12 @@ const AppRoutes = () => {
         <Suspense fallback={<DefaultSkeleton />}>
             <Routes>
                 <Route path='/' exact element={<Home />} />
-                <Route path='/contribute' exact element={<Contribute />} />
-                <Route path='/notes/:currentSemester' exact element={<Semester />} />
-                <Route path='/not-found' exact element={<NotFound />} />
-                <Route path='*' exact element={<Navigate to='/not-found' />} />
+                <Route path='/contribute' element={<Contribute />} />
+                <Route path='/notes/:currentSemester' element={<Semester />} />
+                <Route path='/contact' element={<Contact />} />
+                <Route path='/support' element={<Support />} />
+                <Route path='/not-found' element={<NotFound />} />
+                <Route path='*' element={<Navigate to='/not-found' />} />
             </Routes>
         </Suspense>
     )
