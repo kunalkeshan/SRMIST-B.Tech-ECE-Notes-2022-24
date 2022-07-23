@@ -4,6 +4,7 @@
 
 // Dependencies
 import React from 'react';
+import { Link } from 'react-router-dom';
 import config from '../config';
 
 // MUI
@@ -70,6 +71,7 @@ const Contribute = () => {
             <Typography variant='h1' fontSize='4rem'><GitHubIcon fontSize='inherit' /> Contribute</Typography>
             <Divider />
             <Typography variant='body1' fontSize='2rem'>This project is <b>Open Source</b>! That means that you're free to contribute and make changes that you feel would improve the quality of this project.</Typography>
+            <Typography variant='body1' fontSize='1rem'>If you don't know how to work with GitHub, and have things you want to contribute or make changes to, <Link to='/contact'>contact me</Link> to get those changes.</Typography>
             <Typography variant='body1' fontSize='1.5rem'>Some examples of places where you can contribute:</Typography>
             <List>
                 {contributionExamples.map((example, index) => (
