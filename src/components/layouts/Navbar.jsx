@@ -11,6 +11,12 @@ import config from '../../config';
 import { Box, Menu, MenuItem, IconButton, styled, Typography, Button } from '@mui/material';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import MenuIcon from '@mui/icons-material/Menu';
+import HomeIcon from '@mui/icons-material/Home';
+import PersonAddAlt1Icon from '@mui/icons-material/PersonAddAlt1';
+import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
+import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import AddToDriveIcon from '@mui/icons-material/AddToDrive';
 
 // Components
 import Notifications from '../notification/Notifications';
@@ -25,18 +31,32 @@ const Navbar = () => {
         {
             name: 'Home',
             nav: '/',
+            icon: <HomeIcon />,
         },
         {
             name: 'Contribute',
-            nav: '/contribute'
+            nav: '/contribute',
+            icon: <PersonAddAlt1Icon />,
+        },
+        {
+            name: 'Contact',
+            nav: '/contact',
+            icon: <AlternateEmailIcon />,
+        },
+        {
+            name: 'Support',
+            nav: '/support',
+            icon: <VolunteerActivismIcon />,
         },
         {
             name: 'Repo',
             link: 'https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24',
+            icon: <GitHubIcon />
         },
         {
             name: 'Drive',
             link: 'https://drive.google.com/drive/folders/17bng9aIkZ3FaULebbgEGpdCsB225dr_K',
+            icon: <AddToDriveIcon />
         },
     ], []);
     const activeStyles = useMemo(() => {
@@ -88,7 +108,7 @@ const Navbar = () => {
                             variant='text'
                             onClick={() => handleNavigate(page)}
                             sx={page?.nav && page?.nav === currentPage ? activeStyles : {}}
-                        >{page.name}</DNavButton>
+                        >{page.icon} {page.name}</DNavButton>
                     ))}
                 </DNavList>
             </DNav>
@@ -118,10 +138,10 @@ const Navbar = () => {
                     }}
                 >
                     {pages.map((page, index) => (
-                        <MenuItem
+                        <MNavListItem
                             key={index}
                             onClick={() => { handleMobNavClose(); handleNavigate(page) }}
-                        >{page.name}</MenuItem>
+                        >{page.icon} {page.name}</MNavListItem>
                     ))}
                 </Menu>
                 <AppIcon>
@@ -156,6 +176,15 @@ const MNav = styled(Box)({
     flex: '1',
 });
 
+const MNavListItem = styled(MenuItem)({
+    display: 'flex',
+    alignItems: 'center',
+    gap: '0.5em',
+    '.MuiSvgIcon-root': {
+        fontSize: '1rem',
+    }
+})
+
 const DNav = styled(Box)({
     alignItems: 'center',
 });
@@ -170,6 +199,12 @@ const DNavList = styled(Box)({
 const DNavButton = styled(Button)({
     fontSize: '0.9rem',
     color: config.APP_COLORS.darkAccent,
+    display: 'flex',
+    alignItems: 'center',
+    gap: '0.2em',
+    '.MuiSvgIcon-root': {
+        fontSize: '0.8rem',
+    }
 });
 
 const AppIcon = styled(Box)({
