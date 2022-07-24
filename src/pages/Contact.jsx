@@ -3,8 +3,7 @@
  */
 
 // Dependencies
-import React from 'react';
-import Lottie from 'react-lottie';
+import React, { useMemo, memo } from 'react';
 import config from '../config';
 
 // MUI
@@ -16,11 +15,11 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import EmailIcon from '@mui/icons-material/Email';
 
 // Custom
-import ContactAnimationData from '../assets/lottie/contact.json';
+import ContactGif from '../assets/contact.gif'
 
 const Contact = () => {
 
-    const socialLinks = [
+    const socialLinks = useMemo(() => [
         {
             name: `Email: ${config.CONTACT.email}`,
             url: `mailto:${config.CONTACT.email}`,
@@ -46,16 +45,7 @@ const Contact = () => {
             url: config.CONTACT.github,
             icon: <GitHubIcon />
         }
-    ];
-
-    const defaultOptions = {
-        loop: true,
-        autoplay: true,
-        animationData: ContactAnimationData,
-        rendererSettings: {
-            preserveAspectRatio: 'xMidYMid slice'
-        }
-    };
+    ], []);
 
     const handleContactSubmit = (e) => {
         e.preventDefault();
@@ -86,10 +76,19 @@ const Contact = () => {
                 <Animation
                     display={{ xs: 'none', md: 'block' }}
                 >
-                    <Lottie
+                    {/* <Lottie
                         options={defaultOptions}
                         width='100%'
                         height='100%'
+                    /> */}
+                    <img
+                        src={ContactGif}
+                        alt='Contact gif'
+                        width='100%'
+                        height='100%'
+                        style={{
+                            backgroundColor: 'transparent',
+                        }}
                     />
                 </Animation>
                 <ContactForm
@@ -164,6 +163,7 @@ const Content = styled(Box)({
 
 const Animation = styled(Box)({
     width: '65%',
+    height: '700px'
 });
 
 const ContactForm = styled(Box)({
@@ -213,4 +213,4 @@ const LinkPaper = styled(Paper)({
 });
 
 
-export default Contact;
+export default memo(Contact);

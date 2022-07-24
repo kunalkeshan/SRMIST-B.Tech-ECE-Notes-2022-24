@@ -3,6 +3,7 @@
  */
 
 // Dependencies
+import React, { useMemo } from 'react';
 import Lottie from 'react-lottie';
 import config from './config';
 
@@ -19,17 +20,20 @@ import WritingAnimation from './assets/lottie/writing.json';
 
 function App() {
 
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: WritingAnimation,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice'
+  const defaultOptions = useMemo(() => {
+    return {
+      loop: true,
+      autoplay: true,
+      animationData: WritingAnimation,
+      rendererSettings: {
+        preserveAspectRatio: 'xMidYMid slice'
+      }
     }
-  };
+  }, []);
 
-  return (
-    <Main component='main'>
+
+  const AppBackground = () => {
+    return (
       <Background>
         <Lottie
           options={defaultOptions}
@@ -39,6 +43,12 @@ function App() {
           }}
         />
       </Background>
+    )
+  };
+
+  return (
+    <Main component='main'>
+      <AppBackground />
       <Navbar />
       <Container>
         <AppRoutes />
