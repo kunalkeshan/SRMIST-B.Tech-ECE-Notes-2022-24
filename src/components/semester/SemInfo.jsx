@@ -5,6 +5,7 @@
 // Dependencies
 import React from 'react';
 import PropTypes from 'prop-types';
+import ReactGA from 'react-ga';
 import config from '../../config';
 
 // MUI
@@ -34,6 +35,14 @@ const SemInfo = ({ name, credits, numberOfCourses, repoLink, downloadLink, drive
     ];
 
     const handleNavigate = (link) => () => {
+        const eventData = {
+            category: 'Navigate',
+        }
+        if (link.includes('drive')) eventData.action = 'View Semester Notes in Drive'
+        if (link.includes('downgit')) eventData.action = 'Download Semester Notes'
+        if (link.includes('github')) eventData.action = 'View Semester Notes in GitHub'
+        ReactGA.event(eventData);
+
         window.open(link, '_blank');
     };
 
