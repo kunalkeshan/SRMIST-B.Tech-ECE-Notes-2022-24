@@ -39,8 +39,8 @@ const Support = () => {
                 >
                     <Typography variant='body1'>When I joined college, I hardly had any access to notes and question papers to practice from. I had to wait for the teachers to share them and wait until the exam to have a collection of question papers at my disposal.</Typography>
                     <Typography variant='body1'>I started this project in my third year, with the philosophy</Typography>
-                    <Typography variant='body1' fontWeight={600} fontSize='1.5rem'><q>Be the Senior you need the most as a Junior.</q></Typography>
-                    <Typography variant='body1'>Any one is free to access the resources of this project and I aim to keep it that way.</Typography>
+                    <Typography variant='body1' fontWeight={600} fontSize='1.5rem'><q>Be the Senior you needed the most as a Junior.</q></Typography>
+                    <Typography variant='body1'>Any one is free to access the resources of this project and I intend to keep it that way.</Typography>
                     <Typography variant='body1'>If you like the work I am doing, and want to keep the project active, your support would mean a lot. Buying me a coffee would mean a 1000 times more than a Thank You!</Typography>
                     <Box className='supportButtons'>
                         <BuyMeACoffee />
