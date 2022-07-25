@@ -76,11 +76,6 @@ const Contact = () => {
                 <Animation
                     display={{ xs: 'none', md: 'block' }}
                 >
-                    {/* <Lottie
-                        options={defaultOptions}
-                        width='100%'
-                        height='100%'
-                    /> */}
                     <img
                         src={ContactGif}
                         alt='Contact gif'
