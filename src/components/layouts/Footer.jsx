@@ -96,6 +96,7 @@ const Footer = () => {
 const Main = styled(Box)({
     marginTop: 'auto',
     padding: '.5em',
+    textAlign: 'center',
 });
 
 const NavLinks = styled(Box)({
