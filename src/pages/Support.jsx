@@ -71,6 +71,7 @@ const Content = styled(Box)({
 
 const Animation = styled(Box)({
     width: '50%',
+    maxWidth: '440px',
     height: 'auto'
 });
 
