@@ -23,22 +23,22 @@ const Contact = () => {
         {
             name: `Email: ${config.CONTACT.email}`,
             url: `mailto:${config.CONTACT.email}`,
-            icon: <EmailIcon />
+            icon: <EmailIcon sx={{ '&:hover': { color: '#ff0f00 !important' } }} />
         },
         {
             name: 'Instagram',
             url: config.CONTACT.instagram,
-            icon: <InstagramIcon />
+            icon: <InstagramIcon sx={{ '&:hover': { color: '#C13584 !important' } }} />
         },
         {
             name: 'LinkedIn',
             url: config.CONTACT.linkedIn,
-            icon: <LinkedInIcon />,
+            icon: <LinkedInIcon sx={{ '&:hover': { color: '#1DA1F2 !important' } }} />,
         },
         {
             name: 'Twitter',
             url: config.CONTACT.twitter,
-            icon: <TwitterIcon />
+            icon: <TwitterIcon sx={{ '&:hover': { color: '#1DA1F2 !important' } }} />
         },
         {
             name: 'GitHub',
