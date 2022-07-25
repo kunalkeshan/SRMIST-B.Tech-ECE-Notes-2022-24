@@ -5,6 +5,7 @@
 // Dependencies
 import React from 'react';
 import PropTypes from 'prop-types';
+import Data from '../../utils/data';
 
 // MUI
 import { Dialog, DialogTitle, styled, DialogActions, Button, DialogContent, DialogContentText } from '@mui/material';
@@ -18,6 +19,21 @@ const NotificationDialog = ({ open, setOpen, notifications, setNotifications }) 
     const handleClose = () => {
         setOpen(false);
     };
+
+    const handleMarkAllAsRead = () => {
+        if (notifications.length) {
+            notifications.forEach(async (notification) => {
+                await Data.Notification.updateReadNotifications(notification.id);
+                setNotifications((prevNotifications) => {
+                    const updated = prevNotifications.map((notification) => {
+                        if (!notification.read) notification.read = true;
+                        return notification;
+                    });
+                    return updated;
+                });
+            });
+        }
+    }
 
     return (
         <DialogBox
@@ -35,9 +51,10 @@ const NotificationDialog = ({ open, setOpen, notifications, setNotifications }) 
                     />
                 )) : <DialogContentText>No Notifications</DialogContentText>}
             </DialogContent>
-            <DialogActions>
+            <Actions>
+                <MarkAllAsReadButton variant='text' onClick={handleMarkAllAsRead}>Mark All As Read</MarkAllAsReadButton>
                 <CloseButton variant='text' onClick={handleClose}>Close</CloseButton>
-            </DialogActions>
+            </Actions>
         </DialogBox>
     )
 };
@@ -55,8 +72,19 @@ const DialogBox = styled(Dialog)({
     overflow: 'auto',
 });
 
+const Actions = styled(DialogActions)({
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+})
+
 const CloseButton = styled(Button)({
     color: 'red',
+    fontSize: '.75em'
+});
+
+const MarkAllAsReadButton = styled(Button)({
+    color: 'green',
     fontSize: '.75em'
 });
 
