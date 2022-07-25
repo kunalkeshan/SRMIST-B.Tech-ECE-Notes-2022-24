@@ -3,7 +3,7 @@
  */
 
 // Dependencies
-import React from 'react';
+import React, { useMemo } from 'react';
 import PropTypes from 'prop-types';
 import Data from '../../utils/data';
 
@@ -15,6 +15,11 @@ import CelebrationIcon from '@mui/icons-material/Celebration';
 import Message from './Message';
 
 const NotificationDialog = ({ open, setOpen, notifications, setNotifications }) => {
+
+    const isAllRead = useMemo(() => {
+        if (!notifications.length) return false;
+        return notifications.every((notification) => notification.read)
+    }, [notifications])
 
     const handleClose = () => {
         setOpen(false);
@@ -52,7 +57,7 @@ const NotificationDialog = ({ open, setOpen, notifications, setNotifications }) 
                 )) : <DialogContentText>No Notifications</DialogContentText>}
             </DialogContent>
             <Actions>
-                <MarkAllAsReadButton variant='text' onClick={handleMarkAllAsRead}>Mark All As Read</MarkAllAsReadButton>
+                <MarkAllAsReadButton variant='text' onClick={handleMarkAllAsRead} {...(isAllRead ? { disabled: true } : null)}>Mark All As Read</MarkAllAsReadButton>
                 <CloseButton variant='text' onClick={handleClose}>Close</CloseButton>
             </Actions>
         </DialogBox>
