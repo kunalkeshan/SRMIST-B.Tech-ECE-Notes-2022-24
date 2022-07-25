@@ -16,10 +16,16 @@ import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer';
 import CallToAction from './components/layouts/CallToAction';
 
+// Hooks
+import useGA from './hooks/useGA';
+import usePageTracking from './hooks/usePageTracking';
+
 // Custom
 import WritingAnimation from './assets/lottie/writing.json';
 
 function App() {
+  useGA();
+  usePageTracking();
 
   const defaultOptions = useMemo(() => {
     return {
