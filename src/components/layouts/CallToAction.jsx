@@ -37,7 +37,7 @@ const CallToAction = () => {
             text: 'Collection of all B.Tech ECE Notes for the academic year 2020-24. Contribute to the notes by visiting the GitHub Repo of this Project. Made with ♥ by Kunal Keshan.',
             url: `${window.location.protocol}//${window.location.host}`
         };
-        navigator.share(shareData);
+        if (navigator.canShare(shareData)) navigator.share(shareData);
     }
 
     return (
@@ -53,11 +53,11 @@ const CallToAction = () => {
                     tooltipTitle={action.name}
                 />
             ))}
-            {navigator.canShare() && <SpeedDialAction
+            <SpeedDialAction
                 icon={<ShareIcon />}
                 onClick={handleShare}
                 tooltipTitle={'Choose how you want to Share!'}
-            />}
+            />
         </StyledSpeedDial>
     )
 };
