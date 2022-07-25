@@ -6,7 +6,7 @@
 import React from 'react';
 
 // MUI
-import { Box, styled, Typography, Divider, Link } from '@mui/material';
+import { Box, styled, Typography, Divider } from '@mui/material';
 
 // Custom
 import TeaGif from '../assets/tea-animation.gif';
