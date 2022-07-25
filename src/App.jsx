@@ -14,6 +14,7 @@ import { Box, Container, styled } from '@mui/material';
 import AppRoutes from './routes/AppRoutes';
 import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer';
+import CallToAction from './components/layouts/CallToAction';
 
 // Custom
 import WritingAnimation from './assets/lottie/writing.json';
@@ -53,6 +54,7 @@ function App() {
       <Container>
         <AppRoutes />
       </Container>
+      <CallToAction />
       <Footer />
     </Main>
   );
