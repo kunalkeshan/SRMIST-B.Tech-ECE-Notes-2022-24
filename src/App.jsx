@@ -3,7 +3,7 @@
  */
 
 // Dependencies
-import React, { useMemo } from 'react';
+import React, { useMemo, useEffect, useState } from 'react';
 import Lottie from 'react-lottie';
 import config from './config';
 
@@ -15,6 +15,7 @@ import AppRoutes from './routes/AppRoutes';
 import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer';
 import CallToAction from './components/layouts/CallToAction';
+import ScrollToTop from './components/layouts/ScrollToTop';
 
 // Hooks
 import useGA from './hooks/useGA';
@@ -24,9 +25,22 @@ import usePageTracking from './hooks/usePageTracking';
 import WritingAnimation from './assets/lottie/writing.json';
 
 function App() {
+  const [show, setShow] = useState(false);
+
   useGA();
   usePageTracking();
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (document.documentElement.scrollHeight > 200) {
+        if (!show) setShow(true);
+      } else {
+        if (show) setShow(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
   const defaultOptions = useMemo(() => {
     return {
       loop: true,
@@ -61,6 +75,7 @@ function App() {
         <AppRoutes />
       </Container>
       <CallToAction />
+      <ScrollToTop show={show} setShow={setShow} />
       <Footer />
     </Main>
   );
