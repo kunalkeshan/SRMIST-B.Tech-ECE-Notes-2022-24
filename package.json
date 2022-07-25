@@ -1,6 +1,6 @@
 {
 	"name": "ece-college-notes",
-	"version": "1.4.3",
+	"version": "1.4.4",
 	"homepage": "https://notes.kunalkeshan.dev/",
 	"private": true,
 	"dependencies": {
