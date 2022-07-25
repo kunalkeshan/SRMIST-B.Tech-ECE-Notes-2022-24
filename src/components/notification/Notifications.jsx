@@ -4,6 +4,7 @@
 
 // Dependencies
 import React, { useMemo, useState, useEffect } from 'react'
+import ReactGA from 'react-ga';
 
 // MUI
 import { Box, styled, Tooltip, Badge } from '@mui/material';
@@ -21,7 +22,7 @@ const Notifications = () => {
         if (!notifications.length) return;
         return notifications.filter((notification) => !notification.read).length;
     }, [notifications]);
-    
+
     useEffect(() => {
         const handleGetNotifications = async () => {
             const data = await Data.Notification.getAllNotification();
@@ -31,6 +32,7 @@ const Notifications = () => {
     }, [notifications]);
 
     const handleClickOpen = () => {
+        ReactGA.modalview('/notifications');
         setOpen(true);
     };
 
