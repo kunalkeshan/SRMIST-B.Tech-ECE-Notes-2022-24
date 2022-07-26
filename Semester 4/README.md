@@ -12,7 +12,7 @@ Table of Content:
 
 | Subject Code | Name | Difficulty | Credits |
 | ------------ | ---- | ---------- | ------- |
-|  |  | 🟩 Easy |  |
+| 18MAB203T | Probability and Stochastic Processes | 🟧 Medium | 4 |
 |  |  | 🟧 Medium |  |
 |  |  | 🟧 Medium |  |
 |  |  | 🟥 Hard | |
