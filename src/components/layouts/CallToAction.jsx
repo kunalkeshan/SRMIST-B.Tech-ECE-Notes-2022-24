@@ -17,12 +17,12 @@ const CallToAction = () => {
     const actions = [
         {
             name: 'Share with Whatsapp',
-            url: `whatsapp://send?text=Check out ${window.location.protocol}//${window.location.host} for latest notes for B.Tech ECE Course! `,
+            url: `whatsapp://send?text=Check out ${window.location.protocol}//${window.location.host}?utm_medium=social&utm_source=whatsapp.com for latest notes for B.Tech ECE Course! `,
             icon: <WhatsAppIcon sx={{ '&:hover': { color: '#25D366 !important' } }} />
         },
         {
             name: 'Share with Twitter',
-            url: `http://twitter.com/share?text=Check out this website to get the best ECE Notes available out there! @_kunalkeshan_&url=${window.location.protocol}//${window.location.host}&hashtags=srmist,ece,btech,kunalkeshan`,
+            url: `http://twitter.com/share?text=Check out this website to get the best ECE Notes available out there! @_kunalkeshan_&url=${window.location.protocol}//${window.location.host}?utm_medium=social&utm_source=twitter.com&hashtags=srmist,ece,btech,kunalkeshan`,
             icon: <TwitterIcon sx={{ '&:hover': { color: '#1DA1F2 !important' } }} />
         }
     ];
@@ -35,7 +35,7 @@ const CallToAction = () => {
         const shareData = {
             title: 'B.Tech ECE Notes.',
             text: 'Collection of all B.Tech ECE Notes for the academic year 2020-24. Contribute to the notes by visiting the GitHub Repo of this Project. Made with ♥ by Kunal Keshan.',
-            url: `${window.location.protocol}//${window.location.host}`
+            url: `${window.location.protocol}//${window.location.host}?utm_medium=social`
         };
         if (navigator.canShare(shareData)) navigator.share(shareData);
     }
