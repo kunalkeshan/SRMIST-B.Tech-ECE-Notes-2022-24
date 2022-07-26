@@ -17,6 +17,7 @@ const config = {
     GITHUB_URL: 'https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24',
     CONTRIBUTORS_URL: `https://api.github.com/repos/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/contributors?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}`,
     GA_TRACKING_ID: 'G-4FNHZ2Y1KD',
+    FORMSPREEE_CONTACT_FORM_ID: 'xoqrgzkz',
     APP_COLORS,
     CONTACT: {
         email: 'kunalkeshan12@gmail.com',

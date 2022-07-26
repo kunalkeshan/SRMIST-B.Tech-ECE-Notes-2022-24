@@ -4,6 +4,7 @@
 
 // Dependencies
 import React, { useMemo, memo } from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 import config from '../config';
 
 // MUI
@@ -18,6 +19,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import ContactGif from '../assets/contact.gif'
 
 const Contact = () => {
+    const [submit, handleSubmit] = useForm(config.FORMSPREEE_CONTACT_FORM_ID);
 
     const socialLinks = useMemo(() => [
         {
@@ -46,15 +48,6 @@ const Contact = () => {
             icon: <GitHubIcon />
         }
     ], []);
-
-    const handleContactSubmit = (e) => {
-        e.preventDefault();
-        const { name, email, message } = e.target.elements;
-        alert(`Hey ${name.value}, the form is under construction, kindly use the links below to contact directly!`)
-        name.value = '';
-        email.value = '';
-        message.value = '';
-    };
 
     const LinkItem = ({ name, icon, url }) => {
         return (
@@ -90,40 +83,56 @@ const Contact = () => {
                     width={{ xs: '100%', md: '35%' }}
                 >
                     <Typography variant='body1'>If you have some changes that will improve the quality of this project, or this website. Feel free to contact me by filling the form below. I'll reach out to you ASAP!</Typography>
-                    <Form
-                        component='form'
-                        onSubmit={handleContactSubmit}
-                    >
-                        <TextField
-                            type='text'
-                            variant='outlined'
-                            placeholder='eg: John Doe'
-                            name='name'
-                            label='Name'
-                            fullWidth
-                            required
-                        />
-                        <TextField
-                            type='email'
-                            variant='outlined'
-                            placeholder='eg: john.doe@gmail.com'
-                            name='email'
-                            label='Email'
-                            fullWidth
-                            required
-                        />
-                        <TextField
-                            type='text'
-                            variant='outlined'
-                            placeholder='eg: Improve site navbar!'
-                            name='message'
-                            label='Your Message'
-                            multiline
-                            fullWidth
-                            required
-                        />
-                        <SubmitButton type='submit'>Send Message</SubmitButton>
-                    </Form>
+                    {submit.succeeded ? (
+                        <Box>
+                            <Divider sx={{ my: 2 }} />
+                            <Typography variant='body1' fontSize='1.5rem'>Thanks for sending me a message! I'll get back to you ASAP!</Typography>
+                            <Divider sx={{ my: 2 }} />
+                        </Box>
+                    ) : (
+                        <Form
+                            component='form'
+                            onSubmit={handleSubmit}
+                        >
+                            <TextField
+                                type='text'
+                                variant='outlined'
+                                placeholder='eg: John Doe'
+                                name='name'
+                                id='name'
+                                label='Name'
+                                fullWidth
+                                required
+                            />
+                            <TextField
+                                type='email'
+                                variant='outlined'
+                                placeholder='eg: john.doe@gmail.com'
+                                name='email'
+                                id='email'
+                                label='Email'
+                                fullWidth
+                                required
+                            />
+                            <TextField
+                                type='text'
+                                variant='outlined'
+                                placeholder='eg: Improve site navbar!'
+                                name='message'
+                                id='message'
+                                label='Your Message'
+                                multiline
+                                fullWidth
+                                required
+                            />
+                            <ValidationError
+                                prefix="Message"
+                                field="message"
+                                errors={submit.errors}
+                            />
+                            <SubmitButton type='submit'>Send Message</SubmitButton>
+                        </Form>
+                    )}
                     <Typography variant='body1'>Alternatively, contact me through any of the links below.</Typography>
                     <LinksContainer>
                         {socialLinks.map((link, index) => (
