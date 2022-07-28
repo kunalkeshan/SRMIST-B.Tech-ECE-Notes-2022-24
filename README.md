@@ -23,25 +23,25 @@ Anybody is free to contribute to this repo. If you think that some material is r
 
 | Landing Page | All Semester Navigation | Contribute CTA |
 | --- | --- | --- |
-| ![Landing Page](./assets/landing.jpg) | ![All Semesters Nav](./assets/semester-navigation.jpg) | ![Contribute CTA](./assets/home-contribute.jpg) |
+| ![Landing Page](./assets/ui/landing.jpg) | ![All Semesters Nav](./assets/ui/semester-navigation.jpg) | ![Contribute CTA](./assets/ui/home-contribute.jpg) |
 
 | Contribute Page | Notes Page | Not Found Page |
 | --- | --- | --- |
-| ![Contribute Page](./assets/contribution-page.jpg) | ![Notes Page](./assets/notes-page.jpg) | ![Not Found Page](./assets/not-found-page.jpg) |
+| ![Contribute Page](./assets/ui/contribution-page.jpg) | ![Notes Page](./assets/ui/notes-page.jpg) | ![Not Found Page](./assets/ui/not-found-page.jpg) |
 
 | Notification Dialog Box | Support Page | Contact Page |
-| ----------------------- | ------------ | ------------ |
-| ![Notification Dialog Box](./assets/notification-dialog.jpg) | ![Support Page](./assets/support-page.jpg) | ![Contact Page](./assets/contact-page.jpg) |
+| --- | --- | --- |
+| ![Notification Dialog Box](./assets/ui/notification-dialog.jpg) | ![Support Page](./assets/ui/support-page.jpg) | ![Contact Page](./assets/ui/contact-page.jpg) |
 
 ## Mobile UI
 
-| ![Mobile UI 1](./assets/m1.jpg) | ![Mobile UI 2](./assets/m2.jpg) | ![Mobile UI 3](./assets/m3.jpg) |
+| ![Mobile UI 1](./assets/ui/m1.jpg) | ![Mobile UI 2](./assets/ui/m2.jpg) | ![Mobile UI 3](./assets/ui/m3.jpg) |
 | --- | --- | --- |
 
-| ![Mobile UI 4](./assets/m4.jpg) | ![Mobile UI 5](./assets/m5.jpg) | ![Mobile UI 6](./assets/m6.jpg) |
+| ![Mobile UI 4](./assets/ui/m4.jpg) | ![Mobile UI 5](./assets/ui/m5.jpg) | ![Mobile UI 6](./assets/ui/m6.jpg) |
 | --- | --- | --- |
 
-| ![Mobile UI 7](./assets/m7.jpg) | ![Mobile UI 8](./assets/m8.jpg) | ![Mobile UI 9](./assets/m9.jpg) |
+| ![Mobile UI 7](./assets/ui/m7.jpg) | ![Mobile UI 8](./assets/ui/m8.jpg) | ![Mobile UI 9](./assets/ui/m9.jpg) |
 | --- | --- | --- |
 
 ## License
