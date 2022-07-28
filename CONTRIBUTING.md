@@ -6,6 +6,7 @@
 - [How to Contribute](#how-to-contribute)
 - [Standards and Guidelines](#standards-and-guidelines)
   - [Updating Semester README.md](#updating-semester-readme)
+  - [Uploading Notes](#uploading-notes)
 - [Forking](#forking-the-project)
 - [Basic Contributing](#basic-contributing-guidelines)
   - [Making a Change](#making-a-change) 
