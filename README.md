@@ -108,7 +108,7 @@ Download Links:
 | Credits: 22 |
 | ------- |
 
-> Notes will be released by Early August 2022.
+> Notes will be released by Early August 2022. Go to [Discussions](https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/discussions) for further updatse.
 
 -   [Probability and Stochastic Process](#)
 -   [Analog Electronic Circuits](#)
