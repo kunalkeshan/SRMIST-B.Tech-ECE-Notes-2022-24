@@ -132,9 +132,9 @@ For deeper code changes, that affect the functionality of the website follow thi
 
 ### Clone the Repository
 
-You won't be able to clone directly from the `main` branch and then switch to the `client` branch.
+You won't be able to clone directly from the `main` branch and then switch to the `client` branch. As the `main` branch contains the notes and large files which will take tons of time to clone and then switch.
 
-Instead, you have to clone the client branch directly. Use the following command to clone the client branch from our forked repository.
+Instead, you have to clone the client branch directly. Use the following command to clone the client branch from your forked repository.
 
 ```bash
 git clone --single-branch --branch client https://github.com/{YOUR USERNAME}/SRMIST-B.Tech-ECE-Notes-2022-24
