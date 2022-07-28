@@ -8,7 +8,10 @@
   - [Updating Semester README.md](#updating-semester-readme)
 - [Forking](#forking-the-project)
 - [Basic Contributing](#basic-contributing-guidelines)
+  - [Making a Change](#making-a-change) 
 - [Advanced Contributing](#advanced-contributing-guidelines)
+  - [Navigate to the specific folder](#navigate-to-the-specific-folder)
+  - [Upload Notes](#upload-notes) 
 - [Creating a Pull Request](#creating-a-pull-request)
 - [Merging a Pull Request](#merging-a-pull-request)
 - [Questions](#questions)
@@ -35,6 +38,12 @@ If you're looking for uploading notes and resources to this project, please refe
 ### Updating Semester README
 
 The table represents data for each subject and should contain all the fields mentioned. If you haven't taken the subject, then reach out to someone who has and get and idea for subjet difficulty whether it is easy, medium or hard. Also get study tips add for the respective subjects!
+
+### Uploading Notes
+
+- Make sure that you're adding notes to the right folder.
+- Links from previous updates should be working.
+- With GitHub, the max upload limit is `25mb`. So to add the notes to the drive, [reach out to me](#questions).
 
 ## Forking The Project
 
@@ -83,6 +92,26 @@ Click `Commit changes` once you are ready to proceed.
 ![Commit Changes](/assets/contributing/commit-changes-gh-gui.jpg)
 
 ## Advanced Contributing Guidelines
+
+**[Fork](#forking-the-project) the Repository if you've not done it already.**
+
+If you're looking to add notes and resources to this repository, follow the advanced guidelines mentioned below.
+
+### Navigate to the specific folder
+
+Go to the folder you want to add notes into.
+
+![Navigate to folder](/assets/contributing/navigate-to-folder.jpg)
+
+### Upload Notes
+
+To upload notes to that specific selected folder, simply drag and drop to upload the whole folder.
+
+Some things to keep in mind, GitHub allows maximum `25mb` file upload, so to add those notes in the drive, [reach out to me](#questions). You can temporarily upload the notes without the large files and add them to the drive later.
+
+![Drag and Drop Upload](/assets/contributing/drag-and-drop-upload.jpg)
+
+Commit your uploads with what you've added, and a short description and head over to creating a pull request to reflect your changes in the `main` branch of the `kunalkeshan/SRMIST=B.Tech-ECE-Notes-2022-24` Repository. Read the [next steps on how to create a Pull Request](#creating-a-pull-request).
 
 ## Creating a Pull Request
 
