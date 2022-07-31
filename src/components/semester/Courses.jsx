@@ -15,7 +15,12 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import AddToDriveIcon from '@mui/icons-material/AddToDrive';
 
+// Hooks
+import useGA from '../../hooks/useGA';
+
 const Courses = ({ courses }) => {
+
+    useGA();
 
     const CourseContent = ({ index, name, subjectCode, difficulty, credits, repoLink, downloadLink, driveLink }) => {
 

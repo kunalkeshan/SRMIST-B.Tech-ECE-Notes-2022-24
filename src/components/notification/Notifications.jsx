@@ -10,6 +10,9 @@ import ReactGA from 'react-ga';
 import { Box, styled, Tooltip, Badge } from '@mui/material';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 
+// Hooks
+import useGA from '../../hooks/useGA';
+
 // Custom
 import Data from '../../utils/data';
 import NotificationDialog from './Dialog';
@@ -17,6 +20,8 @@ import NotificationDialog from './Dialog';
 const Notifications = () => {
     const [open, setOpen] = useState(false);
     const [notifications, setNotifications] = useState([]);
+
+    useGA();
 
     const unReadCount = useMemo(() => {
         if (!notifications.length) return;

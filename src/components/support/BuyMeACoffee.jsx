@@ -4,13 +4,28 @@
 
 // Dependencies
 import React from 'react';
+import ReactGA from 'react-ga'
 
 // MUI
 import { Box, styled, Typography, Link } from '@mui/material';
 
+// Hooks
+import useGA from '../../hooks/useGA';
+
+
 const BuyMeACoffee = () => {
+
+    useGA();
+
+    const handleClick = () => {
+        ReactGA.event({
+            category: 'Navigate External',
+            action: 'Clicked on Buy Me a Coffee',
+        });
+    }
+
     return (
-        <Button target="_blank" href="https://www.buymeacoffee.com/kunalkeshan">
+        <Button target="_blank" href="https://www.buymeacoffee.com/kunalkeshan" onClick={handleClick}>
             <Image component='img' src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee" />
             <Text>Buy me a coffee</Text>
         </Button>

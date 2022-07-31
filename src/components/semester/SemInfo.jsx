@@ -14,7 +14,12 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import AddToDriveIcon from '@mui/icons-material/AddToDrive';
 
+// Hooks
+import useGA from '../../hooks/useGA';
+
 const SemInfo = ({ name, credits, numberOfCourses, repoLink, downloadLink, driveLink }) => {
+
+    useGA();
 
     const links = [
         {

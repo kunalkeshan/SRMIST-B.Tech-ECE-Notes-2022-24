@@ -4,6 +4,7 @@
 
 // Dependencies
 import React from 'react';
+import ReactGA from 'react-ga'
 
 // MUI
 import { Box, styled, Typography, Link } from '@mui/material';
@@ -11,9 +12,22 @@ import { Box, styled, Typography, Link } from '@mui/material';
 // Custom
 import patreonSvg from './patreon.svg'
 
+// Hooks
+import useGA from '../../hooks/useGA';
+
 const BecomeAPatreon = () => {
+
+    useGA();
+
+    const handleClick = () => {
+        ReactGA.event({
+            category: 'Navigate External',
+            action: 'Clicked on Become a Patreon',
+        });
+    }
+
     return (
-        <Button target="_blank" href="https://www.patreon.com/bePatron?u=72210783">
+        <Button target="_blank" href="https://www.patreon.com/bePatron?u=72210783" onClick={handleClick}>
             <Image component='img' src={patreonSvg} alt="Become a Patreon" />
             <Text>Become a Patreon</Text>
         </Button>

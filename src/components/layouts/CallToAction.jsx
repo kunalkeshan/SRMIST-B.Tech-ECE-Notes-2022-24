@@ -5,6 +5,7 @@
 // Dependencies
 import React from 'react';
 import config from '../../config';
+import ReactGA from 'react-ga';
 
 // MUI
 import { SpeedDial, SpeedDialAction, styled } from '@mui/material'
@@ -12,22 +13,32 @@ import ShareIcon from '@mui/icons-material/Share';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import TwitterIcon from '@mui/icons-material/Twitter';
 
+// Hooks
+import useGA from '../../hooks/useGA';
+
 const CallToAction = () => {
+
+    useGA();
 
     const actions = [
         {
             name: 'Share with Whatsapp',
-            url: `whatsapp://send?text=Check out ${window.location.protocol}//${window.location.host}?utm_medium=social&utm_source=whatsapp.com for latest notes for B.Tech ECE Course! `,
+            url: `whatsapp://send?text=Check out ${window.location.protocol}//${window.location.host}?utm_source=whatsapp.com&utm_medium=social for latest notes for B.Tech ECE Course! `,
             icon: <WhatsAppIcon sx={{ '&:hover': { color: '#25D366 !important' } }} />
         },
         {
             name: 'Share with Twitter',
-            url: `http://twitter.com/share?text=Check out this website to get the best ECE Notes available out there! @_kunalkeshan_&url=${window.location.protocol}//${window.location.host}?utm_medium=social&utm_source=twitter.com&hashtags=srmist,ece,btech,kunalkeshan`,
+            url: `http://twitter.com/share?text=Check out this website to get the best ECE Notes available out there! @_kunalkeshan_&url=${window.location.protocol}//${window.location.host}?utm_source=twitter.com&utm_medium=social&hashtags=srmist,ece,btech,kunalkeshan`,
             icon: <TwitterIcon sx={{ '&:hover': { color: '#1DA1F2 !important' } }} />
         }
     ];
 
     const handleClick = (url) => () => {
+        const eventData = {
+            category: 'Share',
+            action: 'Share website through Social Media'
+        }
+        ReactGA.event(eventData)
         window.open(url, '_blank')
     };
 

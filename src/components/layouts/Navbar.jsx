@@ -5,6 +5,7 @@
 // Dependencies
 import React, { useState, useMemo, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
+import ReactGA from 'react-ga';
 import config from '../../config';
 
 // MUI
@@ -20,6 +21,9 @@ import AddToDriveIcon from '@mui/icons-material/AddToDrive';
 
 // Components
 import Notifications from '../notification/Notifications';
+
+// Hooks
+import useGA from '../../hooks/useGA';
 
 const Navbar = () => {
     const navigate = useNavigate();
@@ -59,6 +63,9 @@ const Navbar = () => {
             icon: <AddToDriveIcon />
         },
     ], []);
+
+    useGA();
+
     const activeStyles = useMemo(() => {
         return {
             backgroundColor: config.APP_COLORS.accent,
@@ -84,6 +91,12 @@ const Navbar = () => {
 
     const handleNavigate = ({ link = null, nav = null }) => {
         if (link) {
+            const eventData = {
+                category: 'Navigate External',
+            }
+            if(link.includes('github')) eventData.action = 'View Notes in Repo';
+            if(link.includes('drive')) eventData.action = 'View Notes in Drive';
+            ReactGA.event(eventData);
             window.open(link, '_blank');
         } else {
             navigate(nav);
