@@ -27,10 +27,8 @@ import WritingAnimation from './assets/lottie/writing.json';
 function App() {
   const [show, setShow] = useState(false);
 
-  useEffect(() => {
-    useGA();
-    usePageTracking();
-  }, []);
+  useGA();
+  usePageTracking();
 
   useEffect(() => {
     const handleScroll = () => {

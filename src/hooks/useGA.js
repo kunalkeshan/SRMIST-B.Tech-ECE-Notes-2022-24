@@ -9,7 +9,7 @@ import config from "../config";
 
 const useGA = () => {
     useEffect(() => {
-        if (!window.location.href.includes("localhost")) {
+        if (process.env.NODE_ENV && process.env.NODE_ENV === 'production') {
             ReactGA.initialize(config.GA_TRACKING_ID);
         }
     }, []);
