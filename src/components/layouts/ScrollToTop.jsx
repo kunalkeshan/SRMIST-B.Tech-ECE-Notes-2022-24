@@ -4,6 +4,7 @@
 
 // Dependencies
 import React from 'react';
+import PropTypes from 'prop-types';
 import config from '../../config';
 
 // MUI
@@ -13,7 +14,7 @@ import ArrowCircleUpSharpIcon from '@mui/icons-material/ArrowCircleUpSharp';
 const ScrollToTop = ({ show, setShow }) => {
 
     const handleTop = () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' })
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         setShow(false);
     };
 
@@ -41,3 +42,8 @@ const Container = styled(Paper)({
 });
 
 export default ScrollToTop;
+
+ScrollToTop.propTypes = {
+    show: PropTypes.bool.isRequired,
+    setShow: PropTypes.func.isRequired,
+};
