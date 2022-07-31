@@ -11,6 +11,7 @@ const useGA = () => {
     useEffect(() => {
         if (process.env.NODE_ENV && process.env.NODE_ENV === 'production') {
             ReactGA.initialize(config.GA_TRACKING_ID);
+            console.log('Analytics Initialized.')
         }
     }, []);
 };
