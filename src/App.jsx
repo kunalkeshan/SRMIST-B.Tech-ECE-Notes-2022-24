@@ -32,15 +32,14 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (document.documentElement.scrollHeight > 200) {
-        if (!show) setShow(true);
-      } else {
-        if (show) setShow(false);
-      }
+      const { scrollHeight } = document.documentElement;
+      setShow(() => scrollHeight > 50 ? true : false);
+      console.log(show);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   });
+
   const defaultOptions = useMemo(() => {
     return {
       loop: true,

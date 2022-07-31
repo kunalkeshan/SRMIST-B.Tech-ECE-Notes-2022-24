@@ -19,9 +19,13 @@ const ScrollToTop = ({ show, setShow }) => {
     };
 
     return (
-        <Container sx={{ display: show ? "block" : "none" }} elevation={3}>
+        <Container
+            sx={{ display: show ? "block" : "none" }}
+            elevation={3}
+            onClick={handleTop}
+        >
             <Tooltip title='Scroll back top' placement='left'>
-                <IconButton onClick={handleTop}>
+                <IconButton>
                     <ArrowCircleUpSharpIcon />
                 </IconButton>
             </Tooltip>
