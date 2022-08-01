@@ -5,9 +5,13 @@
 // Dependencies
 import React from 'react';
 import { useNavigate } from 'react-router';
+import config from '../../config';
 
 // MUI
 import { Box, styled, Typography, Link } from '@mui/material';
+
+// Components
+import ProjectPartner from '../reuseable/ProjectPartner';
 
 const Footer = () => {
     const navigate = useNavigate();
@@ -89,6 +93,14 @@ const Footer = () => {
                     >{link.name}</Link>
                 ))}
             </NavLinks>
+            <Box m={2}>
+                <Typography variant='caption' lineHeight={0}>Project Partners:</Typography>
+                <ProjectPartnersContainer>
+                    {config.APP_PARTNERS.map((partner, index) => (
+                        <ProjectPartner {...partner} key={index} scale={0.4} />
+                    ))}
+                </ProjectPartnersContainer>
+            </Box>
         </Main>
     )
 }
@@ -106,6 +118,12 @@ const NavLinks = styled(Box)({
     gap: '1em',
     flexWrap: 'wrap',
     margin: '0.5em',
+});
+
+const ProjectPartnersContainer = styled(Box)({
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
 });
 
 export default Footer;
