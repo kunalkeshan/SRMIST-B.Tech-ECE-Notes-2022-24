@@ -20,7 +20,7 @@ const ProjectPartner = ({ name, url, logo, scale }) => {
         <Tooltip title={`Learn more about ${name}!`}>
             <Container
                 onClick={handleNavigate}
-                sx={{ transform: `scale(${scale})` }}
+                sx={{ transform: `scale(${scale})`, }}
             >
                 <Avatar src={logo} alt={name} />
                 <Typography>{name}</Typography>
