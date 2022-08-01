@@ -9,6 +9,9 @@ import config from '../../config';
 // MUI
 import { Box, styled, Typography, Divider, Button } from '@mui/material';
 
+// Components
+import ProjectPartner from '../reuseable/ProjectPartner';
+
 const Landing = () => {
 
     const handleViewSemScroll = () => {
@@ -39,6 +42,15 @@ const Landing = () => {
                     Visit the Repository or Drive to access all notes, additional resources for studying and how to study each subject.
                 </Typography>
                 <ViewSemButton onClick={handleViewSemScroll}>View Semester Notes</ViewSemButton>
+                <Box m={2}>
+                    <Typography>Project Partners</Typography>
+                    <Divider variant='inset' />
+                    <ProjectPartnersContainer>
+                        {config.APP_PARTNERS.map((partner, index) => (
+                            <ProjectPartner {...partner} key={index} />
+                        ))}
+                    </ProjectPartnersContainer>
+                </Box>
             </Content>
         </Page>
     )
@@ -77,6 +89,15 @@ const ViewSemButton = styled(Button)({
         color: config.APP_COLORS.dark,
         backgroundColor: config.APP_COLORS.accent,
     }
+});
+
+const ProjectPartnersContainer = styled(Box)({
+    margin: 2,
+    padding: '1rem',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexWrap: 'wrap',
 });
 
 export default Landing;
