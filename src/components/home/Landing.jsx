@@ -58,7 +58,7 @@ const Landing = () => {
 
 const Page = styled(Box)({
     width: 'min(100%, 800px)',
-    height: '100vh',
+    height: 'max(100vh, fit-content)',
     display: 'flex',
     transition: 'all 200ms',
     '@media (max-width: 600px)': {
