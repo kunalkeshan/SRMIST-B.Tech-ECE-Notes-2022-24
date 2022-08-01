@@ -47,7 +47,7 @@ const Landing = () => {
                     <Divider variant='inset' />
                     <ProjectPartnersContainer>
                         {config.APP_PARTNERS.map((partner, index) => (
-                            <ProjectPartner {...partner} key={index} />
+                            <ProjectPartner {...partner} key={index} scale={0.8} />
                         ))}
                     </ProjectPartnersContainer>
                 </Box>
