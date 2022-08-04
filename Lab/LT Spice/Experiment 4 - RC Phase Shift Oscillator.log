@@ -1,0 +1,24 @@
+Circuit: * C:\Users\Kunal Keshan\OneDrive\Desktop\College\ECE\Semester 4\Courses\Analog Electronic Circuits\Lab\LT Spice\Experiment 4 - RC Phase Shift Oscillator.asc
+
+WARNING: Node OUTPUT is floating.
+
+WARNING: Less than two connections to node OUTPUT.  This node is used by C5.
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Apr 26 15:03:52 2022
+Total elapsed time: 0.059 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 8180
+traniter = 8174
+tranpoints = 2801
+accept = 1988
+rejected = 813
+matrix size = 12
+fillins = 6
+solver = Normal
+Matrix Compiler1: 998 bytes object code size  0.2/0.2/[0.1]
+Matrix Compiler2: 1.04 KB object code size  0.2/0.2/[0.1]
+
