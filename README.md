@@ -53,7 +53,7 @@ Download Links:
 - Semester 1: [Click to Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%201).
 - Semester 2: [Click to Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%202).
 - Semester 3: [Click to Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203).
-- Semester 4: Coming Soon!
+- Semester 4: [Click to Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%204).
 - Semester 5: Coming Soon!
 - Semester 6: Coming Soon!
 - Semester 7: Coming Soon!
@@ -107,8 +107,6 @@ Download Links:
 
 | Credits: 22 |
 | ------- |
-
-> Notes will be released by Early August 2022. Go to [Discussions](https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/discussions) for further updatse.
 
 -   [Probability and Stochastic Process](#)
 -   [Analog Electronic Circuits](#)
