@@ -13,7 +13,7 @@ Table of Content:
 | Subject Code | Name | Difficulty | Credits | Download Links | 
 | ------------ | ---- | ---------- | ------- | -------------- |
 | 18MAB203T | Probability and Stochastic Processes | 🟧 Medium | 4 | |
-|  |  | 🟧 Medium |  | |
+| 18ECC202J | Linear Integrated Circuits | 🟧 Medium |  | |
 |  |  | 🟧 Medium |  | |
 |  |  | 🟥 Hard | | |
 |  |  | 🟥 Hard |  | |
