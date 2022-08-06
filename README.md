@@ -108,18 +108,17 @@ Download Links:
 | Credits: 22 |
 | ------- |
 
--   [Probability and Stochastic Process](#)
--   [Analog Electronic Circuits](#)
--   [Linear Integrated Circuits](#)
--   [Critical and Creative Thinking](#)
--   [Management Principles](#)
--   [Biology for Engineers](#)
+-   [Probability and Stochastic Process](./Semester%204/Probability%20and%20Stochastic%20Processes)
+-   [Analog Electronic Circuits](./Semester%204/Analog%20Electronic%20Circuits)
+-   [Linear Integrated Circuits](./Semester%204/Linear%20Integrated%20Circuits)
+-   [Critical and Creative Thinking](./Semester%204/Critical%20and%20Creative%20Thinking%20Skills/Notes)
+-   [Management Principles](./Semester%204/Management%20Principles%20for%20Engineers)
+-   [Biology for Engineers](./Semester%204/Biology)
 -   Professional Electives
-    -   [Optoelectronics](#)
-    -   [Advanced Digital System Design](#)
-    -   [Semiconductor Device Modeling](#)
+    -   [Optoelectronics](./Semester%204/Optoelectronics)
+    -   [Advanced Digital System Design](./Semester%204/Advanced%20Digital%20System%20Design)
 -   Open Electives
-    -   [Applications of Nanotechnology](#)
+    -   [Applications of Nanotechnology](./Semester%204/Applications%20of%20Nanotechnology)
 
 ## Semester 5
 
