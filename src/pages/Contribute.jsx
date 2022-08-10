@@ -13,6 +13,7 @@ import HdrStrongIcon from '@mui/icons-material/HdrStrong';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import WebIcon from '@mui/icons-material/Web';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Contribute = () => {
     const contributionExamples = [
@@ -46,6 +47,10 @@ const Contribute = () => {
             window.open(url, '_blank');
         };
 
+        const handleYouTubeNavigate = () => {
+            window.open(config.YOUTUBE_PLAYLIST, '_blank');
+        }
+
         return (
             <Card sx={{ width: 'clamp(200px, 100%, 560px)' }}>
                 <CardContent>
@@ -61,6 +66,9 @@ const Contribute = () => {
                 <CardActions>
                     <ContributeButton variant='text' onClick={handleNavigate(contributeUrl)}>How to Contribute?</ContributeButton>
                     <RepoButton variant='contained' onClick={handleNavigate(repoUrl)}>Visit Repo.</RepoButton>
+                    <YouTubeButton variant='contained' onClick={handleYouTubeNavigate}>
+                        Watch how to contribute on <YouTubeIcon className='yt-icon' />
+                    </YouTubeButton>
                 </CardActions>
             </Card>
         )
@@ -116,6 +124,18 @@ const CardContainer = styled(Box)({
 });
 
 const ContributeButton = styled(Button)({});
+
+const YouTubeButton = styled(Button)({
+    backgroundColor: '#FF0000',
+    color: config.APP_COLORS.darkAccent,
+    '&:hover': {
+        backgroundColor: '#FF0000',
+        color: config.APP_COLORS.dark
+    },
+    '.yt-icon': {
+        marginLeft: '4px',
+    }
+});
 
 const RepoButton = styled(Button)({
     backgroundColor: config.APP_COLORS.accent,
