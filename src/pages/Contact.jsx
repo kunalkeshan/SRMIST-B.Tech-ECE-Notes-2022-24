@@ -166,8 +166,11 @@ const Content = styled(Box)({
 });
 
 const Animation = styled(Box)({
+    aspectRatio: '1 / 1',
     width: '65%',
-    height: '700px'
+    maxHeight: '560px',
+    overflow: 'hidden',
+    display: 'flex',
 });
 
 const ContactForm = styled(Box)({
