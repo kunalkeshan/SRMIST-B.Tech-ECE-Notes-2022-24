@@ -41,15 +41,15 @@ const Contribute = () => {
         }
     ];
 
+    const handleYouTubeNavigate = () => {
+        window.open(config.YOUTUBE_PLAYLIST, '_blank');
+    }
+
     const ContributeCard = ({ name, description, repoUrl, contributeUrl, icon }) => {
 
         const handleNavigate = (url) => () => {
             window.open(url, '_blank');
         };
-
-        const handleYouTubeNavigate = () => {
-            window.open(config.YOUTUBE_PLAYLIST, '_blank');
-        }
 
         return (
             <Card sx={{ width: 'clamp(200px, 100%, 560px)' }}>
@@ -66,9 +66,6 @@ const Contribute = () => {
                 <CardActions>
                     <ContributeButton variant='text' onClick={handleNavigate(contributeUrl)}>How to Contribute?</ContributeButton>
                     <RepoButton variant='contained' onClick={handleNavigate(repoUrl)}>Visit Repo.</RepoButton>
-                    <YouTubeButton variant='contained' onClick={handleYouTubeNavigate}>
-                        Watch how to contribute on <YouTubeIcon className='yt-icon' />
-                    </YouTubeButton>
                 </CardActions>
             </Card>
         )
@@ -97,6 +94,9 @@ const Contribute = () => {
                     <ContributeCard key={index} {...data} />
                 ))}
             </CardContainer>
+            <YouTubeButton variant='contained' onClick={handleYouTubeNavigate}>
+                Watch how to contribute on <YouTubeIcon className='yt-icon' />
+            </YouTubeButton>
         </Main>
     );
 };
@@ -128,6 +128,8 @@ const ContributeButton = styled(Button)({});
 const YouTubeButton = styled(Button)({
     backgroundColor: '#FF0000',
     color: config.APP_COLORS.darkAccent,
+    width: 'fit-content',
+    alignSelf: 'flex-start',
     '&:hover': {
         backgroundColor: '#FF0000',
         color: config.APP_COLORS.dark
