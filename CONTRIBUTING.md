@@ -153,6 +153,14 @@ Make the changes that you want to implement. After you've done making them, stag
 
 Next head over to your forked repository and follow the [next steps to creating a pull request](#creating-a-pull-request).
 
+### Cloned Before? Pull changes this way!
+
+Using `git pull` will pull all the branches of this repo. As mentioned before, this project is heavy and clonning the `main` branch is not necessary. Use the command below to specifically pull changes from the `client` branch alone.
+
+```bash
+git pull origin client
+```
+
 ## Creating a Pull Request
 
 You can repeat the steps above for as many changes as needed. Once you are done making all your code changes and you have committed them to your branch, you are ready to make a pull request (PR). Go back to the main page of your forked repository. Ensure that your current branch (which is likely still master at this point) is up to date. You can do so by clicking the following button:
