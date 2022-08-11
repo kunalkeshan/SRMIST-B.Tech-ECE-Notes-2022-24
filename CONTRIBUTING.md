@@ -13,6 +13,7 @@
 - [Advanced Contributing](#advanced-contributing-guidelines)
   - [Clone the Client Branch Alone](#clone-the-repository)
   - [Install Dependencies](#install-dependencies)
+  - [Cloned Before? Pull changes this way](#cloned-before-pull-changes-this-way)
 - [Creating a Pull Request](#creating-a-pull-request)
 - [Merging a Pull Request](#merging-a-pull-request)
 - [Questions](#questions)
@@ -152,6 +153,14 @@ npm start
 Make the changes that you want to implement. After you've done making them, stage and commit your changes, make sure to push them.
 
 Next head over to your forked repository and follow the [next steps to creating a pull request](#creating-a-pull-request).
+
+### Cloned Before? Pull changes this way!
+
+Using `git pull` will pull all the branches of this repo. As mentioned before, this project is heavy and clonning the `main` branch is not necessary. Use the command below to specifically pull changes from the `client` branch alone.
+
+```bash
+git pull origin client
+```
 
 ## Creating a Pull Request
 

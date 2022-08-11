@@ -12,6 +12,7 @@ import { Box, styled, Typography, Divider, TextField, Button, Paper, Tooltip, Li
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import EmailIcon from '@mui/icons-material/Email';
 
@@ -46,6 +47,11 @@ const Contact = () => {
             name: 'GitHub',
             url: config.CONTACT.github,
             icon: <GitHubIcon />
+        },
+        {
+            name: 'YouTube',
+            url: config.CONTACT.youtube,
+            icon: <YouTubeIcon sx={{ '&:hover': { color: '#ff0000 !important' } }} />
         }
     ], []);
 
