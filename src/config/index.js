@@ -36,7 +36,8 @@ const config = {
         instagram: 'https://www.instagram.com/kunalkeshan/',
         linkedIn: 'https://www.linkedin.com/in/kunalkeshan/',
         twitter: 'https://twitter.com/_kunalkeshan_',
-        github: 'https://github.com/kunalkeshan'
+        github: 'https://github.com/kunalkeshan',
+        youtube: 'https://www.youtube.com/channel/UCwVRztzBdqgB_Y9hkMX3lZA',
     },
 };
 
