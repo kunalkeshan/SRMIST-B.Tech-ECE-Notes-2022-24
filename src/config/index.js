@@ -28,6 +28,7 @@ const config = {
     GITHUB_URL: 'https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24',
     CONTRIBUTORS_URL: `https://api.github.com/repos/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/contributors?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}`,
     GA_TRACKING_ID: 'G-4FNHZ2Y1KD',
+    YOUTUBE_PLAYLIST: 'https://www.youtube.com/playlist?list=PLevNch38Bx4FTPFRpq9pppJzDsPZs7h2Z',
     FORMSPREEE_CONTACT_FORM_ID: 'xoqrgzkz',
     APP_COLORS,
     APP_PARTNERS,
