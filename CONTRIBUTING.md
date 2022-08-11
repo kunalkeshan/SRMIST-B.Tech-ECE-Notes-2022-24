@@ -13,6 +13,7 @@
 - [Advanced Contributing](#advanced-contributing-guidelines)
   - [Clone the Client Branch Alone](#clone-the-repository)
   - [Install Dependencies](#install-dependencies)
+  - [Cloned Before? Pull changes this way](#cloned-before-pull-changes-this-way)
 - [Creating a Pull Request](#creating-a-pull-request)
 - [Merging a Pull Request](#merging-a-pull-request)
 - [Questions](#questions)
