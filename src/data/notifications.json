@@ -1,5 +1,13 @@
 [
 	{
+		"id": "cisbdp",
+		"title": "Interested in learning more visually?",
+		"message": "Check out the {link} playlist on YouTube to learn more about this project!",
+		"dateAdded": "13th Aug, 2022",
+		"link": "https://youtu.be/s31-d8JMuaE",
+		"linkText": "ECE Notes Project"
+	},
+	{
 		"id": "nggp4e",
 		"title": "Semester 4 Notes are out!",
 		"message": "Semester 4 notes have been updated check it out at {link}",
