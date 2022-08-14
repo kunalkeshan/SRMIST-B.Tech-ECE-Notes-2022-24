@@ -27,18 +27,54 @@ Table of Content:
 
 ### Probability and Stochasitc Processes
 
+- Take notes during class.
+- Make sure you're noting down all the formulas.
+- If you're familiar with basic single and double integration, differentiation and basic Jacobians, then it will be quite easy.
+- Practice the tutorial sheets shared by your professors.
+
 ### Linear Integrated Systems
+
+- Makes notes for this subject.
+- It has an intermediate difficulty. Some derivations are tough to learn.
+- It's comparatively easier to other Electronics subject of this semester.
+- Start preparing for this subject one week early.
 
 ### Biology
 
+- Easy for some, tough for others. If you've taken Bio back in +1 and +2, then this subject should be just one day before preparation.
+- Practice diagrams once or twice before test.
+- Keep the mechanisms and key words highlighed in the paper.
+
 ### Analog Electronic Circuits
+
+- Definitely take notes!
+- Derivations are tough, so keep practicing them.
+- Numerial Problems are easier, but most of them depend on you knowing the derivations to solve the numericals.
+- Start preparing for this subject one week early.
 
 ### Management Principles
 
+- Can prepare a night before exam, however lots to read, so start a day or two earlier.
+
 ### Critical and Creative Thinking Skills
+
+- Same as what you did in last semesters Competencies in Social Skills subject. 
+- Indepth practice of aptitide questions. 
+- If you're going for placements this is important.
 
 ### Optoelectronics
 
+- Take notes during class. 
+- Similar numericals will be asked during exams, only with different values.
+- Diagrams are important for the exam paper.
+- Prepare one week earlier.
+
 ### Advanced Digital System Design
 
+- TBD.
+
 ### Application of Nanotechnology
+
+- Can prepare one day before the exam.
+- Some topics diagrams are important.
+- Cover all the notes, despite being lenghty, they will help out in the MCQs and 1 mark type questions.
