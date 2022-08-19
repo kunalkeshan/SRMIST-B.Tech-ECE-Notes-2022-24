@@ -35,6 +35,8 @@ Table of Content:
 - [Integral Calculus for Engineering Students by Gajendra Purohit](https://www.youtube.com/playlist?list=PLU6SqdYcYsfLoKyzF_dwxAQf8lIi6VC54)
 - [Sequence and Series by Gajendra Purohit](https://www.youtube.com/playlist?list=PLU6SqdYcYsfIAbLwyyWUiWJPV6qFbPC13)
 
+---
+
 ### Chemistry
 
 - Take notes.
