@@ -4,6 +4,7 @@ Table of Content:
 
 - [Subjects Present](#subjects-present)
 - [How To Study?](#how-to-study)
+- [YouTube Channels](#youtube-channels)
 
 
 ## Subjects Present
@@ -29,7 +30,7 @@ Table of Content:
 - Try and do question by yourself also in between, that way you'll have an idea of what to do before the exams even start.
 - Use the Tutorial sheets that your professors share, that's more than enough to prepare for exams.
 
-### Resources:
+#### Resources:
 
 - [Matrices (Linear Algebra) by Gajendra Purohit](https://www.youtube.com/playlist?list=PLU6SqdYcYsfI34zVjDYDCZ6KLAifHmN1v)
 - [Integral Calculus for Engineering Students by Gajendra Purohit](https://www.youtube.com/playlist?list=PLU6SqdYcYsfLoKyzF_dwxAQf8lIi6VC54)
@@ -44,11 +45,20 @@ Table of Content:
 - Some advanced topics for each unit is present.
 - Revise Organic chemistry frequently, because you will forget it eventually. That stuff is volatile.
 
+#### Resources:
+
+- [Organic Chemistry by The Organic Chemistry Tutor](https://www.youtube.com/playlist?list=PL0o_zxa4K1BXP7TUO7656wg0uF1xYnwgm)
+- [Thermodynamics by The Organic Chemistry Tutor](https://www.youtube.com/playlist?list=PLk-OJnPBoANk5Gdu_QYDmToXPQifQcMdC)
+
+---
+
 ### Civil and Mechanical Workshop
 
 - If you like making things, this is the place for you. The academics though, don't rely on it much.
 - Don't stress out on this much, just understand how things are made.
 - Be careful with working with Tools.
+
+---
 
 ### Japanese
 
@@ -57,23 +67,40 @@ Table of Content:
 - Just follow through the notes and best way to practice is by speaking things out yourself.
 - Watch YouTube videos on the Language itself, see how things are pronounced and how to respond.
 
+---
+
 ### Programming for Problem Solving
 
 - Not the perfect course on programming, but hey, atleast you have an incentive to finish one.
 - Focus on the basics first, learn how programming works before learning the syntax.
 - Practice problems frequently in ELab and external websites as well to get a better hang of C.
 
-**Additional Resources**:
+#### Resources:
 
 - Practice Questions at HackerRank: [https://www.hackerrank.com/](https://www.hackerrank.com/)
 - Video: [C Programming Tutorial for Beginners by FreeCodeCamp](https://youtu.be/KJgsSFOSQv0)
+
+---
 
 ### Value Eduction
 
 - No notes required. You can pretty much write this without even learning anything.
 - This class here if for you interact and speak up, so take the opportunity and do it.
 
+---
+
 ### Professional Skills and Studies
 
 - No notes required. You can pretty much write this without even learning anything.
 - This class here if for you interact and speak up, so take the opportunity and do it.
+
+---
+
+## YouTube Channels
+
+| Channel | Study Topics | 
+| ------- | ------------ |
+| [The Organic Chemistry Tutor](https://www.youtube.com/c/TheOrganicChemistryTutor/) | `chemistry` `maths` `electronics` `studying` `finance` `physics` `etc`|
+| [Dr. Gajendra Purohit](https://www.youtube.com/c/DrGajendraPurohitMathematics) | `maths` `aptitude` |
+
+
