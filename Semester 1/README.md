@@ -101,5 +101,5 @@ Table of Content:
 | ------- | ------------ |
 | [The Organic Chemistry Tutor](https://www.youtube.com/c/TheOrganicChemistryTutor/) | `chemistry` `maths` `electronics` `studying` `finance` `physics` `etc`|
 | [Dr. Gajendra Purohit](https://www.youtube.com/c/DrGajendraPurohitMathematics) | `maths` `aptitude` |
-
+| [Neso Academy](https://www.youtube.com/channel/UCQYMhOMi_Cdj1CEAU-fv80A) | `maths` `computer science` `physics` `chemistry` `etc` |
 
