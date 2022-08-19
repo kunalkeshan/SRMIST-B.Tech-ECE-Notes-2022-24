@@ -58,7 +58,7 @@ This will create a clone of the repository under your own account. Navigate to y
 
 You must have a browser that can access GitHub, and possess a GitHub account. Once you have those two things, you're ready to move on to making your contribution(s)!
 
-<!-- The steps for basic contributions are showcased splendidly in this [youtube video](), so it is recommended you watch it. -->
+The steps for basic contributions are showcased splendidly in this [youtube video](https://youtu.be/-0uS-PLAZhY), so it is recommended you watch it.
 
 ### Contributing-
 
