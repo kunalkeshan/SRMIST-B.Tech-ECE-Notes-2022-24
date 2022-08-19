@@ -33,7 +33,6 @@ Table of Content:
 #### Resources:
 
 - [Matrices (Linear Algebra) by Gajendra Purohit](https://www.youtube.com/playlist?list=PLU6SqdYcYsfI34zVjDYDCZ6KLAifHmN1v)
-- [Integral Calculus for Engineering Students by Gajendra Purohit](https://www.youtube.com/playlist?list=PLU6SqdYcYsfLoKyzF_dwxAQf8lIi6VC54)
 - [Sequence and Series by Gajendra Purohit](https://www.youtube.com/playlist?list=PLU6SqdYcYsfIAbLwyyWUiWJPV6qFbPC13)
 
 ---
