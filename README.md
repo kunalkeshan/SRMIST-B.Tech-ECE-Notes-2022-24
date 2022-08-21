@@ -8,11 +8,13 @@ Collection of all B.Tech ECE Notes for the academic year 2022-24. Read below for
 ![GitHub Repo stars](https://img.shields.io/github/stars/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24?style=social)
 
-Here's the Drive Link to the same notes!
+---
 
-Link: [https://drive.google.com/drive/folders/17bng9aIkZ3FaULebbgEGpdCsB225dr_K](https://drive.google.com/drive/folders/17bng9aIkZ3FaULebbgEGpdCsB225dr_K?usp=sharing)
+<p align="center"><a href="https://drive.google.com/drive/folders/17bng9aIkZ3FaULebbgEGpdCsB225dr_K"><img src="/assets/drive-card.jpg" alt="Download notes from Drive" width="300px" height="80px" /></a></p>
 
-Large Documents are present in the above drive as GitHub only offers 25mb max per document.
+<p align="center">Large Documents are present in the above drive as GitHub only offers 25mb max per document.</p>
+
+---
 
 Visit the official Website For this Project (Contains direct access links for each sememester and subject): [https://notes.kunalkeshan.dev](https://notes.kunalkeshan.dev)
 
