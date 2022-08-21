@@ -11,12 +11,14 @@ Collection of all B.Tech ECE Notes for the academic year 2022-24. Read below for
 ---
 
 <p align="center"><a href="https://drive.google.com/drive/folders/17bng9aIkZ3FaULebbgEGpdCsB225dr_K"><img src="/assets/drive-card.jpg" alt="Download notes from Drive" width="300px" height="80px" /></a></p>
-
 <p align="center">Large Documents are present in the above drive as GitHub only offers 25mb max per document.</p>
 
 ---
 
-Visit the official Website For this Project (Contains direct access links for each sememester and subject): [https://notes.kunalkeshan.dev](https://notes.kunalkeshan.dev)
+<p align="center"><a href="https://notes.kunalkeshan.dev?utm_source=github.com&utm_medium=social"><img src="/assets/website-card.jpg" alt="Download notes from Drive" width="300px" height="80px" /></a></p>
+<p align="center">Contains direct access links for each sememester and subject.</p>
+
+---
 
 **Table of Contents**:
 
