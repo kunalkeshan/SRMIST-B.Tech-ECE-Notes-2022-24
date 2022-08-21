@@ -1,5 +1,7 @@
 # SRMIST B.Tech ECE Notes 2022-24
 
+![SRMIST B. Tech ECE Notes](/assets/thumbnail.png)
+
 Collection of all B.Tech ECE Notes for the academic year 2022-24. Read below for further insight on subjects for Each Semester.
 
 ![GitHub forks](https://img.shields.io/github/forks/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24?style=social)
