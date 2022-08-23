@@ -116,8 +116,10 @@ const Courses = ({ courses }) => {
                             />
                         ))}
                     </Stack>
-                    <Typography variant='body1' fontSize='1.1rem' my={2}>Subject Difficulty: {difficulty}/10</Typography>
-                    <LinearProgress variant='determinate' value={difficultyInPercentage} />
+                    {difficulty && <>
+                        <Typography variant='body1' fontSize='1.1rem' my={2}>Subject Difficulty: {difficulty}/10</Typography>
+                        <LinearProgress variant='determinate' value={difficultyInPercentage} />
+                    </>}
                 </AccordionDetails>
             </Accordion>
         )
