@@ -30,7 +30,7 @@ export const fetchProjectContributorsList = async () => {
 export const fetchProjectIssuesList = async () => {
     try {
         let issues = sessionStorage.getItem('issues') ? JSON.parse(sessionStorage.getItem('issues')) : null;
-        if(!issues){
+        if (!issues) {
             const response = await axios.get(config.ISSUES_URL);
             issues = response.data.map((issue) => {
                 return {
@@ -38,20 +38,16 @@ export const fetchProjectIssuesList = async () => {
                     state: issue.state,
                     title: issue.title,
                     body: issue.body,
-                    user: {
-                        url: issue.user.html_url,
-                        avatar: issue.user.avatar_url,
-                        login: issue.user.login,
-                    },
                     labels: issue.labels,
                     createdAt: issue.created_at,
-                    updatedAT: issue.updated_at,
-                    closedAt: issue.closed_at,
+                    updatedAt: issue.updated_at,
                 }
-            })
-        }
+            });
+            sessionStorage.setItem('issues', JSON.stringify(issues));
+        };
         return issues;
     } catch (error) {
+        console.log(error);
         return [];
     }
 }
