@@ -34,7 +34,6 @@ function App() {
     const handleScroll = () => {
       const { scrollHeight } = document.documentElement;
       setShow(() => scrollHeight > 50 ? true : false);
-      console.log(show);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
