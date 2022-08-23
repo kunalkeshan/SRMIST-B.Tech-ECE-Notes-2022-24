@@ -12,6 +12,7 @@ import DefaultSkeleton from '../components/reuseable/DefaultSkeleton'
 // Pages
 const Home = lazy(() => import('../pages/Home'));
 const Contribute = lazy(() => import('../pages/Contribute'));
+const ContributeRequests = lazy(() => import('../pages/ContributeRequests'));
 const Semester = lazy(() => import('../pages/Semester'));
 const Contact = lazy(() => import('../pages/Contact'));
 const Support = lazy(() => import('../pages/Support'));
@@ -24,6 +25,7 @@ const AppRoutes = () => {
             <Routes>
                 <Route path='/' exact element={<Home />} />
                 <Route path='/contribute' element={<Contribute />} />
+                <Route path='/contribute-requests' element={<ContributeRequests />} />
                 <Route path='/notes/:currentSemester' element={<Semester />} />
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/support' element={<Support />} />
