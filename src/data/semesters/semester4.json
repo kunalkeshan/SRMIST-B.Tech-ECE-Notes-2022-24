@@ -1,5 +1,5 @@
 [
-    {
+	{
 		"subjectCode": "18MAB203T",
 		"name": "Probability and Stochastic Processes",
 		"difficulty": 6,
@@ -8,7 +8,7 @@
 		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%204/Probability%20and%20Stochastic%20Processes",
 		"driveLink": "https://drive.google.com/drive/folders/1-mGFEVw1CuByca4hjbZ8ZfIt5ELvLVHw?usp=sharing"
 	},
-    {
+	{
 		"subjectCode": "18ECC202J",
 		"name": "Linear Integrated Circuits",
 		"difficulty": 7,
@@ -17,7 +17,7 @@
 		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%204/Linear%20Integrated%20Circuits",
 		"driveLink": "https://drive.google.com/drive/folders/1-mGFEVw1CuByca4hjbZ8ZfIt5ELvLVHw?usp=sharing"
 	},
-    {
+	{
 		"subjectCode": "18BTB101T",
 		"name": "Biology",
 		"difficulty": 5,
@@ -26,7 +26,7 @@
 		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%204/Biology",
 		"driveLink": "https://drive.google.com/drive/folders/1-mGFEVw1CuByca4hjbZ8ZfIt5ELvLVHw?usp=sharing"
 	},
-    {
+	{
 		"subjectCode": "18ECC201J",
 		"name": "Analog Electronic Circuits",
 		"difficulty": 10,
@@ -35,7 +35,7 @@
 		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%204/Analog%20Electronic%20Circuits",
 		"driveLink": "https://drive.google.com/drive/folders/1-mGFEVw1CuByca4hjbZ8ZfIt5ELvLVHw?usp=sharing"
 	},
-    {
+	{
 		"subjectCode": "18PDH102T",
 		"name": "Management Principles for Engineers",
 		"difficulty": 3,
@@ -44,7 +44,7 @@
 		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%204/Management%20Principles%20for%20Engineers",
 		"driveLink": "https://drive.google.com/drive/folders/1-mGFEVw1CuByca4hjbZ8ZfIt5ELvLVHw?usp=sharing"
 	},
-    {
+	{
 		"subjectCode": "18PDM202L",
 		"name": "Critical and Creative Thinking Skills",
 		"difficulty": 2,
@@ -53,7 +53,7 @@
 		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%204/Critical%20and%20Creative%20Thinking%20Skills/Notes",
 		"driveLink": "https://drive.google.com/drive/folders/1-mGFEVw1CuByca4hjbZ8ZfIt5ELvLVHw?usp=sharing"
 	},
-    {
+	{
 		"subjectCode": "18ECE322T",
 		"name": "Optoelectronics [PE]",
 		"difficulty": 7,
@@ -62,16 +62,16 @@
 		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%204/Optoelectronics",
 		"driveLink": "https://drive.google.com/drive/folders/1-mGFEVw1CuByca4hjbZ8ZfIt5ELvLVHw?usp=sharing"
 	},
-    {
+	{
 		"subjectCode": "18ECE206J",
 		"name": "Advanced Digital System Design [PE]",
-		"difficulty": null,
+		"difficulty": 4,
 		"credits": 3,
 		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%204",
 		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%204/Advanced%20Digital%20System%20Design",
 		"driveLink": "https://drive.google.com/drive/folders/1-mGFEVw1CuByca4hjbZ8ZfIt5ELvLVHw?usp=sharing"
 	},
-    {
+	{
 		"subjectCode": "18NTO301T",
 		"name": "Application of Nanotechnology [OE]",
 		"difficulty": 4,
@@ -80,7 +80,7 @@
 		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%204/Applications%20of%20Nanotechnology",
 		"driveLink": "https://drive.google.com/drive/folders/1-mGFEVw1CuByca4hjbZ8ZfIt5ELvLVHw?usp=sharing"
 	},
-    {
+	{
 		"subjectCode": "18ECE203T",
 		"name": "Semiconductor Device Modelling [PE]",
 		"difficulty": null,
