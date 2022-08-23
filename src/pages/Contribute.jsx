@@ -88,6 +88,7 @@ const Contribute = () => {
                     </ListItem>
                 ))}
             </List>
+            <Link to='/contribute-requests'>View more contributing requests here...</Link>
             <Typography variant='body1' fontSize='1.5rem'>This project is hosted at GitHub, you can contribute in any two ways mentioned below:</Typography>
             <CardContainer>
                 {contributionData.map((data, index) => (
