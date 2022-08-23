@@ -120,6 +120,7 @@ Download Links:
 -   [Critical and Creative Thinking](./Semester%204/Critical%20and%20Creative%20Thinking%20Skills/Notes)
 -   [Management Principles](./Semester%204/Management%20Principles%20for%20Engineers)
 -   [Biology for Engineers](./Semester%204/Biology)
+-   [Smart Sensor System](./Semester%204/Smart%20Sensor%20System)
 -   Professional Electives
     -   [Optoelectronics](./Semester%204/Optoelectronics)
     -   [Advanced Digital System Design](./Semester%204/Advanced%20Digital%20System%20Design)
