@@ -22,6 +22,10 @@ const Contribute = () => {
         navigate('/contribute');
     }
 
+    const handleNavigateToContributeRequests = () => {
+        navigate('/contribute-requests');
+    }
+
     useEffect(() => {
         const handleFetchContributors = async () => {
             const data = await fetchProjectContributorsList();
@@ -68,11 +72,17 @@ const Contribute = () => {
                 <Divider variant='fullWidth' />
                 <Typography variant='body1' fontSize='1.25rem' mt={2}>This Project is <b>Open Source</b>! That means that you're free to contribute and make changes that you feel would improve the quality of this project.</Typography>
                 <Typography>To learn how to contribute, click the button below to explore more.</Typography>
+
                 <ContributeButton
                     variant='contained'
                     startIcon={<GitHubIcon />}
                     onClick={handleNavigateToContribute}
                 >Contribute Now!</ContributeButton>
+                <ContributeButton
+                    variant='contained'
+                    startIcon={<GitHubIcon />}
+                    onClick={handleNavigateToContributeRequests}
+                >View Contributing Requests!</ContributeButton>
 
                 <Typography variant='body1' fontSize='1.25rem' mt={2}>Meet our Contributors!</Typography>
                 <Typography variant='caption'>Without whom this project would not be possible!</Typography>
@@ -101,7 +111,7 @@ const Content = styled(Box)({
 });
 
 const ContributeButton = styled(Button)({
-    marginTop: '1em',
+    margin: '1em',
     backgroundColor: config.APP_COLORS.accent,
     color: config.APP_COLORS.darkAccent,
     '&:hover': {
