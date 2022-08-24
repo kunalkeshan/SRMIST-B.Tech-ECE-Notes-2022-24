@@ -1,4 +1,4 @@
-# SRMIST B.Tech ECE Notes 2022-24
+# B.Tech ECE Notes
 
 ![SRMIST B. Tech ECE Notes](/assets/thumbnail.png)
 
