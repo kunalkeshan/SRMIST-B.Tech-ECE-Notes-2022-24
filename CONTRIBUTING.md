@@ -21,6 +21,11 @@
 
 When contributing to ECE Notes, it's good to know our best practices, tips, and tricks. First, ECE Notes is just a collection of notes and resources, you don't need to know any programming to get started in your contributions.
 
+
+If you're not sure how to contribute using GitHub, fill out this form with the notes you have and I'll help you out to add them to this project.
+
+📃 Link to Form: [https://forms.gle/6cREyxxw6mQqh5jp7](https://forms.gle/6cREyxxw6mQqh5jp7)
+
 ## How to Contribute
 
 There's two separate guidelines for how to contribute to the notes. If you're simploy looking to make some files changes to any one of the following files...
