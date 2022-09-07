@@ -71,6 +71,11 @@ const ExtraNotes = () => {
             <Typography variant='h1' fontSize='4rem'>Extra Notes</Typography>
             <Divider />
             <Typography variant='h4' fontSize='1.4rem'>Collection of notes that don't directly relate to the project, but are helpful for those from different domains and fields!</Typography>
+            <Typography variant='h4' fontSize='1rem'>
+                Have notes that will help others? {' '}
+                <Link href={config.GITHUB_URL} target='_blank'>Contribute to the project</Link> now (or) {' '}
+                <Link href={config.CONTRIBUTE_GOOGLE_FORM_URL} target='_blank'>fill this form to get started</Link>.
+            </Typography>
             <ListContainer >
                 {extraNotes.length > 0 && extraNotes.map((extra, index) => (
                     <Item key={index} {...extra} />
@@ -85,7 +90,7 @@ const Main = styled(Box)({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    gap: '0.25em',
+    gap: '0.4em',
     '> *': {
         width: '100%',
     }

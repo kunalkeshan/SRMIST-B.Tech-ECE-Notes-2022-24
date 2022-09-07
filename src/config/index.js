@@ -32,6 +32,7 @@ const config = {
     GA_TRACKING_ID: 'G-4FNHZ2Y1KD',
     YOUTUBE_PLAYLIST: 'https://www.youtube.com/playlist?list=PLevNch38Bx4FTPFRpq9pppJzDsPZs7h2Z',
     FORMSPREEE_CONTACT_FORM_ID: 'xoqrgzkz',
+    CONTRIBUTE_GOOGLE_FORM_URL: 'https://forms.gle/6cREyxxw6mQqh5jp7',
     APP_COLORS,
     APP_PARTNERS,
     CONTACT: {
