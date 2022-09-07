@@ -13,6 +13,7 @@ import semester5 from '../data/semesters/semester5.json';
 import semester6 from '../data/semesters/semester6.json';
 import semester7 from '../data/semesters/semester7.json';
 import semester8 from '../data/semesters/semester8.json';
+import extraNotes from '../data/extendedNotes.json';
 
 // Get Read Notifications from Local Storage, parse it if it's there
 // If not there, then return an empty array.
@@ -63,7 +64,7 @@ class Data {
             try {
                 const readNotification = allNotifications.find(notification => notification.id === notificationId);
                 if (!readNotification) throw new Error('Notification with give Id does not exist!')
-                if(readNotifications.find((noti) => noti === notificationId)) return;
+                if (readNotifications.find((noti) => noti === notificationId)) return;
                 readNotifications.push(readNotification.id);
                 localStorage.setItem('readNotifications', JSON.stringify(readNotifications));
                 return 'Notification marked as read!';
@@ -96,6 +97,20 @@ class Data {
         };
 
         return semestersUtility;
+    }
+
+    static get ExtraNotes() {
+        const extraNotesUtility = {};
+
+        /**
+         * @description get all extra notes information as an array of objects
+         * @returns {array} Array of all extra notes Information
+         */
+        extraNotesUtility.getAllExtraNotes = async () => {
+            return extraNotes;
+        }
+
+        return extraNotesUtility;
     }
 }
 

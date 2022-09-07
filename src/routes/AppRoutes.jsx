@@ -16,6 +16,7 @@ const ContributeRequests = lazy(() => import('../pages/ContributeRequests'));
 const Semester = lazy(() => import('../pages/Semester'));
 const Contact = lazy(() => import('../pages/Contact'));
 const Support = lazy(() => import('../pages/Support'));
+const ExtraNotes = lazy(() => import('../pages/ExtraNotes'));
 const NotFound = lazy(() => import('../pages/NotFound'));
 
 const AppRoutes = () => {
@@ -29,6 +30,7 @@ const AppRoutes = () => {
                 <Route path='/notes/:currentSemester' element={<Semester />} />
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/support' element={<Support />} />
+                <Route path='/extra' element={<ExtraNotes />} />
                 <Route path='/not-found' element={<NotFound />} />
                 <Route path='*' element={<Navigate to='/not-found' />} />
             </Routes>
