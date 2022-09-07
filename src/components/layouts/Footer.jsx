@@ -34,6 +34,14 @@ const Footer = () => {
             nav: '/support',
         },
         {
+            name: 'Extra',
+            nav: '/extra',
+        },
+        {
+            name: 'Issues',
+            nav: '/contribute-requests',
+        },
+        {
             name: 'Repo',
             link: 'https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24',
         },

@@ -18,6 +18,7 @@ import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import AddToDriveIcon from '@mui/icons-material/AddToDrive';
+import ReadMoreIcon from '@mui/icons-material/ReadMore';
 
 // Components
 import Notifications from '../notification/Notifications';
@@ -51,6 +52,11 @@ const Navbar = () => {
             name: 'Support',
             nav: '/support',
             icon: <VolunteerActivismIcon />,
+        },
+        {
+            name: 'Extra',
+            nav: '/extra',
+            icon: <ReadMoreIcon />
         },
         {
             name: 'Repo',
@@ -94,8 +100,8 @@ const Navbar = () => {
             const eventData = {
                 category: 'Navigate External',
             }
-            if(link.includes('github')) eventData.action = 'View Notes in Repo';
-            if(link.includes('drive')) eventData.action = 'View Notes in Drive';
+            if (link.includes('github')) eventData.action = 'View Notes in Repo';
+            if (link.includes('drive')) eventData.action = 'View Notes in Drive';
             ReactGA.event(eventData);
             window.open(link, '_blank');
         } else {
