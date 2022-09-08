@@ -1,5 +1,13 @@
 [
 	{
+		"id": "eceskm",
+		"title": "Introducing the Extra Notes set!",
+		"message": "{link} is an initiative to support notes other than ECE.",
+		"dateAdded": "8th Sep, 2022",
+		"link": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/discussions/54",
+		"linkText": "Extra Notes"
+	},
+	{
 		"id": "cisbdp",
 		"title": "Interested in learning more visually?",
 		"message": "Check out the {link} playlist on YouTube to learn more about this project!",
