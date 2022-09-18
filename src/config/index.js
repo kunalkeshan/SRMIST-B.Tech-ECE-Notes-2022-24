@@ -4,6 +4,7 @@
 
 // Dependencies
 import CodelanceDevsLogo from '../assets/codelance-devs-logo.png';
+import ThinkDigitalLogo from '../assets/think-digital-logo.png';
 
 const WEBSITE_URL = `${window.location.protocol}//${window.location.host}`;
 const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
@@ -21,6 +22,11 @@ const APP_PARTNERS = [
         name: 'Codelance Devs',
         url: 'https://www.linkedin.com/company/codelance-devs/',
         logo: CodelanceDevsLogo,
+    },
+    {
+        name: 'Think-Digital',
+        url: 'https://www.think-digital.in',
+        logo: ThinkDigitalLogo,
     }
 ];
 
