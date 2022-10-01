@@ -44,7 +44,7 @@ Collection of all B.Tech ECE Notes for the academic year 2022-24. Read below for
 
 ## Motivation
 
-When I first joined college, I started off with Online classes and I had no contact with seniors whatsoever. I found it tough to find study material and prepare for my exams without any support. Even after classes began offline, we would be able to get the material  but not the insight on how to use them. 
+Before I switched to on-campus courses, I took all of my classes online and hardly interacted with any upperclassmen. Without assistance, it was difficult for me to locate relevant readings and organise my time effectively in order to succeed on my tests. Even if we moved our lessons to a more traditional format, we still wouldn't be able to get any understanding of how to make use of the materials we were given.
 
 You'll hardly have any contact with your seniors until you're part of some club, working together on some project or a research paper. I've made this repo to support any person who requires the relavent study material present here.
 
