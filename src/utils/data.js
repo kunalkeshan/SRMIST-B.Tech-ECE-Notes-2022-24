@@ -27,6 +27,8 @@ const coursesOfSems = {
     semester6,
     semester7,
     semester8,
+    extraNotes,
+    allSemesters,
 }
 
 /**
@@ -112,6 +114,79 @@ class Data {
 
         return extraNotesUtility;
     }
+
+    static get All() {
+        const allNotesUtility = {};
+
+        allNotesUtility.searchAllNotes = async (query, { excludes = [] }) => {
+            let searchFilterKeys = [
+                "semester1",
+                "semester2",
+                "semester3",
+                "semester4",
+                "semester5",
+                "semester6",
+                "semester7",
+                "semester8",
+                "extraNotes",
+                "allSemesters"
+            ]
+            excludes.forEach(exclude => {
+                const pos = searchFilterKeys.indexOf(exclude);
+                if (pos > -1) {
+                    searchFilterKeys.splice(pos, 1);
+                }
+            })
+
+            const results = [];
+            const searchRegEx = new RegExp(query, 'ig');
+
+            searchFilterKeys.forEach((key) => {
+                if (key === 'extraNotes') {
+                    const temp = coursesOfSems[key].filter((note) => {
+                        return (
+                            searchRegEx.test(note.name) || searchRegEx.test(note.title)
+                            || note.description.find((desc) => searchRegEx.test(desc))
+                        )
+                    });
+                    temp.forEach((note) => note.for = 'extraNotes')
+                    results.push(...temp);
+                }
+
+                if (key === 'allSemesters') {
+                    const temp = coursesOfSems[key].filter((sem) => {
+                        return (
+                            searchRegEx.test(sem.name)
+                        )
+                    });
+                    temp.forEach((note) => note.for = 'allSemesters')
+                    results.push(...temp);
+                }
+
+                if (key !== 'allSemesters' && key !== 'extraNotes') {
+                    const temp = coursesOfSems[key].filter((note) => {
+                        return (
+                            searchRegEx.test(note.name) || searchRegEx.test(note.subjectCode)
+                        )
+                    });
+                    temp.forEach((note) => note.for = 'extraNotes')
+                    results.push(...temp);
+                }
+            })
+            return results;
+        };
+
+        return allNotesUtility;
+    }
 }
 
 export default Data;
+
+(async () => {
+    try {
+        const results = await Data.All.searchAllNotes('sem', {});
+        console.log(results)
+    } catch (error) {
+        console.log(error);
+    }
+})();
