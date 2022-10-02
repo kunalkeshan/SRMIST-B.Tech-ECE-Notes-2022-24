@@ -17,6 +17,7 @@ const Semester = lazy(() => import('../pages/Semester'));
 const Contact = lazy(() => import('../pages/Contact'));
 const Support = lazy(() => import('../pages/Support'));
 const ExtraNotes = lazy(() => import('../pages/ExtraNotes'));
+const Search = lazy(() => import('../pages/Search'));
 const NotFound = lazy(() => import('../pages/NotFound'));
 
 const AppRoutes = () => {
@@ -31,6 +32,7 @@ const AppRoutes = () => {
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/support' element={<Support />} />
                 <Route path='/extra' element={<ExtraNotes />} />
+                <Route path='/search' element={<Search />} />
                 <Route path='/not-found' element={<NotFound />} />
                 <Route path='*' element={<Navigate to='/not-found' />} />
             </Routes>
