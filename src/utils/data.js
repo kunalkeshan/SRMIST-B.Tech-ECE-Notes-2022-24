@@ -181,12 +181,3 @@ class Data {
 }
 
 export default Data;
-
-(async () => {
-    try {
-        const results = await Data.All.searchAllNotes('sem', {});
-        console.log(results)
-    } catch (error) {
-        console.log(error);
-    }
-})();
