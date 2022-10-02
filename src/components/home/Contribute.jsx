@@ -137,8 +137,11 @@ const ContributorCard = styled(Paper)({
     flexDirection: 'column',
     cursor: 'pointer',
     padding: '1em',
-    minWidth: '100px',
-    minHeight: '100px',
+    width: '100px',
+    height: '100px',
+    overflow: 'hidden',
+    whiteSpace: 'no-wrap',
+    textOverflow: 'ellipsis',
     '&:hover': {
         backgroundColor: config.APP_COLORS.accent,
     }
