@@ -16,7 +16,6 @@ const Search = () => {
     const [searchText, setSearchText] = useState(searchParams.get('q') || '');
     const location = useLocation();
 
-
     useEffect(() => { }, [])
 
     return (
