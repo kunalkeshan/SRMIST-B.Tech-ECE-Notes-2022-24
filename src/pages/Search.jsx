@@ -8,8 +8,12 @@ import { useSearchParams, } from 'react-router-dom';
 import Data from '../utils/data';
 
 // MUI
-import { Box, styled, Typography, Divider, TextField, Checkbox, Container, FormControlLabel, InputAdornment } from '@mui/material';
+import { Box, styled, Typography, Divider, TextField, Checkbox, Container, FormControlLabel, InputAdornment, Grid } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
+
+import SemResult from '../components/search/SemResult';
+import ExtraNotesResult from '../components/search/ExtraNotesResult';
+import CourseResult from '../components/search/CourseResult';
 
 const Search = () => {
     const [searchParams, setSearchParams] = useSearchParams();
@@ -50,6 +54,8 @@ const Search = () => {
         }
         if (searchText.length !== 0) handleSearchResources();
     }, [searchText, filter]);
+
+    console.log(results)
 
     const handleSearchInput = (e) => {
         setSearchText(e.target.value);
@@ -93,6 +99,18 @@ const Search = () => {
                     <FormControlLabel control={<Checkbox onChange={handleFilter('extraNotes')} />} label='Extra Notes' />
                     {searchText.length > 0 && <Typography variant='caption' onClick={handleClearSearch} sx={{ color: 'red', textDecoration: 'underline', cursor: 'pointer' }}>Clear Search</Typography>}
                 </Box>
+
+                <Grid container spacing={1} gap={1}>
+                    {results.length > 0 ? results.map((result, index) => {
+                        if (result.for === 'allSemesters') {
+                            return <SemResult {...result} key={index} />
+                        } else if (result.for === 'extraNotes') {
+                            return <ExtraNotesResult {...result} key={index} />
+                        } else if (result.for === 'course') {
+                            return <CourseResult {...result} key={index} />
+                        } else return null;
+                    }) : null}
+                </Grid>
             </Container>
         </Main>
     )

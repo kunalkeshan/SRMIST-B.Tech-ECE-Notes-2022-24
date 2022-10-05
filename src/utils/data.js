@@ -169,7 +169,11 @@ class Data {
                             searchRegEx.test(note.name) || searchRegEx.test(note.subjectCode)
                         )
                     });
-                    temp.forEach((note) => note.for = 'extraNotes')
+                    const belongsTo = 'semester-' + key.split('semester').pop();
+                    temp.forEach((note) => {
+                        note.for = 'course';
+                        note.belongsTo = belongsTo;
+                    })
                     results.push(...temp);
                 }
             })
