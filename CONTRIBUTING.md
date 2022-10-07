@@ -28,7 +28,7 @@ There's two separate guidelines for how to contribute to the website. If you're 
 
 - `/src/data/semesters.json`.
 - `/src/data/semesters/semester1...8.json`.
-- `/src/data/extendedNotes.json`
+- `/src/data/extendedNotes.json`.
 - `/src/data/notifications.json`.
 - README.md
 - CONTRIBUTING.md
