@@ -38,6 +38,7 @@ Collection of all B.Tech ECE Notes for the academic year 2022-24. Read below for
 - [Semester 8](#semester-8)
 - [Contribute](#contribute)
 - [License](#license)
+- [Project Partners](#project-partners)
 
 > **Warning**
 > Semester 1 - 3 notes are based on **online classes**. Study material might be relevant but not the test notes. Take it with a grain of salt.
@@ -166,6 +167,19 @@ If you're not sure how to contribute using GitHub, fill out this form with the n
 ## License
 
 This Project is Licensed under the [MIT License](./LICENSE).
+
+## Project Partners
+
+<table>
+    <tr>
+        <th><a href="https://www.linkedin.com/company/codelance-devs/" >Codelance Devs</a></th>
+        <th><a href="https://www.think-digital.in/?utm_medium=social&utm_source=github.com&utm_campaign=notes.kunalkeshan.dev">Think-Digital</a></th>
+    </tr>
+    <tr>
+        <td><img src="../client/src/assets/codelance-devs-logo.png" alt="" width="200px" height="auto" /></td>
+        <td><img src="../client/src/assets/think-digital-logo.png" alt="" width="200px" height="auto" /></td>
+    </tr>
+</table>
 
 ---
 
