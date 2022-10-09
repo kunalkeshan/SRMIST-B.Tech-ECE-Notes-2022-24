@@ -2,27 +2,27 @@
 
 ### **Table of Contents**
 
-- [Getting Started](#getting-started)
-- [How to Contribute](#how-to-contribute)
-- [Standards and Guidelines](#standards-and-guidelines)
+- [Getting Started](#-getting-started)
+- [How to Contribute](#-how-to-contribute)
+- [Standards and Guidelines](#-standards-and-guidelines)
   - [Semester Data Guidelines](#semester-data-guidelines)
   - [Notifications Data Guidelines](#notifications-data-guidelines)
-- [Forking](#forking-the-project)
-- [Basic Contributing](#basic-contributing-guidelines)
+- [Forking](#-forking-the-project)
+- [Basic Contributing](#-basic-contributing-guidelines)
   - [Making Changes](#making-a-change)
-- [Advanced Contributing](#advanced-contributing-guidelines)
+- [Advanced Contributing](#-advanced-contributing-guidelines)
   - [Clone the Client Branch Alone](#clone-the-repository)
   - [Install Dependencies](#install-dependencies)
   - [Cloned Before? Pull changes this way](#cloned-before-pull-changes-this-way)
-- [Creating a Pull Request](#creating-a-pull-request)
-- [Merging a Pull Request](#merging-a-pull-request)
-- [Questions](#questions)
+- [Creating a Pull Request](#-creating-a-pull-request)
+- [Merging a Pull Request](#-merging-a-pull-request)
+- [Questions](#-questions)
 
-## Getting Started
+## 🚀 Getting Started
 
 When contributing to ECE Notes Website, it's good to know our best practices, tips, and tricks. First, ECE Notes Website is written in JavaScript, CSS, and HTML (in order of language usage within the project); thus, we assume you are comfortable in these languages or have basic knowledge of them.
 
-## How to Contribute
+## ❓ How to Contribute
 
 There's two separate guidelines for how to contribute to the website. If you're simply looking for to make some changes to any one of the following files...
 
@@ -34,11 +34,11 @@ There's two separate guidelines for how to contribute to the website. If you're 
 - CONTRIBUTING.md
 - Or any documentation related file.
 
-Refer to the [Basic Contributing Guidelines](#basic-contributing-guidelines). This guide will go over how to do so easily, and without the need to set up a local development server.
+Refer to the [Basic Contributing Guidelines](#-basic-contributing-guidelines). This guide will go over how to do so easily, and without the need to set up a local development server.
 
-If you're looking to make deeper code changes that affect functionality, or will require screenshots of the changes, please refer to [Advanced Contributing Guidelines](#advanced-contributing-guidelines).
+If you're looking to make deeper code changes that affect functionality, or will require screenshots of the changes, please refer to [Advanced Contributing Guidelines](#-advanced-contributing-guidelines).
 
-## Standards and Guidelines
+## 📐 Standards and Guidelines
 
 Below are a set of general guidelines for different types of changes.
 
@@ -72,7 +72,7 @@ Usually no change is required for this file, although, if there is some change i
 - If there is no link and link text associated with the notification, it can be left as empty and/or null.
 - If link and link text is present, add `{link}` in the message property to insert the link.
 
-## Forking The Project
+## 🗡️ Forking The Project
 
 First you will have to obtain your own copy of the ECE Notes repository, also known as **"forking"**. Click [here](https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/fork) to open the fork wizard or go to the top right of your screen and then click the fork button.
 
@@ -80,7 +80,7 @@ First you will have to obtain your own copy of the ECE Notes repository, also kn
 
 This will create a clone of the repository under your own account. Navigate to your profile now and click on the new repository called `SRMIST-B.Tech-ECE-Notes-2022-24` under your profile.
 
-## Basic Contributing Guidelines
+## 🐰 Basic Contributing Guidelines
 
 ### Prerequisites
 
@@ -126,7 +126,7 @@ Click `Commit changes` once you are ready to proceed.
 
 ![Commit Changes](/assets/contributing/commit-changes-gh-gui.jpg)
 
-## Advanced Contributing Guidelines
+## 🤖 Advanced Contributing Guidelines
 
 For deeper code changes, that affect the functionality of the website follow this guideline.
 
@@ -163,7 +163,7 @@ Using `git pull` will pull all the branches of this repo. As mentioned before, t
 git pull origin client
 ```
 
-## Creating a Pull Request
+## 👾 Creating a Pull Request
 
 You can repeat the steps above for as many changes as needed. Once you are done making all your code changes and you have committed them to your branch, you are ready to make a pull request (PR). Go back to the main page of your forked repository. Ensure that your current branch (which is likely still master at this point) is up to date. You can do so by clicking the following button:
 
@@ -179,13 +179,13 @@ Be sure to add a good description to the PR and that the source and destination 
 
 Once done, click on Create pull request to officially publish your PR.
 
-## Merging a Pull Request
+## 🐙 Merging a Pull Request
 
 All you have to do now is wait for approval or comments and go from there!
 
 Once your PR is approved, all that is left to do is merge it!
 
-## Questions
+## ❓ Questions
 
 For any Queries on your development process, contact [Kunal Keshan](mailto:kunalkeshan12@gmail.com).
 
