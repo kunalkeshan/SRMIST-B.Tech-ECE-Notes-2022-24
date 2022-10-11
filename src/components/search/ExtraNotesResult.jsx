@@ -5,6 +5,7 @@
 // Dependencies
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import config from '../../config';
 
 import { Paper, styled, Typography, Grid, Box } from '@mui/material';
 import LaunchIcon from '@mui/icons-material/Launch';
@@ -36,6 +37,9 @@ const Main = styled(Paper)({
     alignItems: 'center',
     justifyContent: 'space-between',
     padding: '0.25em 0.75em',
+    '&:hover': {
+        background: config.APP_COLORS.accent
+    }
 })
 
 export default ExtraNotesResult
