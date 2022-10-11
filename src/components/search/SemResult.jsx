@@ -36,7 +36,7 @@ const Main = styled(Paper)({
     justifyContent: 'space-between',
     padding: '0.25em 0.75em',
     '&:hover': {
-        background: config.APP_COLORS.main
+        background: config.APP_COLORS.accent
     }
 })
 
