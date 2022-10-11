@@ -34,10 +34,14 @@ const ContributeRequests = () => {
 
         return (
             <Grid item xs={12} md={4} m={2}>
-                <Card>
+                <Card >
                     <Typography variant='h6'><GitHubIcon /> {title} - <Chip label={state} variant='outlined' color='success' sx={{ transform: 'scale(0.8)' }} /></Typography>
                     <Divider />
-                    <Typography p={2}>
+                    <Typography p={2} sx={{
+                        'img': {
+                            width: '100%',
+                        }
+                    }}>
                         <ReactMarkdown>{body}</ReactMarkdown>
                     </Typography>
                     <GitHubButton
