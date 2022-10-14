@@ -49,6 +49,7 @@ const config = {
         github: 'https://github.com/kunalkeshan',
         youtube: 'https://www.youtube.com/channel/UCwVRztzBdqgB_Y9hkMX3lZA',
     },
+    GOOGLE_FORM_FEEDBACK_URL: 'https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?usp=pp_url&entry.34189569=Notes+Initiative',
 };
 
 export default config;
