@@ -12,6 +12,7 @@ import { SpeedDial, SpeedDialAction, styled } from '@mui/material'
 import ShareIcon from '@mui/icons-material/Share';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import FeedbackIcon from '@mui/icons-material/Feedback';
 
 // Hooks
 import useGA from '../../hooks/useGA';
@@ -30,7 +31,12 @@ const CallToAction = () => {
             name: 'Share with Twitter',
             url: `http://twitter.com/share?text=Check out this website to get the best ECE Notes available out there! @_kunalkeshan_&url=${window.location.protocol}//${window.location.host}?utm_source=twitter.com&utm_medium=social&hashtags=srmist,ece,btech,kunalkeshan`,
             icon: <TwitterIcon sx={{ '&:hover': { color: '#1DA1F2 !important' } }} />
-        }
+        },
+        {
+            name: 'Have some Feedback?',
+            url: config.GOOGLE_FORM_FEEDBACK_URL,
+            icon: <FeedbackIcon sx={{ '&:hover': { color: `${config.APP_COLORS.main} !important` } }} />
+        },
     ];
 
     const handleClick = (url) => () => {
