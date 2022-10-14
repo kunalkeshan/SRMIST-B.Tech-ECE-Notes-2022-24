@@ -49,6 +49,10 @@ const Footer = () => {
             name: 'Drive',
             link: 'https://drive.google.com/drive/u/7/folders/17bng9aIkZ3FaULebbgEGpdCsB225dr_K',
         },
+        {
+            name: 'Give Feedback',
+            link: config.GOOGLE_FORM_FEEDBACK_URL,
+        }
     ];
 
     const handleNavigate = ({ link = null, nav = null }) => {

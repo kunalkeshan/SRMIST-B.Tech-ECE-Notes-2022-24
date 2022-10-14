@@ -16,6 +16,7 @@ import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer';
 import CallToAction from './components/layouts/CallToAction';
 import ScrollToTop from './components/layouts/ScrollToTop';
+import FeedbackModal from './components/reuseable/FeedbackModal';
 
 // Hooks
 import useGA from './hooks/useGA';
@@ -26,6 +27,7 @@ import WritingAnimation from './assets/lottie/writing.json';
 
 function App() {
   const [show, setShow] = useState(false);
+  const [openModal, setOpenModal] = useState(false);
 
   useGA();
   usePageTracking();
@@ -74,6 +76,7 @@ function App() {
       </Container>
       <CallToAction />
       <ScrollToTop show={show} setShow={setShow} />
+      <FeedbackModal open={openModal} setOpen={setOpenModal} />
       <Footer />
     </Main>
   );
