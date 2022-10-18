@@ -18,6 +18,7 @@ Table of Content:
 | 18ECC204J | Digital Signal Processing	| 🟥 Hard | 4 |
 | 18ECE201J | [Professional Elective] Python and Scientific Python | [TBD] | 3 |
 | 18CSO107T | [Open Elective] IOS Development | 🟩 Easy | 3 |
+| 18EEO301T | [Open Elective] Sustainable Energy | [TBD] | 3 |
 | 18LEM110L | Indian Art Form | 🟩 Easy | 0 |
 | 18PDM301L | Analytical and Logical Thinking Skills | 🟩 Easy | 0 |
 | | | Total: | 23 |

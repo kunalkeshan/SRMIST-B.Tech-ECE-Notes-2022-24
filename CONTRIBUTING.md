@@ -2,26 +2,31 @@
 
 ### **Table of Contents**
 
-- [Getting Started](#getting-started)
-- [How to Contribute](#how-to-contribute)
-- [Standards and Guidelines](#standards-and-guidelines)
+- [Getting Started](#-getting-started)
+- [How to Contribute](#-how-to-contribute)
+- [Standards and Guidelines](#-standards-and-guidelines)
   - [Updating Semester README.md](#updating-semester-readme)
   - [Uploading Notes](#uploading-notes)
-- [Forking](#forking-the-project)
-- [Basic Contributing](#basic-contributing-guidelines)
+- [Forking](#-forking-the-project)
+- [Basic Contributing](#-basic-contributing-guidelines)
   - [Making a Change](#making-a-change) 
-- [Advanced Contributing](#advanced-contributing-guidelines)
+- [Advanced Contributing](#-advanced-contributing-guidelines)
   - [Navigate to the specific folder](#navigate-to-the-specific-folder)
   - [Upload Notes](#upload-notes) 
-- [Creating a Pull Request](#creating-a-pull-request)
-- [Merging a Pull Request](#merging-a-pull-request)
-- [Questions](#questions)
+- [Creating a Pull Request](#-creating-a-pull-request)
+- [Merging a Pull Request](#-merging-a-pull-request)
+- [Questions](#-questions)
 
-## Getting Started
+## 🚀 Getting Started
 
 When contributing to ECE Notes, it's good to know our best practices, tips, and tricks. First, ECE Notes is just a collection of notes and resources, you don't need to know any programming to get started in your contributions.
 
-## How to Contribute
+
+If you're not sure how to contribute using GitHub, fill out this form with the notes you have and I'll help you out to add them to this project.
+
+📃 Link to Form: [https://forms.gle/6cREyxxw6mQqh5jp7](https://forms.gle/6cREyxxw6mQqh5jp7)
+
+## ❓ How to Contribute
 
 There's two separate guidelines for how to contribute to the notes. If you're simploy looking to make some files changes to any one of the following files...
 
@@ -34,7 +39,7 @@ Refer to the [Basic Contributing Guidelines](#basic-contributing-guidelines). Th
 
 If you're looking for uploading notes and resources to this project, please refer to the [Advanced Contributing Guidelines](#advanced-contributing-guidelines).
 
-## Standards and Guidelines
+## 📐 Standards and Guidelines
 
 ### Updating Semester README
 
@@ -46,7 +51,7 @@ The table represents data for each subject and should contain all the fields men
 - Links from previous updates should be working.
 - With GitHub, the max upload limit is `25mb`. So to add the notes to the drive, [reach out to me](#questions).
 
-## Forking The Project
+## 🗡️ Forking The Project
 
 First you will have to obtain your own copy of the ECE Notes repository, also known as **"forking"**. Click [here](https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/fork) to open the fork wizard or go to the top right of your screen and then click the fork button.
 
@@ -54,11 +59,11 @@ First you will have to obtain your own copy of the ECE Notes repository, also kn
 
 This will create a clone of the repository under your own account. Navigate to your profile now and click on the new repository called `SRMIST-B.Tech-ECE-Notes-2022-24` under your profile.
 
-## Basic Contributing Guidelines
+## 🐰 Basic Contributing Guidelines
 
 You must have a browser that can access GitHub, and possess a GitHub account. Once you have those two things, you're ready to move on to making your contribution(s)!
 
-<!-- The steps for basic contributions are showcased splendidly in this [youtube video](), so it is recommended you watch it. -->
+The steps for basic contributions are showcased splendidly in this [youtube video](https://youtu.be/-0uS-PLAZhY), so it is recommended you watch it.
 
 ### Contributing-
 
@@ -92,7 +97,7 @@ Click `Commit changes` once you are ready to proceed.
 
 ![Commit Changes](/assets/contributing/commit-changes-gh-gui.jpg)
 
-## Advanced Contributing Guidelines
+## 🤖 Advanced Contributing Guidelines
 
 **[Fork](#forking-the-project) the Repository if you've not done it already.**
 
@@ -114,7 +119,7 @@ Some things to keep in mind, GitHub allows maximum `25mb` file upload, so to add
 
 Commit your uploads with what you've added, and a short description and head over to creating a pull request to reflect your changes in the `main` branch of the `kunalkeshan/SRMIST=B.Tech-ECE-Notes-2022-24` Repository. Read the [next steps on how to create a Pull Request](#creating-a-pull-request).
 
-## Creating a Pull Request
+## 👾 Creating a Pull Request
 
 You can repeat the steps above for as many changes as needed. Once you are done making all your code changes and you have committed them to your branch, you are ready to make a pull request (PR). Go back to the main page of your forked repository. Ensure that your current branch (which is likely still master at this point) is up to date. You can do so by clicking the following button:
 
@@ -130,13 +135,13 @@ Be sure to add a good description to the PR and that the source and destination 
 
 Once done, click on Create pull request to officially publish your PR.
 
-## Merging a Pull Request
+## 🐙 Merging a Pull Request
 
 All you have to do now is wait for approval or comments and go from there!
 
 Once your PR is approved, all that is left to do is merge it!
 
-## Questions
+## ❓ Questions
 
 For any Queries on what type of material to add, contact [Kunal Keshan](mailto:kunalkeshan12@gmail.com).
 
