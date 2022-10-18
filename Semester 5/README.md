@@ -16,7 +16,7 @@ Table of Content:
 | 18ECC203J | Microprocessor, Microcontroller and Interfacing Techniques | 🟧 Medium | 4 |
 | 18MAB302T | Discrete Mathematics for Engineers | 🟧 Medium | 4 |
 | 18ECC204J | Digital Signal Processing	| 🟥 Hard | 4 |
-| 18ECE201J | [Professional Elective] Python and Scientific Python | [TBD] | 3 |
+| 18ECE201J | [Professional Elective] Python and Scientific Python | 🟧 Medium | 3 |
 | 18CSO107T | [Open Elective] IOS Development | 🟩 Easy | 3 |
 | 18EEO301T | [Open Elective] Sustainable Energy | [TBD] | 3 |
 | 18LEM110L | Indian Art Form | 🟩 Easy | 0 |
