@@ -104,3 +104,7 @@ Table of Content:
 - If you're going for placements this is important.
 
 ---
+
+## Feedback Form
+
+- [Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?usp=pp_url&entry.34189569=Notes+Initiative)
