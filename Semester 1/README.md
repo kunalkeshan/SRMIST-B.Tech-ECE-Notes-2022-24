@@ -103,3 +103,9 @@ Table of Content:
 | [Dr. Gajendra Purohit](https://www.youtube.com/c/DrGajendraPurohitMathematics) | `maths` `aptitude` |
 | [Neso Academy](https://www.youtube.com/channel/UCQYMhOMi_Cdj1CEAU-fv80A) | `maths` `computer science` `physics` `chemistry` `etc` |
 
+---
+
+## Feedback Form
+
+- [Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?usp=pp_url&entry.34189569=Notes+Initiative)
+
