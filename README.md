@@ -198,4 +198,8 @@ Part of this README and CONTRIBUTING was inspired from [https://github.com/monke
 
 ---
 
+## Feedback Form
+
+- [Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?usp=pp_url&entry.34189569=Notes+Initiative)
+
 <p align="center">If you found this helpful, ⭐ this repo! It helps this project become more visible to others!</p>

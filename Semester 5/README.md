@@ -24,3 +24,9 @@ Table of Content:
 | | | Total: | 23 |
 
 ## How to Learn?
+
+---
+
+## Feedback Form
+
+- [Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?usp=pp_url&entry.34189569=Notes+Initiative)
