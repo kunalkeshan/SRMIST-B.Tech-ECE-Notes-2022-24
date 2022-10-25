@@ -167,6 +167,10 @@ If you're not sure how to contribute using GitHub, fill out this form with the n
   <img src="https://contrib.rocks/image?repo=kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24" />
 </a>
 
+## Feedback
+
+This is a constantly evolving project that relies on the constant feedback of its users so that we can achieve what the users desire and maintain the project's quality. Please feel free to share your thoughts on this project by filling the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?entry.34189569=Notes+Initiative">Form.</a>
+
 ## 📃 License
 
 This Project is Licensed under the [MIT License](./LICENSE).
