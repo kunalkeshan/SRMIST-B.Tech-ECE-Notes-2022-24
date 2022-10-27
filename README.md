@@ -57,7 +57,6 @@ Anybody is free to contribute to this repo. If you think that some material is r
 
 This website is licensed under the [MIT License](./LICENSE).
 
-
 ### 🗡️ Forking this Repo?
 
 Many people have contacted us asking if they can use this code for their own websites. The answer to that question is usually "yes", with attribution. There are some cases, such as using this code for a business or something that is greater than a personal project, that we may be less comfortable saying yes to. If in doubt, please don't hesitate to ask us.
