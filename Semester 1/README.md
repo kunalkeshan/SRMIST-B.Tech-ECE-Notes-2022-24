@@ -105,7 +105,8 @@ Table of Content:
 
 ---
 
-## Feedback Form
+## Have some feedback?
 
-- [Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?usp=pp_url&entry.34189569=Notes+Initiative)
+Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?usp=pp_url&entry.34189569=Notes+Initiative) to give feedback on how to improve the project or add any changes that you want to be reflected here.
+
 
