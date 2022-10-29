@@ -149,6 +149,10 @@ Download Links:
 | Credits: 10 |
 | ------- |
 
+## Give your Feedback
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?usp=pp_url&entry.34189569=Notes+Initiative">Leave your thoughts and opinions</a>
+
 ## Contribute
 
 Anybody is free to contribute to this repo. If you think that some material is relevant and can improve the quality of this repo, follow the contributing guidelines mentioned at [CONTRIBUTING.md](./CONTRIBUTING.md).
