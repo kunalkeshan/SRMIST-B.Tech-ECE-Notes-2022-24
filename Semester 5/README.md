@@ -27,6 +27,15 @@ Table of Content:
 
 ---
 
+### Analog and Digital Communication
+
+- Take the notes properly
+- Most of this subject is very numerical based, it might seem tough but keep practicing it and you'll get a hang of how to solve the problems. 
+- Frequently practice the numericals to avoid burn in the last few days before exam.
+
+#### Resources:
+---
+
 ## Feedback
 
 This is a constantly evolving project that relies on the constant feedback of its users so that we can achieve what the users desire and maintain the project's quality. Please feel free to share your thoughts on this project by filling the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?entry.34189569=Notes+Initiative">Form.</a>
