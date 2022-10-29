@@ -92,3 +92,6 @@ Table of Content:
 - Don't worry much about remembering the details, you can always google it up later.
 
 ---
+## Give your Feedback
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?usp=pp_url&entry.34189569=Notes+Initiative">Leave your thoughts and opinions</a>

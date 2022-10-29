@@ -106,3 +106,6 @@ Table of Content:
 - Cover all the notes, despite being lenghty, they will help out in the MCQs and 1 mark type questions.
 
 ---
+## Give your Feedback
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?usp=pp_url&entry.34189569=Notes+Initiative">Leave your thoughts and opinions</a>
