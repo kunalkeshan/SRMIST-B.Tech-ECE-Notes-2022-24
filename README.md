@@ -26,23 +26,27 @@ Collection of all B.Tech ECE Notes for the academic year 2022-24. Read below for
 
 > Refer [Curriculum](./curriculum-syllabus-ece-reg-2018.pdf) for detailed information.
 
-- [Motivation](#motivation)
-- [Directory Downloads](#directory-downloads)
-- [Semester 1](#semester-1)
-- [Semester 2](#semester-2)
-- [Semester 3](#semester-3)
-- [Semester 4](#semester-4)
-- [Semester 5](#semester-5)
-- [Semester 6](#semester-6)
-- [Semester 7](#semester-7)
-- [Semester 8](#semester-8)
-- [Contribute](#contribute)
-- [License](#license)
+- [Motivation](#-motivation)
+- [Directory Downloads](#-directory-downloads)
+- [Semester 1](#-semester-1)
+- [Semester 2](#-semester-2)
+- [Semester 3](#-semester-3)
+- [Semester 4](#-semester-4)
+- [Semester 5](#-semester-5)
+- [Semester 6](#-semester-6)
+- [Semester 7](#-semester-7)
+- [Semester 8](#-semester-8)
+- [Contribute](#-contribute)
+  - [Project Contributors](#-project-contributors)
+- [License](#-license)
+  - [Forking this Repo?](#-forking-this-repo)
+- [Project Partners](#-project-partners)
+- [Mentions](#-mentions)
 
 > **Warning**
 > Semester 1 - 3 notes are based on **online classes**. Study material might be relevant but not the test notes. Take it with a grain of salt.
 
-## Motivation
+## 💫 Motivation
 
 Before I switched to on-campus courses, I took all of my classes online and hardly interacted with any upperclassmen. Without assistance, it was difficult for me to locate relevant readings and organise my time effectively in order to succeed on my tests. Even if we moved our lessons to a more traditional format, we still wouldn't be able to get any understanding of how to make use of the materials we were given.
 
@@ -50,13 +54,13 @@ You'll hardly have any contact with your seniors until you're part of some club,
 
 > <q> This repo is my step towards being the senior I needed the most as a Junior. </q>
 
-## Directory Downloads
+## ⬇️ Directory Downloads
 
 This repo is quite heavy in itself and cloning it or downloading it as a whole would take a lot of time and use of precious data. You can use [DownGit](https://downgit.github.io/) to help download specific folders from this repository. 
 
 Use the links below to download specific semester folders or visit [DownGit](https://downgit.github.io/) with the directory link of the repo to download.
 
-Download Links:
+**Download Links**:
 
 - Semester 1: [Click to Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%201).
 - Semester 2: [Click to Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%202).
@@ -67,7 +71,7 @@ Download Links:
 - Semester 7: Coming Soon!
 - Semester 8: Coming Soon!
 
-## Semester 1
+## 1️⃣ Semester 1
 
 | Credits: 20 |
 | ------- |
@@ -82,7 +86,7 @@ Download Links:
 -   [Value Education](./Semester%201/Value%20Education)
 -   National Service Schema (NSS)
 
-## Semester 2
+## 2️⃣ Semester 2
 
 | Credits: 21 |
 | ------- |
@@ -96,7 +100,7 @@ Download Links:
 -   [Physics](./Semester%202/Physics%20-%20Electromagnetic%20Theory%2C%20Quantum%20Mechanics%2C%20Waves%20and%20Optics)
 -   Yoga
 
-## Semester 3
+## 3️⃣ Semester 3
 
 | Credits: 24 |
 | ------- |
@@ -111,7 +115,7 @@ Download Links:
 -   [Social Engineering](./Semester%203/Social%20Engineering)
 -   [Transforms and Boundary Value Problems](.Semester%203/Transforms%20and%20Boundary%20Value%20Problems)
 
-## Semester 4
+## 4️⃣ Semester 4
 
 | Credits: 22 |
 | ------- |
@@ -129,31 +133,29 @@ Download Links:
 -   Open Electives
     -   [Applications of Nanotechnology](./Semester%204/Applications%20of%20Nanotechnology)
 
-## Semester 5
+## 5️⃣ Semester 5
 
 | Credits: 23 |
 | ------- |
 
-## Semester 6
+## 6️⃣ Semester 6
 
 | Credits: 24 |
 | ------- |
 
-## Semester 7
+## 7️⃣ Semester 7
 
 | Credits: 16 |
 | ------- |
 
-## Semester 8
+## 8️⃣ Semester 8
 
 | Credits: 10 |
 | ------- |
 
-## Give your Feedback
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?usp=pp_url&entry.34189569=Notes+Initiative">Leave your thoughts and opinions</a>
-
 ## Contribute
+=======
+## 📥 Contribute
 
 Anybody is free to contribute to this repo. If you think that some material is relevant and can improve the quality of this repo, follow the contributing guidelines mentioned at [CONTRIBUTING.md](./CONTRIBUTING.md).
 
@@ -161,15 +163,44 @@ If you're not sure how to contribute via GitHub, fill out this form with your re
 
 📃 Link to Form: [https://forms.gle/6cREyxxw6mQqh5jp7](https://forms.gle/6cREyxxw6mQqh5jp7)
 
-### Project Contributors:
+### 🦸 Project Contributors:
 
 <a href="https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24" />
 </a>
 
-## License
+## Feedback
+
+This is a constantly evolving project that relies on the constant feedback of its users so that we can achieve what the users desire and maintain the project's quality. Please feel free to share your thoughts on this project by filling the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?entry.34189569=Notes+Initiative">Form.</a>
+
+## 📃 License
 
 This Project is Licensed under the [MIT License](./LICENSE).
+
+### 🗡️ Forking this Repo?
+
+Many people have contacted us asking if they can use this code for their own websites. The answer to that question is usually "yes", with attribution. There are some cases, such as using this code for a business or something that is greater than a personal project, that we may be less comfortable saying yes to. If in doubt, please don't hesitate to ask us.
+
+We value keeping this project open source, but as you all know, plagiarism is bad. We actively spend a non-negligible amount of effort developing, designing, and trying to perfect this iteration of our project, and we are proud of it! All we ask is to not claim this effort as your own.
+
+So, feel free to fork this repo. If you do, please just give us proper credit by linking back to this repo, [https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24](https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24). Refer to this handy [quora](https://www.quora.com/Is-it-bad-to-copy-other-peoples-code) post if you're not sure what to do. Thanks!
+
+## ⚔️ Project Partners
+
+<table>
+    <tr>
+        <th><a href="https://www.linkedin.com/company/codelance-devs/" >Codelance Devs</a></th>
+        <th><a href="https://www.think-digital.in/?utm_medium=social&utm_source=github.com&utm_campaign=notes.kunalkeshan.dev">Think-Digital</a></th>
+    </tr>
+    <tr>
+        <td><img src="../client/src/assets/codelance-devs-logo.png" alt="" width="200px" height="auto" /></td>
+        <td><img src="../client/src/assets/think-digital-logo.png" alt="" width="200px" height="auto" /></td>
+    </tr>
+</table>
+
+## 🫂 Mentions
+
+Part of this README and CONTRIBUTING was inspired from [https://github.com/monkeytypegame/monkeytype](https://github.com/monkeytypegame/monkeytype) and [https://github.com/SneakySensei/react-lean-modal](https://github.com/SneakySensei/react-lean-modal).
 
 ---
 
