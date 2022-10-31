@@ -13,16 +13,17 @@ Table of Content:
 
 | Subject Code | Name | Difficulty | Credits |
 | ------------ | ---- | ---------- | ------- |
-|  |  | 🟩 Easy |  |
-|  |  | 🟧 Medium |  |
-|  |  | 🟧 Medium |  |
-|  |  | 🟥 Hard | |
-|  |  | 🟥 Hard |  |
-|  |  | 🟧 Medium |  |
-|  |  | 🟩 Easy |  |
-|  |  | 🟧 Medium |  |
-|  |  | 🟩 Easy |  |
-| | | Total: |  |
+| 18ECC206J | VLSI Design  | [TBD] | 4 |
+| 18ECC302J | Microwave and Optical Communications | 🟧 Medium | 4 |
+| 18ECC303J | Computer Communication Networks  | 🟧 Medium | 4 |
+| 18ECC350T | Comprehension  | [TBD] | 1 |
+|  | Professional Elective-3  | [TBD] | 3 |
+|  | Professional Elective-4 | [TBD] | 3 |
+|  | Open Elective-4 | [TBD] | 3 |
+| 18ECP104L/18ECP105L/18ECP106L | Massive Open Online Course-II/ Industrial Training-II/ Seminar-II | 🟧 Medium | 1 |
+| 18PDH201L | Employability Skills and Practise | 🟩 Easy | 1 |
+| 18LEM109T | Indian Traditional Knowledge | 🟩 Easy | 0 |
+| | | Total: | 24 |
 
 ## How to Learn?
 
