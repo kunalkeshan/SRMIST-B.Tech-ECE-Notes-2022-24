@@ -30,8 +30,9 @@ Table of Content:
 ### Analog and Digital Communication
 
 - Take the notes properly
-- Most of this subject is very numerical based, it might seem tough but keep practicing it and you'll get a hang of how to solve the problems. 
-- Frequently practice the numericals to avoid burn in the last few days before exam.
+- Most of this subject is very theory based, it might seem tough and boring but keep going through the notes.
+- There are also few numericals in this subject which u need to practise  
+- Frequently practice the numericals and go through the theory to avoid burn in the last few days before exam.
 
 #### Resources:
 ---
