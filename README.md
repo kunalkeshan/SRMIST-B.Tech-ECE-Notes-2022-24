@@ -197,6 +197,8 @@ So, feel free to fork this repo. If you do, please just give us proper credit by
     </tr>
 </table>
 
+---
+
 ## 🫂 Mentions
 
 Part of this README and CONTRIBUTING was inspired from [https://github.com/monkeytypegame/monkeytype](https://github.com/monkeytypegame/monkeytype) and [https://github.com/SneakySensei/react-lean-modal](https://github.com/SneakySensei/react-lean-modal).
