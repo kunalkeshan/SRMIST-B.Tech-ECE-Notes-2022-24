@@ -5,6 +5,7 @@ Table of Content:
 - [Subjects Present](#subjects-present)
 - [How To Study?](#how-to-study)
 - [YouTube Channels](#youtube-channels)
+- [Feedback](#feedback)
 
 
 ## Subjects Present
