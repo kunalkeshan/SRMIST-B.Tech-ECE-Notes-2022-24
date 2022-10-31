@@ -38,6 +38,7 @@ Collection of all B.Tech ECE Notes for the academic year 2022-24. Read below for
 - [Semester 8](#-semester-8)
 - [Contribute](#-contribute)
   - [Project Contributors](#-project-contributors)
+- [Feedback](#feedback)
 - [License](#-license)
   - [Forking this Repo?](#-forking-this-repo)
 - [Project Partners](#-project-partners)
@@ -157,7 +158,7 @@ Use the links below to download specific semester folders or visit [DownGit](htt
 
 Anybody is free to contribute to this repo. If you think that some material is relevant and can improve the quality of this repo, follow the contributing guidelines mentioned at [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-If you're not sure how to contribute using GitHub, fill out this form with the notes you have and I'll help you out to add them to this project.
+If you're not sure how to contribute via GitHub, fill out this form with your remarks and I'll assist you with adding them to this project.
 
 📃 Link to Form: [https://forms.gle/6cREyxxw6mQqh5jp7](https://forms.gle/6cREyxxw6mQqh5jp7)
 
@@ -195,6 +196,8 @@ So, feel free to fork this repo. If you do, please just give us proper credit by
         <td><img src="../client/src/assets/think-digital-logo.png" alt="" width="200px" height="auto" /></td>
     </tr>
 </table>
+
+---
 
 ## 🫂 Mentions
 

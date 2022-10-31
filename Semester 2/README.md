@@ -4,6 +4,7 @@ Table of Content:
 
 - [Subjects Present](#subjects-present)
 - [How to Learn?](#how-to-learn)
+- [Feedback](#feedback)
 
 
 ## Subjects Present
@@ -90,8 +91,6 @@ Table of Content:
 
 - I found this boring, but you can learn it quickly just for the sake of clearning the exam.
 - Don't worry much about remembering the details, you can always google it up later.
-
----
 
 ---
 
