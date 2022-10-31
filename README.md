@@ -38,6 +38,7 @@ Collection of all B.Tech ECE Notes for the academic year 2022-24. Read below for
 - [Semester 8](#-semester-8)
 - [Contribute](#-contribute)
   - [Project Contributors](#-project-contributors)
+- [Feedback](#feedback)
 - [License](#-license)
   - [Forking this Repo?](#-forking-this-repo)
 - [Project Partners](#-project-partners)
