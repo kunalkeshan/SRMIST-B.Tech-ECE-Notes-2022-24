@@ -1,0 +1,15 @@
+fc=10000;
+Ac=10;
+t=linspace(0,10*(10^(-3)), 500);
+Vc=Ac*sin(((2*%pi)*fc)*t);
+subplot(311);
+plot(t, Vc);
+fm=1000;
+Am=5;
+Vm=Am*sin(((2*%pi)*fm)*t);
+subplot(312);
+plot(t,Vm);
+m=Am/Ac;
+Vt=(Am*sin(((2*%pi)*fm)*t)).*(Ac*sin(((2*%pi)*fc)*t));
+subplot(313);
+plot(t,Vt);
