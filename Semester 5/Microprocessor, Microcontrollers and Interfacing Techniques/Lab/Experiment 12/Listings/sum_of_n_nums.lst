@@ -1,0 +1,52 @@
+A51 MACRO ASSEMBLER  SUM_OF_N_NUMS                                                        11/03/2022 10:06:20 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\sum_of_n_nums.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE sum_of_n_nums SET(SMALL) DEBUG PRINT(.\Listings\sum_of_n_nums.lst) OBJE
+                      CT(.\Objects\sum_of_n_nums.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 00H
+0000 C3                2             CLR C
+0001 7864              3             MOV R0, #64H
+0003 E6                4             MOV A, @R0
+0004 75F000            5             MOV B, #00
+0007 F9                6             MOV R1, A
+0008 19                7             DEC R1
+0009 08                8             INC R0
+000A E6                9             MOV A, @R0
+000B                  10     NEXT:   
+000B 08               11             INC R0
+000C 26               12             ADD A, @R0
+000D 5002             13             JNC MSB
+000F 05F0             14             INC B
+0011                  15     MSB:
+0011 D9F8             16             DJNZ R1, NEXT
+0013 08               17             INC R0
+0014 F6               18             MOV @R0,A
+0015 08               19             INC R0
+0016 A6F0             20             MOV @R0, B
+0018                  21     HERE:
+0018 80FE             22             SJMP HERE
+                      23     END
+                                     
+A51 MACRO ASSEMBLER  SUM_OF_N_NUMS                                                        11/03/2022 10:06:20 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+B. . . . . . . . .  D ADDR   00F0H   A   
+HERE . . . . . . .  C ADDR   0018H   A   
+MSB. . . . . . . .  C ADDR   0011H   A   
+NEXT . . . . . . .  C ADDR   000BH   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

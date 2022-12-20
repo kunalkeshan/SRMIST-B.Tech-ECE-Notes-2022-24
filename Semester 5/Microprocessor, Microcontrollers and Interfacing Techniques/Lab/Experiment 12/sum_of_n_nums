@@ -1,0 +1,21 @@
+ORG 00H
+		CLR C
+		MOV R0, #64H
+		MOV A, @R0
+		MOV B, #00
+		MOV R1, A
+		DEC R1
+		INC R0
+		MOV A, @R0
+NEXT:   INC R0
+		ADD A, @R0
+		JNC MSB
+		INC B
+MSB: 	DJNZ R1, NEXT
+		INC R0
+		MOV @R0,A
+		INC R0
+		MOV @R0, B
+HERE: 	SJMP HERE
+END
+	

@@ -1,0 +1,61 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    11/03/2022  10:06:44  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\sum_of_n_nums.obj TO .\Objects\Experiment 12 PRINT (.\Listings\Experiment 12.m51)
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\sum_of_n_nums.obj (SUM_OF_N_NUMS)
+
+
+LINK MAP OF MODULE:  .\Objects\Experiment 12 (SUM_OF_N_NUMS)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     001AH     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\Experiment 12 (SUM_OF_N_NUMS)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        SUM_OF_N_NUMS
+  D:00F0H         SYMBOL        B
+  C:0018H         SYMBOL        HERE
+  C:0011H         SYMBOL        MSB
+  C:000BH         SYMBOL        NEXT
+  C:0000H         LINE#         2
+  C:0001H         LINE#         3
+  C:0003H         LINE#         4
+  C:0004H         LINE#         5
+  C:0007H         LINE#         6
+  C:0008H         LINE#         7
+  C:0009H         LINE#         8
+  C:000AH         LINE#         9
+  C:000BH         LINE#         11
+  C:000CH         LINE#         12
+  C:000DH         LINE#         13
+  C:000FH         LINE#         14
+  C:0011H         LINE#         16
+  C:0013H         LINE#         17
+  C:0014H         LINE#         18
+  C:0015H         LINE#         19
+  C:0016H         LINE#         20
+  C:0018H         LINE#         22
+  -------         ENDMOD        SUM_OF_N_NUMS
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 001AH BYTE ( 1%) *
+******************************************************************************
+
+Program Size: data=8.0 xdata=0 code=26
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
