@@ -1,0 +1,6 @@
+// Auto Correlation - DSP Lab - Experiment 5 - RA2011004010051 - Kunal Keshan
+clc;
+clear;
+x = input('Enter the first sequence: ');
+y = xcorr(x);
+disp(y, "Auto correlation = ");
