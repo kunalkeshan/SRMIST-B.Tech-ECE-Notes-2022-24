@@ -1,1 +1,92 @@
-[]
+[
+    {
+        "subjectCode": "18MAB302T",
+        "name": "Discrete Mathematics for Engineers",
+        "difficulty": 6,
+        "credits": 4,
+        "repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205",
+        "downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/Discrete%20Mathematics%20for%20Engineers",
+        "driveLink": "https://drive.google.com/drive/folders/1uOfO3KkgWBzmXTua2-GgVAgKMcZkJJKh"
+    },
+    {
+        "subjectCode": "18ECC203J",
+        "name": "Microprocessor, Microcontroller and Interfacing Techniques",
+        "difficulty": 10,
+        "credits": 4,
+        "repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205",
+        "downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/Microprocessor%2C%20Microcontrollers%20and%20Interfacing%20Techniques",
+        "driveLink": "https://drive.google.com/drive/folders/1uOfO3KkgWBzmXTua2-GgVAgKMcZkJJKh"
+    },
+    {
+        "subjectCode": "18ECC204J",
+        "name": "Digital Signal Processing",
+        "difficulty": 8,
+        "credits": 4,
+        "repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205",
+        "downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/Digital%20Signal%20Processing",
+        "driveLink": "https://drive.google.com/drive/folders/1uOfO3KkgWBzmXTua2-GgVAgKMcZkJJKh"
+    },
+    {
+        "subjectCode": "18ECC205J",
+        "name": "Analog and Digital Communication",
+        "difficulty": 6,
+        "credits": 4,
+        "repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205",
+        "downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/Analog%20and%20Digital%20Communication",
+        "driveLink": "https://drive.google.com/drive/folders/1uOfO3KkgWBzmXTua2-GgVAgKMcZkJJKh"
+    },
+    {
+        "subjectCode": "18ECP101L",
+        "name": "MOOC / Industrial Training / Seminar - I",
+        "difficulty": 3,
+        "credits": 1,
+        "repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205",
+        "downloadLink": "",
+        "driveLink": "https://drive.google.com/drive/folders/1uOfO3KkgWBzmXTua2-GgVAgKMcZkJJKh"
+    },
+    {
+        "subjectCode": "18PDM301L",
+        "name": "Analytical and Logical Thinking Skills",
+        "difficulty": 3,
+        "credits": 0,
+        "repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205",
+        "downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/Analytical%20and%20Logical%20Thinking%20Skills",
+        "driveLink": "https://drive.google.com/drive/folders/1uOfO3KkgWBzmXTua2-GgVAgKMcZkJJKh"
+    },
+    {
+        "subjectCode": "18LEM110L",
+        "name": "Indian Art Form",
+        "difficulty": 1,
+        "credits": 0,
+        "repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205",
+        "downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/Indian%20Art%20Form/Assignments",
+        "driveLink": "https://drive.google.com/drive/folders/1uOfO3KkgWBzmXTua2-GgVAgKMcZkJJKh"
+    },
+    {
+        "subjectCode": "18ECE201J",
+        "name": "Python and Scientific Python [PE]",
+        "difficulty": 4,
+        "credits": 3,
+        "repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205",
+        "downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/Python%20and%20Scientific%20Python",
+        "driveLink": "https://drive.google.com/drive/folders/1uOfO3KkgWBzmXTua2-GgVAgKMcZkJJKh"
+    },
+    {
+        "subjectCode": "18EEO301T",
+        "name": "Sustainable Development [OE]",
+        "difficulty": 5,
+        "credits": 3,
+        "repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205",
+        "downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/Sustainable%20Development",
+        "driveLink": "https://drive.google.com/drive/folders/1uOfO3KkgWBzmXTua2-GgVAgKMcZkJJKh"
+    },
+    {
+        "subjectCode": "18CEO306T",
+        "name": "Municipal Solid Waste Management [OE]",
+        "difficulty": 5,
+        "credits": 3,
+        "repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205",
+        "downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/Municipal%20Solid%20Waste%20Management",
+        "driveLink": "https://drive.google.com/drive/folders/1uOfO3KkgWBzmXTua2-GgVAgKMcZkJJKh"
+    }
+]
