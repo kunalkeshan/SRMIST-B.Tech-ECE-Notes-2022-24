@@ -139,6 +139,20 @@ Use the links below to download specific semester folders or visit [DownGit](htt
 | Credits: 23 |
 | ------- |
 
+- [Discrete Mathematics for Engineers](https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/Discrete%20Mathematics%20for%20Engineers)
+- [Analog and Digital Communication](https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/Analog%20and%20Digital%20Communication)
+- [Digital Signal Processing](https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/Digital%20Signal%20Processing)
+- [Microprocessor, Microcontroller, and Interfacing Techniques](https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/Microprocessor%2C%20Microcontrollers%20and%20Interfacing%20Techniques)
+- [Indian Art Form](https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/Indian%20Art%20Form/Assignments)
+- [Analytical and Logical Thinking Skills](https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/Analytical%20and%20Logical%20Thinking%20Skills)
+- [MOOCs / Industrial Training / Seminar - I](https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/MOOCs)
+- Professional Electives
+  - [Python and Scientific Python](https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/Python%20and%20Scientific%20Python)
+- Open Electives
+  - [Sustainable Development](https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/Sustainable%20Development)
+  - [IoS Development](#)
+  - [Municipal Solid Waste Management](https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205/Municipal%20Solid%20Waste%20Management)
+
 ## 6️⃣ Semester 6
 
 | Credits: 24 |
