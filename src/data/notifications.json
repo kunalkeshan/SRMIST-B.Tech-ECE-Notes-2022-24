@@ -1,5 +1,13 @@
 [
 	{
+		"id": "iwtkms",
+		"title": "Semester 5 Notes are out!",
+		"message": "Semester 4 notes have been updated check it out at {link}",
+		"dateAdded": "22th Dec, 2022",
+		"link": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205",
+		"linkText": "Sem 5 Notes Repo!"
+	},
+	{
 		"id": "eceskm",
 		"title": "Introducing the Extra Notes set!",
 		"message": "{link} is an initiative to support notes other than ECE.",
