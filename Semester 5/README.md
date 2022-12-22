@@ -12,18 +12,76 @@ Table of Content:
 
 | Subject Code | Name | Difficulty | Credits |
 | ------------ | ---- | ---------- | ------- |
-| 18ECC205J | Analog and Digital Communication | [TBD] | 4 |
-| 18ECC203J | Microprocessor, Microcontroller and Interfacing Techniques | 🟧 Medium | 4 |
+| 18ECC205J | Analog and Digital Communication | 🟧 Medium | 4 |
+| 18ECC203J | Microprocessor, Microcontroller and Interfacing Techniques | 🟥 Hard | 4 |
 | 18MAB302T | Discrete Mathematics for Engineers | 🟧 Medium | 4 |
 | 18ECC204J | Digital Signal Processing	| 🟥 Hard | 4 |
 | 18ECE201J | [Professional Elective] Python and Scientific Python | 🟧 Medium | 3 |
 | 18CSO107T | [Open Elective] IOS Development | 🟩 Easy | 3 |
-| 18EEO301T | [Open Elective] Sustainable Energy | [TBD] | 3 |
+| 18EEO301T | [Open Elective] Sustainable Energy | 🟩 Easy | 3 |
+| 18CEO306T | [Open Elective] Municipal Solid Waste Management | 🟩 Easy | 3 |
+| 18ECP101L | MOOCs / Industrial Training / Seminar - I | 🟩 Easy | 1 |
 | 18LEM110L | Indian Art Form | 🟩 Easy | 0 |
 | 18PDM301L | Analytical and Logical Thinking Skills | 🟩 Easy | 0 |
 | | | Total: | 23 |
 
 ## How to Learn?
+
+### Analog and Digital Communication
+
+#### Resources
+
+---
+
+### Microprocessor, Microcontroller and Interfacing Techniques
+
+#### Resources
+
+---
+
+### Digital Signal Processing
+
+#### Resources
+
+---
+
+### Discrete Mathematics for Engineers
+
+#### Resources
+
+---
+
+### Python and Scientific Python
+
+#### Resources
+
+---
+
+### Sustainable Development
+
+#### Resources
+
+---
+
+### MOOCs / Industrial Training / Seminar - I
+
+#### Resources
+
+---
+
+### IoS Development
+
+* TBD
+
+#### Resources
+
+---
+
+### Municipal Solid Waste Management
+
+* TBD
+
+#### Resources
 
 ---
 
