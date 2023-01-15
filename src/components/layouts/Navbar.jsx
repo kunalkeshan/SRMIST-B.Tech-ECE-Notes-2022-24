@@ -65,7 +65,7 @@ const Navbar = () => {
         },
         {
             name: 'Drive',
-            link: 'https://drive.google.com/drive/folders/17bng9aIkZ3FaULebbgEGpdCsB225dr_K',
+            link: 'https://drive.google.com/drive/folders/191lQV0by-ZBqPv0gQHhT8F9vKCgQuq2X?usp=sharing',
             icon: <AddToDriveIcon />
         },
     ], []);
