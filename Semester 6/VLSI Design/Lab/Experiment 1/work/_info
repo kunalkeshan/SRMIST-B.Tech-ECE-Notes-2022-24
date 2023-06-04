@@ -1,0 +1,123 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/RA2011004010051/Experiment 1
+T_opt
+!s110 1674466525
+V9@RUAR2iXOCX_ARi_Wl=02
+04 6 4 work hf_beh fast 0
+=1-e454e8cacef8-63ce54dd-2c1-4568
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7e;67
+T_opt1
+!s110 1674463710
+Vag=:dh^n?0bP3Y3VWZA@P1
+04 2 4 work fa fast 0
+=1-e454e8cacef8-63ce49de-a5-24c4
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1674464428
+VgWO_YZE`B?E@O]A=<od6Y2
+04 3 4 work rca fast 0
+=1-e454e8cacef8-63ce4cac-2fb-35a8
+R1
+R2
+n@_opt2
+R3
+R0
+vfa
+!s110 1674463701
+!i10b 1
+!s100 :CHYY<bVQKYoH=T8@Y`7g1
+IEbiBQ=@T4c`h[YWMaED6h0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1674463696
+8D:/RA2011004010051/Experiment 1/fa.v
+FD:/RA2011004010051/Experiment 1/fa.v
+L0 1
+Z5 OL;L;10.7e;67
+r1
+!s85 0
+31
+!s108 1674463701.000000
+!s107 D:/RA2011004010051/Experiment 1/fa.v|
+!s90 -reportprogress|300|-work|work|D:/RA2011004010051/Experiment 1/fa.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vha_df
+!s110 1674462258
+!i10b 1
+!s100 H3^YBUaY<PdQKP?Vb[ADM1
+IAXAgjLE]4IldH;`QWZ7=H2
+R4
+R0
+w1674462152
+8D:/RA2011004010051/Experiment 1/ha_df
+FD:/RA2011004010051/Experiment 1/ha_df
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1674462258.000000
+!s107 D:/RA2011004010051/Experiment 1/ha_df|
+!s90 -reportprogress|300|-work|work|D:/RA2011004010051/Experiment 1/ha_df|
+!i113 0
+R6
+R2
+vhf_beh
+!s110 1674466511
+!i10b 1
+!s100 dDS<KY_=gGnX39Nazn_I@2
+I?TDmLQ>HSRljeB6Sl`jWh1
+R4
+R0
+w1674466507
+8D:/RA2011004010051/Experiment 1/ha_beh.v
+FD:/RA2011004010051/Experiment 1/ha_beh.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1674466511.000000
+!s107 D:/RA2011004010051/Experiment 1/ha_beh.v|
+!s90 -reportprogress|300|-work|work|D:/RA2011004010051/Experiment 1/ha_beh.v|
+!i113 0
+R6
+R2
+vrca
+!s110 1674464418
+!i10b 1
+!s100 nIE5bfbOoXoaPaNM79BUl1
+IYKYAjSZPILD7D^;hg?m=22
+R4
+R0
+w1674464400
+8D:/RA2011004010051/Experiment 1/rca.v
+FD:/RA2011004010051/Experiment 1/rca.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1674464418.000000
+!s107 D:/RA2011004010051/Experiment 1/rca.v|
+!s90 -reportprogress|300|-work|work|D:/RA2011004010051/Experiment 1/rca.v|
+!i113 0
+R6
+R2

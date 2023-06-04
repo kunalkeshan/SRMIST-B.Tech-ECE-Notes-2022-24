@@ -1,0 +1,85 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/RA2011004010051/Experiment 4
+T_opt
+!s110 1677019006
+V3QC0VPXP:R:ziMCoc2ljV0
+04 14 4 work Adder_4bit_cla fast 0
+=1-e454e8cacfbc-63f5477e-165-1088
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7e;67
+vAdder_4bit_cla
+!s110 1677018994
+!i10b 1
+!s100 DOT6_S`e8WWV9=SOClAf92
+IEIm8IWQc4CSKVz=1nkDRn0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1677018989
+8D:/RA2011004010051/Experiment 4/Adder_4bit_cla.v
+FD:/RA2011004010051/Experiment 4/Adder_4bit_cla.v
+L0 1
+Z3 OL;L;10.7e;67
+r1
+!s85 0
+31
+!s108 1677018994.000000
+!s107 D:/RA2011004010051/Experiment 4/Adder_4bit_cla.v|
+!s90 -reportprogress|300|-work|work|D:/RA2011004010051/Experiment 4/Adder_4bit_cla.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@adder_4bit_cla
+vCLA
+!s110 1677018418
+!i10b 1
+!s100 AkU@gjUjNd_SfV^2nkET^3
+I1Aoo4b>niVX;8MMl:?ZoS2
+R2
+R0
+w1677018410
+8D:/RA2011004010051/Experiment 4/CLA.v
+FD:/RA2011004010051/Experiment 4/CLA.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1677018418.000000
+!s107 D:/RA2011004010051/Experiment 4/CLA.v|
+!s90 -reportprogress|300|-work|work|D:/RA2011004010051/Experiment 4/CLA.v|
+!i113 0
+R4
+R1
+n@c@l@a
+vFullAdder
+!s110 1677018203
+!i10b 1
+!s100 e6dYH`KX<ZA5iE8RSZ:Pm0
+IBfbkk@l<BbOCPFS`2e0I02
+R2
+R0
+w1677018171
+8D:/RA2011004010051/Experiment 4/FullAdder.v
+FD:/RA2011004010051/Experiment 4/FullAdder.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1677018203.000000
+!s107 D:/RA2011004010051/Experiment 4/FullAdder.v|
+!s90 -reportprogress|300|-work|work|D:/RA2011004010051/Experiment 4/FullAdder.v|
+!i113 0
+R4
+R1
+n@full@adder
