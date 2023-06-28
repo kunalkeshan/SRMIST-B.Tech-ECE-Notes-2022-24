@@ -68,7 +68,7 @@ Use the links below to download specific semester folders or visit [DownGit](htt
 - Semester 3: [Click to Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%203).
 - Semester 4: [Click to Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%204).
 - Semester 5: [Click to Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205).
-- Semester 6: Coming Soon!
+- Semester 6: [Click to Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206).
 - Semester 7: Coming Soon!
 - Semester 8: Coming Soon!
 
@@ -157,6 +157,20 @@ Use the links below to download specific semester folders or visit [DownGit](htt
 
 | Credits: 24 |
 | ------- |
+
+- [VLSI Design](./Semester%206/VLSI%20Design)
+- [Comprehension](./Semester%206/Comprehension)
+- [Microwave and Optical Communication](./Semester%206/Microwave%20and%20Optical%20Communication)
+- [Computer Communication Network](./Semester%206/Computer%20communication%20network)
+- [Indian Traditional Knowledge](.//Semester%206/Indian%20Traditional%20Knowledge)
+- [Employability Skills and Practice](./Semester%206/Employability%20Skills%20and%20Practices/)
+- [Competitive Professional Skills](./Semester%206/Competitive%20Professional%20Skills)
+- [MOOCs / Industrial Training / Seminar - II](./Semester%206/MOOCs)
+- Professional Electives
+  - [Satellite Communication and Broadcasting](./Semester%206/Satellite%20Communication%20and%20Broadcasting)
+  - [Radar and Navigational Aids](./Semester%206/Radar%20and%20Navigational%20Aids)
+- Open Electives
+  - [Municipal Solid Waste Management](./Semester%206/Municipal%20Solid%20Waste%20Management)
 
 ## 7️⃣ Semester 7
 
