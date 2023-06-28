@@ -27,6 +27,63 @@ Table of Content:
 
 ## How to Learn?
 
+### VLSI Design
+
+#### Resources
+
+---
+
+### Computer Communication Networks
+
+#### Resources
+
+---
+
+### Microwave and Optical Communication
+
+#### Resources
+
+---
+
+### Radar and Navigational Aids
+
+#### Resources
+
+---
+
+### Satellite Communication and Broadcasting
+
+#### Resources
+
+---
+
+### Municipal Solid Waste Management
+
+#### Resources
+
+---
+
+### Comprehension
+
+#### Resources
+
+---
+
+### Employability Skills and Practices
+
+#### Resources
+
+---
+
+### Competitive Professional Skills
+
+#### Resources
+
+---
+
+### Indian Traditional Knowledge
+
+#### Resources
 
 ---
 
