@@ -13,19 +13,77 @@ Table of Content:
 
 | Subject Code | Name | Difficulty | Credits |
 | ------------ | ---- | ---------- | ------- |
-|  |  | 🟩 Easy |  |
-|  |  | 🟧 Medium |  |
-|  |  | 🟧 Medium |  |
-|  |  | 🟥 Hard | |
-|  |  | 🟥 Hard |  |
-|  |  | 🟧 Medium |  |
-|  |  | 🟩 Easy |  |
-|  |  | 🟧 Medium |  |
-|  |  | 🟩 Easy |  |
-| | | Total: |  |
+| 18ECC206J | VLSI Design | 🟧 Medium | 4 |
+| 18ECC303J | Computer Communication Networks | 🟧 Medium | 4 |
+| 18ECC302J | Microwave and Optical Communication | 🟥 Hard | 4 |
+| 18ECE221T | Radar and Navigational Aids | 🟥 Hard | 3 |
+| 18ECE223T | Satellite Communication and Broadcasting | 🟧 Medium | 3 |
+| 18CEO306T | Municipal Solid Waste Management | 🟩 Easy | 3 |
+| 18ECC350T | Comprehension | 🟩 Easy | 1 |
+| 18PDH201T | Employability Skills and Practices | 🟩 Easy | 1 |
+| 18CSC308L | Competitive Professional Skills | 🟩 Easy | 1 |
+| 18LEM109T | Indian Traditional Knowledge | 🟩 Easy | 0 |
+| | | Total: | 24 |
 
 ## How to Learn?
 
+### VLSI Design
+
+#### Resources
+
+---
+
+### Computer Communication Networks
+
+#### Resources
+
+---
+
+### Microwave and Optical Communication
+
+#### Resources
+
+---
+
+### Radar and Navigational Aids
+
+#### Resources
+
+---
+
+### Satellite Communication and Broadcasting
+
+#### Resources
+
+---
+
+### Municipal Solid Waste Management
+
+#### Resources
+
+---
+
+### Comprehension
+
+#### Resources
+
+---
+
+### Employability Skills and Practices
+
+#### Resources
+
+---
+
+### Competitive Professional Skills
+
+#### Resources
+
+---
+
+### Indian Traditional Knowledge
+
+#### Resources
 
 ---
 
