@@ -1,1 +1,92 @@
-[]
+[
+	{
+		"subjectCode": "18ECC206J",
+		"name": "VLSI Design",
+		"difficulty": 6,
+		"credits": 4,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"driveLink": "https://drive.google.com/drive/folders/191lQV0by-ZBqPv0gQHhT8F9vKCgQuq2X?usp=sharing"
+	},
+	{
+		"subjectCode": "18ECC303J",
+		"name": "Computer Communication Networks",
+		"difficulty": 7,
+		"credits": 4,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"driveLink": "https://drive.google.com/drive/folders/191lQV0by-ZBqPv0gQHhT8F9vKCgQuq2X?usp=sharing"
+	},
+	{
+		"subjectCode": "18ECC302J",
+		"name": "Microwave and Optical Communication",
+		"difficulty": 8,
+		"credits": 4,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"driveLink": "https://drive.google.com/drive/folders/191lQV0by-ZBqPv0gQHhT8F9vKCgQuq2X?usp=sharing"
+	},
+	{
+		"subjectCode": "18ECE221T",
+		"name": "Radar and Navigational Aids",
+		"difficulty": 8,
+		"credits": 4,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"driveLink": "https://drive.google.com/drive/folders/191lQV0by-ZBqPv0gQHhT8F9vKCgQuq2X?usp=sharing"
+	},
+	{
+		"subjectCode": "18ECE223T",
+		"name": "Satellite Communication and Broadcasting",
+		"difficulty": 6,
+		"credits": 4,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"driveLink": "https://drive.google.com/drive/folders/191lQV0by-ZBqPv0gQHhT8F9vKCgQuq2X?usp=sharing"
+	},
+	{
+		"subjectCode": "18CEO306T",
+		"name": "Municipal Solid Waste Management",
+		"difficulty": 4,
+		"credits": 4,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"driveLink": "https://drive.google.com/drive/folders/191lQV0by-ZBqPv0gQHhT8F9vKCgQuq2X?usp=sharing"
+	},
+	{
+		"subjectCode": "18ECC350T",
+		"name": "Comprehension",
+		"difficulty": 6,
+		"credits": 4,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"driveLink": "https://drive.google.com/drive/folders/191lQV0by-ZBqPv0gQHhT8F9vKCgQuq2X?usp=sharing"
+	},
+	{
+		"subjectCode": "18PDH201T",
+		"name": "Employability Skills and Practices",
+		"difficulty": 2,
+		"credits": 4,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"driveLink": "https://drive.google.com/drive/folders/191lQV0by-ZBqPv0gQHhT8F9vKCgQuq2X?usp=sharing"
+	},
+	{
+		"subjectCode": "18CSC308L",
+		"name": "Competitive Professional Skills",
+		"difficulty": 2,
+		"credits": 4,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"driveLink": "https://drive.google.com/drive/folders/191lQV0by-ZBqPv0gQHhT8F9vKCgQuq2X?usp=sharing"
+	},
+	{
+		"subjectCode": "18LEM109T",
+		"name": "Indian Traditional Knowledge",
+		"difficulty": 1,
+		"credits": 4,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"driveLink": "https://drive.google.com/drive/folders/191lQV0by-ZBqPv0gQHhT8F9vKCgQuq2X?usp=sharing"
+	}
+]
