@@ -1,8 +1,16 @@
 [
 	{
+		"id": "nmiloe",
+		"title": "Semester 6 Notes are out!",
+		"message": "Semester 6 notes have been updated check it out at {link}",
+		"dateAdded": "30th June, 2023",
+		"link": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206",
+		"linkText": "Sem 6 Notes Repo!"
+	},
+	{
 		"id": "iwtkms",
 		"title": "Semester 5 Notes are out!",
-		"message": "Semester 4 notes have been updated check it out at {link}",
+		"message": "Semester 6 notes have been updated check it out at {link}",
 		"dateAdded": "22th Dec, 2022",
 		"link": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205",
 		"linkText": "Sem 5 Notes Repo!"
