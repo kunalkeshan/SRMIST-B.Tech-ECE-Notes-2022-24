@@ -61,7 +61,6 @@ const ContributeRequests = () => {
           >
             <ReactMarkdown>{body}</ReactMarkdown>
           </Typography>
-          {/* Replaced GitHubButton with an anchor tag */}
           <a
             href={url}
             target="_blank"
@@ -73,10 +72,10 @@ const ContributeRequests = () => {
               marginBottom: '1em',
               display: 'inline-flex',
               textAlign: 'center',
-              align-items: 'center',
-              justify-content: 'center',
+              alignItems: 'center',
+              justifyContent: 'center',
               gap: '0.5rem',
-              text-align: 'center',
+              textAlign: 'center',
               padding: '12px 24px',
               textDecoration: 'none',
               borderRadius: '4px',
