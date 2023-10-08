@@ -100,7 +100,7 @@ const Page = styled(Box)({
     position: 'relative',
     width: 'min(100%, 800px)',
     height: 'fit-content',
-    padding: '2em 0;
+    padding: '2em 0',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
