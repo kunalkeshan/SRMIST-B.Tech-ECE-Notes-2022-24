@@ -99,7 +99,8 @@ const Contribute = () => {
 const Page = styled(Box)({
     position: 'relative',
     width: 'min(100%, 800px)',
-    height: '100vh',
+    height: 'fit-content',
+    padding: '2em 0',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
