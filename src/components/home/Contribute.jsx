@@ -121,7 +121,8 @@ const ContributeButton = styled(Button)({
 });
 
 const Contributors = styled(Box)({
-    padding: '1em',
+    padding: '2em 0',
+    height: 'fitContent',
     display: 'flex',
     flexWrap: 'wrap',
     alignItems: 'center',
