@@ -84,7 +84,7 @@ const Footer = () => {
                 {
                     <Link
                         component='a'
-                        href='https://twitter.com/_kunalkeshan_'
+                        href='https://kunalkeshan.dev'
                         target='_blank'
                         sx={{
                             cursor: 'pointer',
