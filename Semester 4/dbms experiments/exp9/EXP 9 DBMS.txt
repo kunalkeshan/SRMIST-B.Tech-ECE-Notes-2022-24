@@ -1,0 +1,47 @@
+DECLARE
+   a NUMBER := 10;
+   b NUMBER := 20;
+BEGIN
+   DBMS_OUTPUT.PUT_LINE('Before swap - a: ' || a || ', b: ' || b);
+   a := a + b;
+   b := a - b;
+   a := a - b;
+   DBMS_OUTPUT.PUT_LINE('After swap - a: ' || a || ', b: ' || b);
+END;
+
+
+
+
+DECLARE
+    factorial_number NUMBER := 5;
+    factorial_result NUMBER := 1;
+BEGIN
+ IF factorial_number < 0 THEN
+        DBMS_OUTPUT.PUT_LINE('Factorial is not defined for negative numbers.');
+    ELSE
+        FOR i IN 1..factorial_number LOOP
+            factorial_result := factorial_result * i;
+        END LOOP;
+        DBMS_OUTPUT.PUT_LINE('The factorial of ' || factorial_number || ' is: ' || factorial_result);
+    END IF;
+END;
+
+
+
+
+DECLARE
+    prime_number NUMBER := 41;
+BEGIN
+IF prime_number <= 1 THEN
+        DBMS_OUTPUT.PUT_LINE(prime_number || ' is not a prime number.');
+    ELSE
+        FOR i IN 2..TRUNC(SQRT(prime_number)) LOOP
+            IF prime_number MOD i = 0 THEN
+                DBMS_OUTPUT.PUT_LINE(prime_number || ' is not a prime number.');
+                EXIT; -- exit the loop when a factor is found
+            END IF;
+        END LOOP;
+
+        DBMS_OUTPUT.PUT_LINE(prime_number || ' is a prime number.');
+    END IF;
+END;

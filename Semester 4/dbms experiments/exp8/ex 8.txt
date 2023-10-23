@@ -1,0 +1,128 @@
+CREATE TABLE EMP(
+    EMPNO int,
+    ENAME varchar(50),
+    JOB VARCHAR(20),
+    MGR int,
+    HIREDATE date,
+    SAL INT,
+    COMM int,
+    DEPT int
+);
+
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7369','SMITH','CLERK','7902','17-DEC-80','800','','20');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7499','ALLEN','SALESMAN','7698','20-FEB-81','1600','300','30');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7521','WARD','SALESMAN','7698','22-FEB-81','1250','500','30');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7566','JONES','MANAGER','7839','02-APR-81','2975','','20');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7654','MARTIN','SALESMAN','7698','28-SEP-81','1250','1400','30');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7698','BLAKE','MANAGER','7839','01-MAY-81','2850','','30');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7782','CLARK','MANAGER','7839','09-JUN-81','2450','','10');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7788','SCOTT','ANALYST','7566','19-APR-87','3000','','20');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7839','KING','PRESIDENT','','17-NOV-81','5000','','10');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7844','TURNER','SALESMAN','7698','08-SEP-81','1500','0','30');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7876','ADAMS','CLERK','7788','23-MAY-87','1100','','20');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7900','JAMES','CLERK','7698','03-DEC-81','950','','30');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7902','FORD','ANALYST','7566','03-DEC-81','3000','','20');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7934','MILLER','CLERK','7782','23-JAN-82','1300','','10');
+
+create table DEPT
+(
+  DEPTNO int,
+  DNAME VARCHAR(20),
+  LOC VARCHAR(20)
+  );
+INSERT INTO DEPT VALUES(10,'ACCOUNTING','NEW YORK');
+INSERT INTO DEPT VALUES(20,'RESEARCH','DALLAS');
+INSERT INTO DEPT VALUES(30,'SALES','CHICAGO');
+INSERT INTO DEPT VALUES(40,'OPERATIONS','BOSTON');
+
+CREATE TABLE depositor (
+  cus_name VARCHAR(50),
+  acno INT
+);
+
+INSERT INTO depositor (cus_name, acno)
+VALUES('Alice Johnson', 1001);
+INSERT INTO depositor (cus_name, acno)
+VALUES ('Bob Lee', 1002);
+INSERT INTO depositor (cus_name, acno)
+VALUES ('Charlie Brown', 1003);
+INSERT INTO depositor (cus_name, acno)
+VALUES ('David Smith', 1004);
+INSERT INTO depositor (cus_name, acno)
+VALUES ('Emily Chen', 1005);
+
+CREATE TABLE borrower (
+  cus_name VARCHAR(50),
+  loanno INT
+);
+
+INSERT INTO borrower (cus_name, loanno)
+VALUES ('Alice Johnson', 2001);
+INSERT INTO borrower (cus_name, loanno)
+VALUES ('Bob Lee', 2002);
+INSERT INTO borrower (cus_name, loanno)
+VALUES ('Emily Chen', 2003);
+INSERT INTO borrower (cus_name, loanno)
+VALUES ('Frank Williams', 2004);
+INSERT INTO borrower (cus_name, loanno)
+VALUES ('Grace Davis', 2005);
+
+SELECT cus_name FROM depositor
+UNION 
+SELECT cus_name FROM borrower;
+
+SELECT cus_name FROM borrower
+UNION ALL
+SELECT cus_name FROM depositor;
+
+SELECT cus_name FROM borrower
+INTERSECT
+SELECT cus_name FROM depositor;
+
+SELECT cus_name FROM borrower
+MINUS
+SELECT cus_name FROM depositor;
+
+create view empv10 as
+select empno, ename, job,sal from emp where dept=10;
+desc empv10; 
+
+CREATE VIEW empv30 AS
+SELECT empno, ename, sal
+FROM emp
+WHERE dept= 30;
+
+update empv10 set sal = sal+(0.10*sal) where job='CLERK';
+select empno,ename,job,sal from emp;
+
+create or replace view empv10 (employee_no, employee_name, job, salary) as select empno, ename, job,sal from emp where dept=10;
+
+CREATE VIEW pay AS
+SELECT ename,sal AS monthly_sal,sal * 12 AS annual_sal,dept
+FROM emp;
+
+CREATE VIEW dept_stat AS
+SELECT d.deptno,d.dname,MIN(e.sal) AS min_sal,MAX(e.sal) AS max_sal,SUM(e.sal) AS total_sal
+FROM dept d
+JOIN emp e ON d.deptno = e.dept
+GROUP BY d.deptno, d.dname;
+
+create or replace view empv20 as select * from emp where dept = 20 with check option constraint empv20_ck;
+
+create or replace view empv10 as select * from emp where dept = 20 with read only;
+
+DROP VIEW empv20;
