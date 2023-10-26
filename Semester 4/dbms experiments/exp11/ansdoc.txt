@@ -1,0 +1,123 @@
+CREATE TABLE EMP(
+    EMPNO int,
+    ENAME varchar(50),
+    JOB VARCHAR(20),
+    MGR int,
+    HIREDATE date,
+    SAL INT,
+    COMM int,
+    DEPT int
+);
+
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7369','SMITH','CLERK','7902','17-DEC-80','800','','20');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7499','ALLEN','SALESMAN','7698','20-FEB-81','1600','300','30');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7521','WARD','SALESMAN','7698','22-FEB-81','1250','500','30');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7566','JONES','MANAGER','7839','02-APR-81','2975','','20');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7654','MARTIN','SALESMAN','7698','28-SEP-81','1250','1400','30');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7698','BLAKE','MANAGER','7839','01-MAY-81','2850','','30');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7782','CLARK','MANAGER','7839','09-JUN-81','2450','','10');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7788','SCOTT','ANALYST','7566','19-APR-87','3000','','20');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7839','KING','PRESIDENT','','17-NOV-81','5000','','10');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7844','TURNER','SALESMAN','7698','08-SEP-81','1500','0','30');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7876','ADAMS','CLERK','7788','23-MAY-87','1100','','20');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7900','JAMES','CLERK','7698','03-DEC-81','950','','30');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7902','FORD','ANALYST','7566','03-DEC-81','3000','','20');
+INSERT INTO EMP(empno,ename,job,mgr,hiredate,sal,comm,dept)
+VALUES('7934','MILLER','CLERK','7782','23-JAN-82','1300','','10');
+
+create or replace function adder(n1 in number, n2 in number)
+return number
+is
+n3 number(8);
+begin
+n3 :=n1+n2;
+return n3;
+end;
+/
+DECLARE
+n3 number(2);
+BEGIN
+n3 := adder(11,22);
+dbms_output.put_line('Addition is: ' || n3);
+END;
+/
+
+create or replace function fact(n number)
+return number is
+i number(10);
+f number:=1;
+begin
+for i in 1..N loop
+f:=f*i;
+end loop;
+return f;
+end;
+/
+DECLARE
+  n3 number(20);
+  BEGIN
+  n3 :=fact(10);
+  dbms_output.put_line('factorial of given number is: ' || n3);
+  END;
+  /
+
+
+CREATE OR REPLACE FUNCTION is_prime(n IN NUMBER) RETURN BOOLEAN IS
+  i NUMBER := 2;
+BEGIN
+  IF n <= 1 THEN
+    RETURN FALSE; 
+  END IF;
+
+  WHILE i <= SQRT(n) LOOP
+    IF MOD(n, i) = 0 THEN
+      RETURN FALSE;
+    END IF;
+    i := i + 1;
+  END LOOP;
+
+  RETURN TRUE;
+END;
+/
+DECLARE
+  n NUMBER := 8;
+  prime BOOLEAN;
+BEGIN
+  prime := is_prime(n);
+  IF prime THEN
+    DBMS_OUTPUT.PUT_LINE(n || ' is prime');
+  ELSE
+    DBMS_OUTPUT.PUT_LINE(n || ' is not prime');
+  END IF;
+END;
+/
+
+
+CREATE OR REPLACE FUNCTION get_salary(empid IN NUMBER) RETURN NUMBER IS
+  salary NUMBER;
+BEGIN
+  SELECT sal INTO salary FROM emp WHERE empno = empid;
+  RETURN salary;
+END;
+/
+DECLARE
+  empid NUMBER := 7839;
+  salary NUMBER;
+BEGIN
+  salary := get_salary(empid);
+  DBMS_OUTPUT.PUT_LINE('Employee ' || empid || ' has a salary of ' || salary);
+END;
+/

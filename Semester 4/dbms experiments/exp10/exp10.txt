@@ -1,0 +1,75 @@
+RA2111028010094/RA2111028010094@q1-r1-p1-o1.co86hfjmfjkx.us-west-2.rds.amazonaws.com:1521/orcl
+
+
+
+
+
+
+
+
+
+
+CREATE OR REPLACE PROCEDURE sumTwoNum (num1 IN number,num2 IN number) 
+IS
+BEGIN
+dbms_output.put_line (num1 + num2);
+END;
+/
+exec sumTwoNum(15,6);
+
+
+
+CREATE OR REPLACE PROCEDURE sal_upd
+IS
+BEGIN
+update emp
+set SAL=SAL+SAL*0.10
+where job = 'CLERK';
+END;
+/
+exec sal_upd;
+SELECT * FROM emp where job in('CLERK');
+
+
+
+
+
+CREATE OR REPLACE PROCEDURE count_managers AS
+  mcount NUMBER;
+BEGIN
+  SELECT COUNT(DISTINCT mgr)
+  INTO mcount
+  FROM emp
+  WHERE mgr IS NOT NULL;
+  DBMS_OUTPUT.PUT_LINE('Number of Managers: ' || mcount);
+END;
+/
+BEGIN
+  count_managers;
+END;
+/
+
+
+
+
+
+
+CREATE OR REPLACE PROCEDURE display_emp_details
+IS
+BEGIN
+  FOR e IN (SELECT * FROM emp WHERE ename LIKE 'A%' OR ename LIKE 'M%') LOOP
+    DBMS_OUTPUT.PUT_LINE('Employee ID: ' || e.empno || 
+                         ', Name: ' || e.ename ||
+                         ', Job: ' || e.job || 
+                         ', Manager ID: ' || e.mgr || 
+                         ', Hire Date: ' || e.hiredate || 
+                         ', Salary: ' || e.sal ||
+                         ', Commission: ' || e.comm || 
+                         ', Department ID: ' || e.deptno);
+  END LOOP;
+END;
+/
+BEGIN
+  display_emp_details;
+END;
+/
