@@ -6,25 +6,50 @@ Table of Content:
 - [How to Learn?](#how-to-learn)
 - [Feedback](#feedback)
 
-
 ## Subjects Present
 
 > ⚠ **Difficulty** is subjective. Can differ from person to person.
 
 | Subject Code | Name | Difficulty | Credits |
 | ------------ | ---- | ---------- | ------- |
-|  |  | 🟩 Easy |  |
-|  |  | 🟧 Medium |  |
-|  |  | 🟧 Medium |  |
-|  |  | 🟥 Hard | |
-|  |  | 🟥 Hard |  |
-|  |  | 🟧 Medium |  |
-|  |  | 🟩 Easy |  |
-|  |  | 🟧 Medium |  |
-|  |  | 🟩 Easy |  |
-| | | Total: |  |
+| 18ECC301T | Wireless Communication | 🟧 Medium | 4 |
+| 18ECP108L | Internship | 🟩 Easy | 3 |
+| 18ECE226T | Optical Components, Systems, and Networks | 🟧 Medium | 3 |
+| 18ECE340T | Machine Perception wiht Cognition | 🟩 Easy | 3 |
+| 18CSO102T | Mobile Application Developmentt | 🟩 Easy | 3 |
+| | | Total: | 16 |
 
 ## How to Learn?
+
+---
+
+### Wireless Communication
+
+#### Resources
+
+---
+
+### Internship
+
+#### Resources
+
+---
+
+### Optical Components, Systems and Networks
+
+#### Resources
+
+---
+
+### Machine Perception with Cognition
+
+#### Resources
+
+---
+
+### Mobile Application Development
+
+#### Resources
 
 ---
 

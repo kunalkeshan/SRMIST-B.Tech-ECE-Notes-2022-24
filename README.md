@@ -69,7 +69,7 @@ Use the links below to download specific semester folders or visit [DownGit](htt
 - Semester 4: [Click to Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%204).
 - Semester 5: [Click to Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%205).
 - Semester 6: [Click to Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%206).
-- Semester 7: Coming Soon!
+- Semester 7: [Click to Download](https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%207).
 - Semester 8: Coming Soon!
 
 ## 1️⃣ Semester 1
@@ -121,18 +121,18 @@ Use the links below to download specific semester folders or visit [DownGit](htt
 | Credits: 22 |
 | ------- |
 
--   [Probability and Stochastic Process](./Semester%204/Probability%20and%20Stochastic%20Processes)
--   [Analog Electronic Circuits](./Semester%204/Analog%20Electronic%20Circuits)
--   [Linear Integrated Circuits](./Semester%204/Linear%20Integrated%20Circuits)
--   [Critical and Creative Thinking](./Semester%204/Critical%20and%20Creative%20Thinking%20Skills/Notes)
--   [Management Principles](./Semester%204/Management%20Principles%20for%20Engineers)
--   [Biology for Engineers](./Semester%204/Biology)
--   [Smart Sensor System](./Semester%204/Smart%20Sensor%20System)
--   Professional Electives
-    -   [Optoelectronics](./Semester%204/Optoelectronics)
-    -   [Advanced Digital System Design](./Semester%204/Advanced%20Digital%20System%20Design)
--   Open Electives
-    -   [Applications of Nanotechnology](./Semester%204/Applications%20of%20Nanotechnology)
+- [Probability and Stochastic Process](./Semester%204/Probability%20and%20Stochastic%20Processes)
+- [Analog Electronic Circuits](./Semester%204/Analog%20Electronic%20Circuits)
+- [Linear Integrated Circuits](./Semester%204/Linear%20Integrated%20Circuits)
+- [Critical and Creative Thinking](./Semester%204/Critical%20and%20Creative%20Thinking%20Skills/Notes)
+- [Management Principles](./Semester%204/Management%20Principles%20for%20Engineers)
+- [Biology for Engineers](./Semester%204/Biology)
+- [Smart Sensor System](./Semester%204/Smart%20Sensor%20System)
+- Professional Electives
+  - [Optoelectronics](./Semester%204/Optoelectronics)
+  - [Advanced Digital System Design](./Semester%204/Advanced%20Digital%20System%20Design)
+- Open Electives
+  - [Applications of Nanotechnology](./Semester%204/Applications%20of%20Nanotechnology)
 
 ## 5️⃣ Semester 5
 
@@ -176,6 +176,14 @@ Use the links below to download specific semester folders or visit [DownGit](htt
 
 | Credits: 16 |
 | ------- |
+
+- [Wireless Communication](./Semester%207/Wireless%20Communication)
+- [Internship](./Semester%207/Internship)
+- Professional Electives
+  - [Machine Perception with Cognition](./Semester%207/Machine%20Perception%20with%20Cognition)
+  - [Optical Components, Systems, and Networks](./Semester%207/Optical%20Components,%20Systems,%20and%20Networks)
+- Open Electives
+  - [Mobile Application Development](./Semester%207/Mobile%20Application%20Development)
 
 ## 8️⃣ Semester 8
 
