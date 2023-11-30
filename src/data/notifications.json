@@ -1,5 +1,13 @@
 [
 	{
+		"id": "pskmrn",
+		"title": "Semester 7 Notes are out!",
+		"message": "Semester 7 notes have been updated check it out at {link}",
+		"dateAdded": "30th November, 2023",
+		"link": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%207",
+		"linkText": "Sem 7 Notes Repo!"
+	},
+	{
 		"id": "nmiloe",
 		"title": "Semester 6 Notes are out!",
 		"message": "Semester 6 notes have been updated check it out at {link}",

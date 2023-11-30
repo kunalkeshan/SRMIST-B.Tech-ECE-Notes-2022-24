@@ -1,1 +1,47 @@
-[]
+[
+	{
+		"subjectCode": "18ECC301T",
+		"name": "Wireless Communication",
+		"difficulty": 6,
+		"credits": 4,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%207",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%207/Wireless%20Communication",
+		"driveLink": "https://drive.google.com/drive/folders/1N8i6JfawJQqj_onGXVxQDa0NTnEYWL8U"
+	},
+	{
+		"subjectCode": "18ECP108L",
+		"name": "Internship",
+		"difficulty": 1,
+		"credits": 3,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%207",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%207/Internship",
+		"driveLink": "https://drive.google.com/drive/folders/1N8i6JfawJQqj_onGXVxQDa0NTnEYWL8U"
+	},
+	{
+		"subjectCode": "18ECE226T",
+		"name": "Optical Components, Systems, and Networks",
+		"difficulty": 7,
+		"credits": 3,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%207",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%207/Optical%20Components%2C%20Systems%2C%20and%20Networks",
+		"driveLink": "https://drive.google.com/drive/folders/1N8i6JfawJQqj_onGXVxQDa0NTnEYWL8U"
+	},
+	{
+		"subjectCode": "18ECE340T",
+		"name": "Machine Perception with Cognition",
+		"difficulty": 4,
+		"credits": 3,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%207",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%207/Machine%20Perception%20with%20Cognition",
+		"driveLink": "https://drive.google.com/drive/folders/1N8i6JfawJQqj_onGXVxQDa0NTnEYWL8U"
+	},
+	{
+		"subjectCode": "18CSO102T",
+		"name": "Mobile Application Development",
+		"difficulty": 3,
+		"credits": 3,
+		"repoLink": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%207",
+		"downloadLink": "https://downgit.github.io/#/home?url=https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main/Semester%207/Mobile%20Application%20Development",
+		"driveLink": "https://drive.google.com/drive/folders/1N8i6JfawJQqj_onGXVxQDa0NTnEYWL8U"
+	}
+]
