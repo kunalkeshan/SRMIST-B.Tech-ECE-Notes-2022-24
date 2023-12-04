@@ -22,7 +22,6 @@ import {
   Stack,
   Chip,
   Tooltip,
-  Button,
 } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
@@ -38,10 +37,6 @@ const ContributeRequests = () => {
   }, []);
 
   const GitHubIssueCard = ({ title, body, state, updatedAt, createdAt, labels, url }) => {
-
-    const handleNavigateToIssue = () => {
-      window.open(url, '_blank');
-    };
 
     return (
       <Grid item xs={12} md={4} m={2}>
@@ -71,7 +66,6 @@ const ContributeRequests = () => {
               width: '100%',
               marginBottom: '1em',
               display: 'inline-flex',
-              textAlign: 'center',
               alignItems: 'center',
               justifyContent: 'center',
               gap: '0.5rem',
