@@ -60,6 +60,12 @@ const Semester = () => {
             {semCourses.length > 0 ? <Courses courses={semCourses} /> : <NoNotesForSem>
                 Notes for this semester has not been updated yet!
             </NoNotesForSem>}
+
+            <AbbreviationsNote>
+                PE - Professional Elective
+                <br />
+                OE - Open Elective
+            </AbbreviationsNote>
         </Main>
     )
 };
@@ -85,6 +91,12 @@ const NoSemFound = styled(Box)({
 const NoNotesForSem = styled(Box)({
     margin: '2em 0',
     fontSize: '1.75rem',
+});
+
+const AbbreviationsNote = styled(Typography)({
+    marginTop: '1em',
+    fontSize: '0.9rem',
+    color: 'gray'
 });
 
 export default Semester;
