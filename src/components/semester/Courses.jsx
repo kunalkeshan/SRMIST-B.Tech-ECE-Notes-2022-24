@@ -94,7 +94,7 @@ const Courses = ({ courses }) => {
                     aria-controls={`panel${index}a-content`}
                     id={`panel${index}a-header`}
                 >
-                    <Typography sx={{ width: '40%', flexShrink: 0, fontSize: '1.2rem' }}>
+                    Typography sx={{ width: '40%', flexShrink: 0, fontSize: '1.2rem', overflowWrap: 'anywhere' }}>
                         {name}
                     </Typography>
                     <Typography sx={{ color: 'text.secondary' }}>Subject Code: {subjectCode}</Typography>
