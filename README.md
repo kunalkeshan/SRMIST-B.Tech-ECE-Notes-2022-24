@@ -1,5 +1,17 @@
 # B.Tech ECE Notes
 
+Welcome to the ECE Notes project! The notes here, on our Website, and on Google Drive are for courses under the "18" regulation. Our college now uses the "22" regulation, so new students might find these materials less relevant.
+
+This project aimed to assist students, and I hope it helped those under the "18" regulation as much as it did for me. Feel free to connect with me at https://x.com/_kunalkeshan_.
+
+Identify Your Course Regulation:
+
+- "18XXXXXXT" = 18 regulation
+- "22XXXXXXT" = 22 regulation
+Thank you for visiting, and good luck with your studies!
+
+— Kunal Keshan
+
 <p align="center">
   <img src="/assets/thumbnail.png" alt="SRMIST B. Tech ECE Notes" width="60%" height="auto" />
 </p>
