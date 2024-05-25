@@ -30,6 +30,13 @@ const Landing = () => {
             <AccordionDetails>
               <Alert severity='info' style={{ textAlign: 'left' }}>
                 <AlertTitle style={{ fontWeight: 600 }}>Welcome and Important Update on Course Regulations</AlertTitle>
+                <Typography variant='body1'>Welcome to the ECE Notes project! The notes here, on our GitHub Repository, and on Google Drive are for courses under the "18" regulation. Our college now uses the "22" regulation, so new students might find these materials less relevant.</Typography>
+                <Typography variant='body1' marginTop={1}>This project aimed to assist students, and I hope it helped those under the "18" regulation as much as it did for me. Feel free to connect with me at <Link to='https://x.com/_kunalkeshan_' target='_blank'>https://x.com/_kunalkeshan_</Link>.</Typography>
+                <Typography variant='body1' marginTop={1}>Identify Your Course Regulation:</Typography>
+                <Typography variant='body1' marginTop={1}>• "18XXXXXXT" = 18 regulation</Typography>
+                <Typography variant='body1' marginTop={1}>• "22XXXXXXT" = 22 regulation</Typography>
+                <Typography variant='body1' marginTop={1}>Thank you for visiting, and good luck with your studies!</Typography>
+                <Typography variant='body1' marginTop={1}>— Kunal Keshan</Typography>
               </Alert>
             </AccordionDetails>
           </Accordion>
